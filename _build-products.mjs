@@ -80,7 +80,11 @@ const productCards = PRODUCTS.map((p, i) => {
               <span class="font-medium text-ink">${escapeHtml(current || '-')}</span>${original && original !== current ? `
               <span class="text-[12px] text-ash line-through">${escapeHtml(original)}</span>` : ''}
             </div>
-            <span class="mt-3 inline-flex items-center gap-1.5 text-[12px] text-plum font-medium link-u">
+            <p class="mt-1.5 inline-flex items-center gap-1 text-[11px] text-plum font-medium">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20.59 13.41-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+              Avantajlı fiyat Trendyol'da
+            </p>
+            <span class="mt-2 inline-flex items-center gap-1.5 text-[12px] text-ink/70 font-medium link-u">
               Trendyol'da incele ${externalSvg(12)}
             </span>
           </div>
