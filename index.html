@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Arja Jeans — Lila notalı premium kadın denim</title>
+  <meta name="description" content="Vücudunu kucaklayan, kadın için kadından doğan premium denim. My Arja Jeans." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            mist:      '#F5F0F8',  /* lavender mist bg */
+            paper:     '#FAF6FC',  /* card surface */
+            ink:       '#1B0F2E',  /* near-black with purple tint */
+            aubergine: '#2E1A47',  /* deep plum */
+            plum:      '#6B4A8F',  /* primary brand */
+            lilac:     '#B89FE8',  /* soft lavender accent */
+            haze:      '#D9C9F2',  /* lightest lilac */
+            rose:      '#E8B5C2',  /* dusty rose */
+            gold:      '#D4B896',  /* champagne */
+            ash:       '#5C4F70',  /* muted cool grey */
+          },
+          fontFamily: {
+            display: ['Fraunces', 'ui-serif', 'Georgia', 'serif'],
+            sans:    ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          letterSpacing: {
+            tightest: '-0.04em',
+          },
+          boxShadow: {
+            soft:  '0 30px 60px -28px rgba(46,26,71,.32), 0 14px 28px -18px rgba(184,159,232,.28)',
+            card:  '0 24px 48px -28px rgba(27,15,46,.35), 0 8px 18px -10px rgba(107,74,143,.18)',
+            glow:  '0 20px 60px -20px rgba(184,159,232,.7), 0 6px 18px -8px rgba(232,181,194,.5)',
+          },
+          animation: {
+            float:    'float 9s ease-in-out infinite',
+            float2:   'float2 11s ease-in-out infinite',
+            float3:   'float3 13s ease-in-out infinite',
+            shimmer:  'shimmer 8s linear infinite',
+            pulseGlow:'pulseGlow 4s ease-in-out infinite',
+          },
+          keyframes: {
+            float:     { '0%,100%':{transform:'translate3d(0,0,0) scale(1)'}, '50%':{transform:'translate3d(20px,-30px,0) scale(1.05)'} },
+            float2:    { '0%,100%':{transform:'translate3d(0,0,0) scale(1)'}, '50%':{transform:'translate3d(-25px,20px,0) scale(1.08)'} },
+            float3:    { '0%,100%':{transform:'translate3d(0,0,0) scale(1)'}, '50%':{transform:'translate3d(15px,25px,0) scale(.95)'} },
+            shimmer:   { '0%':{transform:'translateX(-100%)'}, '100%':{transform:'translateX(100%)'} },
+            pulseGlow: { '0%,100%':{opacity:'.7'}, '50%':{opacity:'1'} },
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-feature-settings: "ss01", "ss02"; overflow-x: hidden; }
+
+    /* Selection */
+    ::selection { background: #B89FE8; color: #1B0F2E; }
+
+    /* SVG noise grain */
+    .grain::before {
+      content:""; position:absolute; inset:0; pointer-events:none;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+      opacity:.07; mix-blend-mode:multiply;
+    }
+
+    /* Hero gradient mesh — layered radial lila/mauve/rose */
+    .hero-bg {
+      background:
+        radial-gradient(60% 60% at 12% 20%, rgba(184,159,232,.55) 0%, transparent 60%),
+        radial-gradient(50% 60% at 88% 10%, rgba(232,181,194,.45) 0%, transparent 55%),
+        radial-gradient(70% 70% at 70% 95%, rgba(217,201,242,.55) 0%, transparent 60%),
+        radial-gradient(40% 40% at 5% 90%, rgba(212,184,150,.30) 0%, transparent 60%),
+        #F5F0F8;
+    }
+
+    /* Floating gradient orbs (decorative) */
+    .orb {
+      position:absolute; border-radius:9999px;
+      filter: blur(60px); pointer-events:none; mix-blend-mode:multiply;
+      will-change: transform;
+    }
+
+    /* Image treatment — soft purple tone */
+    .img-treat { position:relative; overflow:hidden; }
+    .img-treat > img { display:block; width:100%; height:100%; object-fit:cover; }
+    .img-treat::after {
+      content:""; position:absolute; inset:0;
+      background: linear-gradient(180deg, rgba(27,15,46,0) 55%, rgba(27,15,46,.55) 100%);
+      pointer-events:none;
+    }
+    .img-treat .tone {
+      position:absolute; inset:0;
+      background: rgba(107,74,143,.10);
+      mix-blend-mode: multiply;
+      pointer-events:none;
+    }
+
+    /* Marquee */
+    @keyframes marquee {
+      from { transform: translate3d(0,0,0); }
+      to   { transform: translate3d(-50%,0,0); }
+    }
+    .marquee-track {
+      display:flex; width:max-content;
+      animation: marquee 45s linear infinite;
+      will-change: transform;
+    }
+    .marquee-rev { animation-direction: reverse; }
+
+    /* Animated underline link */
+    .link-u {
+      position:relative; display:inline-block;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-size: 0% 1px;
+      background-repeat: no-repeat;
+      background-position: 0 100%;
+      transition: background-size 360ms cubic-bezier(.2,.8,.2,1), color 220ms;
+    }
+    .link-u:hover { background-size: 100% 1px; }
+
+    /* Buttons */
+    .btn {
+      display:inline-flex; align-items:center; gap:.6rem;
+      padding: 1rem 1.6rem; border-radius: 999px;
+      font-family: Inter, sans-serif; font-weight: 500; font-size: .95rem; letter-spacing: .01em;
+      transition: transform 240ms cubic-bezier(.2,.8,.2,1), background-color 240ms, color 240ms, box-shadow 240ms;
+      will-change: transform;
+      position: relative;
+    }
+    .btn:active { transform: translateY(1px) scale(.99); }
+    .btn-primary {
+      background:#1B0F2E; color:#FAF6FC;
+      box-shadow: 0 18px 36px -18px rgba(27,15,46,.55), inset 0 0 0 1px rgba(184,159,232,.15);
+    }
+    .btn-primary:hover {
+      background: #2E1A47; color:#FAF6FC;
+      box-shadow: 0 20px 50px -18px rgba(107,74,143,.7), inset 0 0 0 1px rgba(184,159,232,.3);
+    }
+    .btn-primary:focus-visible { outline: 2px solid #B89FE8; outline-offset: 3px; }
+    .btn-ghost { background: transparent; color:#1B0F2E; box-shadow: inset 0 0 0 1px rgba(27,15,46,.18); }
+    .btn-ghost:hover { background:#1B0F2E; color:#FAF6FC; box-shadow: inset 0 0 0 1px #1B0F2E; }
+    .btn-ghost:focus-visible { outline: 2px solid #B89FE8; outline-offset: 3px; }
+    .btn-lilac {
+      background: linear-gradient(135deg, #B89FE8 0%, #E8B5C2 100%);
+      color:#1B0F2E;
+      box-shadow: 0 20px 50px -20px rgba(184,159,232,.7);
+    }
+    .btn-lilac:hover { box-shadow: 0 24px 60px -20px rgba(232,181,194,.8); }
+
+    /* Card hover */
+    .product { transition: transform 420ms cubic-bezier(.2,.8,.2,1); will-change: transform; }
+    .product:hover { transform: translateY(-6px); }
+    .product .pimg { transition: transform 800ms cubic-bezier(.2,.8,.2,1); }
+    .product:hover .pimg { transform: scale(1.05); }
+
+    /* Eyebrow */
+    .eyebrow {
+      font-family: Inter, sans-serif; font-weight: 500;
+      font-size: 12px; letter-spacing: .22em; text-transform: uppercase;
+      color:#5C4F70;
+    }
+    .eyebrow .dot { display:inline-block; width:6px; height:6px; border-radius:9999px; background:#B89FE8; margin-right:.6rem; vertical-align: 2px; box-shadow: 0 0 12px rgba(184,159,232,.8); }
+
+    /* Display heading */
+    .h-display {
+      font-family: Fraunces, serif; font-weight: 500;
+      letter-spacing: -0.04em; line-height:.95;
+      font-variation-settings: "opsz" 96, "SOFT" 50;
+    }
+    .h-italic {
+      font-style: italic;
+      font-variation-settings: "opsz" 96, "SOFT" 100;
+      background: linear-gradient(135deg, #6B4A8F 0%, #E8B5C2 100%);
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Lead body */
+    .lead { font-family: Inter, sans-serif; color:#5C4F70; font-size: 1.0625rem; line-height: 1.7; }
+
+    /* Logo */
+    .logo-mark {
+      display:inline-flex; align-items:center; justify-content:center;
+      width:38px; height:38px; border-radius:9999px;
+      background: linear-gradient(135deg, #B89FE8 0%, #E8B5C2 100%);
+      color:#1B0F2E; font-family: Fraunces, serif; font-weight:600; font-size: 17px;
+      box-shadow: 0 8px 24px -8px rgba(184,159,232,.6), inset 0 0 0 1px rgba(255,255,255,.4);
+    }
+    .wordmark {
+      font-family: Inter, sans-serif; font-weight: 500;
+      font-size: 12px; letter-spacing: .32em; text-transform: uppercase;
+    }
+    .wordmark .arja {
+      font-family: Fraunces, serif; font-weight: 500;
+      font-size: 18px; letter-spacing: .05em; text-transform: uppercase;
+      margin-left: .5rem;
+    }
+
+    /* Category card */
+    .cat { position: relative; overflow: hidden; border-radius: 24px; transition: transform 420ms cubic-bezier(.2,.8,.2,1); will-change: transform; }
+    .cat:hover { transform: translateY(-6px); }
+    .cat .pimg { transition: transform 900ms cubic-bezier(.2,.8,.2,1); }
+    .cat:hover .pimg { transform: scale(1.06); }
+    .cat::after {
+      content:""; position:absolute; inset:0;
+      background: linear-gradient(180deg, rgba(27,15,46,0) 30%, rgba(27,15,46,.7) 100%);
+    }
+
+    /* Newsletter input */
+    .nl-input {
+      background: transparent; border:0; outline:0;
+      color:#1B0F2E; font-family: Inter, sans-serif; font-size:1rem;
+      width: 100%;
+    }
+    .nl-input::placeholder { color: #9B8AB5; }
+    .nl-wrap {
+      display:flex; align-items:center; gap:.5rem;
+      padding:.4rem .4rem .4rem 1.4rem;
+      border-radius:9999px; background:#FAF6FC;
+      box-shadow: inset 0 0 0 1px rgba(27,15,46,.12), 0 12px 30px -16px rgba(184,159,232,.5);
+    }
+    .nl-wrap:focus-within { box-shadow: inset 0 0 0 1.5px #1B0F2E, 0 16px 36px -16px rgba(184,159,232,.7); }
+
+    /* SCROLL-REVEAL */
+    [data-reveal] {
+      opacity: 0;
+      transform: translate3d(0, 24px, 0);
+      transition: opacity 800ms cubic-bezier(.2,.8,.2,1), transform 800ms cubic-bezier(.2,.8,.2,1);
+      will-change: opacity, transform;
+    }
+    [data-reveal].is-in { opacity: 1; transform: translate3d(0,0,0); }
+    [data-reveal-delay="1"] { transition-delay: 80ms; }
+    [data-reveal-delay="2"] { transition-delay: 160ms; }
+    [data-reveal-delay="3"] { transition-delay: 240ms; }
+    [data-reveal-delay="4"] { transition-delay: 320ms; }
+
+    /* Number stat */
+    .stat-num { font-variant-numeric: tabular-nums; }
+
+    /* Hero floating product chip glow */
+    .glow-card {
+      background:#FAF6FC;
+      box-shadow: 0 24px 48px -22px rgba(27,15,46,.30), 0 8px 18px -8px rgba(184,159,232,.4);
+      border: 1px solid rgba(184,159,232,.35);
+    }
+
+    /* Testimonial card */
+    .quote-card {
+      background: linear-gradient(180deg, rgba(250,246,252,1) 0%, rgba(245,240,248,1) 100%);
+      border: 1px solid rgba(27,15,46,.06);
+      border-radius: 24px;
+      padding: 28px;
+      transition: transform 420ms cubic-bezier(.2,.8,.2,1), box-shadow 420ms;
+    }
+    .quote-card:hover { transform: translateY(-4px); box-shadow: 0 24px 56px -28px rgba(107,74,143,.35); }
+
+    /* Sticky scroll progress bar */
+    .progress-bar {
+      position: fixed; top:0; left:0; right:0; height:2px; z-index: 60;
+      background: linear-gradient(90deg, #B89FE8 0%, #E8B5C2 100%);
+      transform: scaleX(0); transform-origin: 0 50%;
+      transition: transform 80ms linear;
+      will-change: transform;
+    }
+
+    /* Magnetic button area helper (handled by JS) */
+    [data-magnetic] { transition: transform 280ms cubic-bezier(.2,.8,.2,1); will-change: transform; }
+
+    /* Sparkle (decorative) */
+    .sparkle {
+      position: absolute; pointer-events:none;
+      width: 16px; height: 16px;
+      background: radial-gradient(circle, rgba(184,159,232,1) 0%, transparent 70%);
+      border-radius: 9999px; filter: blur(1px);
+    }
+
+    /* Reduce motion */
+    @media (prefers-reduced-motion: reduce) {
+      .marquee-track,
+      .orb { animation: none !important; }
+      [data-reveal] { opacity: 1 !important; transform: none !important; }
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+
+<body class="bg-mist text-ink font-sans antialiased">
+
+  <!-- Scroll progress -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- ===== Top announcement ===== -->
+  <div class="bg-ink text-paper text-[12px] tracking-[.2em] uppercase relative overflow-hidden">
+    <div class="max-w-[1280px] mx-auto px-6 py-2.5 flex items-center justify-between">
+      <span class="opacity-90">Yeni Sezon · Sonbahar 2026</span>
+      <span class="hidden sm:inline opacity-70">200₺ üzeri ücretsiz kargo · 30 gün iade</span>
+      <a href="#" class="link-u opacity-90">Mağazaları bul →</a>
+    </div>
+    <!-- shimmer line -->
+    <div class="absolute inset-y-0 -left-1/3 w-1/3 bg-gradient-to-r from-transparent via-lilac/25 to-transparent animate-shimmer pointer-events-none"></div>
+  </div>
+
+  <!-- ===== Nav ===== -->
+  <header class="sticky top-0 z-40 bg-mist/85 backdrop-blur-md border-b border-ink/[.06]">
+    <nav class="max-w-[1280px] mx-auto px-6 h-[78px] flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <span class="logo-mark">A</span>
+        <span class="wordmark">My<span class="arja">Arja</span></span>
+      </a>
+
+      <ul class="hidden lg:flex items-center gap-8 text-[14px] text-ink/85">
+        <li><a href="#koleksiyon" class="link-u">Koleksiyon</a></li>
+        <li><a href="#kategoriler" class="link-u">Kalıplar</a></li>
+        <li><a href="#hikaye" class="link-u">Hikayemiz</a></li>
+        <li><a href="#yorumlar" class="link-u">Yorumlar</a></li>
+        <li><a href="#" class="link-u">İletişim</a></li>
+      </ul>
+
+      <div class="flex items-center gap-1">
+        <button aria-label="Ara" class="w-10 h-10 rounded-full hover:bg-plum/10 grid place-items-center transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-lilac">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button aria-label="Hesap" class="w-10 h-10 rounded-full hover:bg-plum/10 grid place-items-center transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-lilac">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg>
+        </button>
+        <a href="#" aria-label="Sepet" class="relative w-10 h-10 rounded-full hover:bg-plum/10 grid place-items-center transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-lilac">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1.2 11.2A2 2 0 0 1 15.8 21H8.2a2 2 0 0 1-2-1.8L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="absolute -top-0.5 -right-0.5 bg-gradient-to-br from-lilac to-rose text-ink text-[10px] leading-none rounded-full px-1.5 py-1 font-semibold">2</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="relative hero-bg grain overflow-hidden">
+    <!-- Floating gradient orbs -->
+    <div class="orb animate-float"  style="width:380px;height:380px;top:-120px;left:-80px;background:radial-gradient(circle, #B89FE8 0%, transparent 70%);"></div>
+    <div class="orb animate-float2" style="width:280px;height:280px;top:30%;right:-60px;background:radial-gradient(circle, #E8B5C2 0%, transparent 70%);"></div>
+    <div class="orb animate-float3" style="width:320px;height:320px;bottom:-100px;left:30%;background:radial-gradient(circle, #D9C9F2 0%, transparent 70%);"></div>
+
+    <div class="relative max-w-[1280px] mx-auto px-6 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+      <div class="lg:col-span-6 relative">
+        <p class="eyebrow mb-6" data-reveal><span class="dot"></span>Sonbahar Koleksiyonu — 26</p>
+
+        <h1 class="h-display text-[58px] sm:text-[78px] lg:text-[96px] text-ink" data-reveal data-reveal-delay="1">
+          Vücudunu<br/>
+          <span class="h-italic">kucaklayan</span><br/>
+          jean.
+        </h1>
+
+        <p class="lead mt-7 max-w-[480px]" data-reveal data-reveal-delay="2">
+          My Arja Jeans, kadın için kadından doğan bir kalıp anlayışı. Premium Türk denimi,
+          el dokulu finish ve her vücudu kucaklayan kesimler.
+        </p>
+
+        <div class="mt-10 flex flex-wrap items-center gap-3" data-reveal data-reveal-delay="3">
+          <a href="#koleksiyon" class="btn btn-primary" data-magnetic>
+            Koleksiyonu Keşfet
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#hikaye" class="btn btn-ghost" data-magnetic>Hikayemizi oku</a>
+        </div>
+
+        <div class="mt-12 flex items-center gap-7" data-reveal data-reveal-delay="4">
+          <div class="flex -space-x-2.5">
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/16817886/pexels-photo-16817886.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/15835264/pexels-photo-15835264.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/12735244/pexels-photo-12735244.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/18837657/pexels-photo-18837657.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+          </div>
+          <div>
+            <div class="flex items-center gap-1 text-plum">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+              <span class="ml-1 text-ink font-medium text-[13px]">4.9</span>
+            </div>
+            <p class="text-[13px] text-ash mt-0.5">12.480+ kadının seçimi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 relative" data-reveal data-reveal-delay="2">
+        <div class="relative" id="heroVisual">
+          <div class="img-treat rounded-[28px] shadow-soft aspect-[4/5]">
+            <img src="https://images.pexels.com/photos/1136801/pexels-photo-1136801.jpeg?auto=compress&cs=tinysrgb&w=1200&h=1500&fit=crop&q=85" alt="My Arja Jeans editorial"/>
+            <div class="tone"></div>
+          </div>
+
+          <!-- Floating badge top-left -->
+          <div class="absolute -top-4 -left-4 sm:-top-5 sm:-left-5 glow-card rounded-2xl px-4 py-3 flex items-center gap-3 animate-float">
+            <span class="w-9 h-9 rounded-xl bg-lilac/30 grid place-items-center text-plum">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7 9 18l-5-5"/></svg>
+            </span>
+            <div class="leading-tight">
+              <p class="text-[12px] text-ash">Premium denim</p>
+              <p class="text-[14px] font-medium">Türkiye'de dokuma</p>
+            </div>
+          </div>
+
+          <!-- Floating product card bottom-right -->
+          <div class="absolute -bottom-6 right-4 sm:right-6 glow-card rounded-2xl px-4 py-3.5 w-[240px] animate-float2">
+            <div class="flex items-center justify-between gap-3">
+              <div>
+                <p class="text-[11px] text-ash uppercase tracking-[.16em]">Yeni</p>
+                <p class="font-display text-[18px] leading-tight">Bol Paça — Lila</p>
+              </div>
+              <span class="text-[14px] font-medium">₺ 1.890</span>
+            </div>
+            <div class="mt-2 flex items-center gap-1.5">
+              <span class="w-3.5 h-3.5 rounded-full bg-lilac ring-1 ring-ink/10"></span>
+              <span class="w-3.5 h-3.5 rounded-full bg-plum ring-1 ring-ink/10"></span>
+              <span class="w-3.5 h-3.5 rounded-full bg-ink ring-1 ring-ink/10"></span>
+              <span class="text-[12px] text-ash ml-1">+2 ton</span>
+            </div>
+          </div>
+
+          <!-- Sparkles -->
+          <div class="sparkle animate-pulseGlow" style="top:8%; right:-2%;"></div>
+          <div class="sparkle animate-pulseGlow" style="top:60%; left:-3%; animation-delay:1.2s; width:10px; height:10px;"></div>
+          <div class="sparkle animate-pulseGlow" style="bottom:18%; right:8%; animation-delay:2s; width:12px; height:12px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Trust strip ===== -->
+  <section class="relative py-10 lg:py-14 bg-mist border-y border-ink/[.05]">
+    <div class="max-w-[1280px] mx-auto px-6 grid grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="flex items-start gap-4" data-reveal>
+        <span class="w-11 h-11 rounded-2xl bg-haze grid place-items-center text-aubergine shrink-0">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20"/></svg>
+        </span>
+        <div>
+          <p class="font-display text-[18px]">Güvenli ödeme</p>
+          <p class="text-[13px] text-ash mt-0.5">3D Secure · Tüm kartlar</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4" data-reveal data-reveal-delay="1">
+        <span class="w-11 h-11 rounded-2xl bg-haze grid place-items-center text-aubergine shrink-0">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h12l3 4h3v6h-3a2 2 0 1 1-4 0H9a2 2 0 1 1-4 0H3V7Z"/></svg>
+        </span>
+        <div>
+          <p class="font-display text-[18px]">Hızlı kargo</p>
+          <p class="text-[13px] text-ash mt-0.5">200₺ üzeri ücretsiz</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4" data-reveal data-reveal-delay="2">
+        <span class="w-11 h-11 rounded-2xl bg-haze grid place-items-center text-aubergine shrink-0">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 1 9 9"/><path d="m3 12 4 4M3 12l4-4"/></svg>
+        </span>
+        <div>
+          <p class="font-display text-[18px]">30 gün iade</p>
+          <p class="text-[13px] text-ash mt-0.5">Sorgusuz, geri al</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4" data-reveal data-reveal-delay="3">
+        <span class="w-11 h-11 rounded-2xl bg-haze grid place-items-center text-aubergine shrink-0">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M5 8h14"/><path d="M5 8a7 7 0 1 0 14 0"/></svg>
+        </span>
+        <div>
+          <p class="font-display text-[18px]">Sürdürülebilir</p>
+          <p class="text-[13px] text-ash mt-0.5">Düşük su tüketimi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Marquee ===== -->
+  <section aria-hidden="true" class="bg-ink text-paper py-5 overflow-hidden border-y border-aubergine">
+    <div class="marquee-track text-[14px] tracking-[.22em] uppercase">
+      <div class="flex shrink-0 items-center gap-12 pr-12">
+        <span>Premium Türk Denimi</span><span class="text-lilac">✦</span>
+        <span>Ücretsiz İade · 30 Gün</span><span class="text-rose">✦</span>
+        <span>Yeni Sezon — SS26</span><span class="text-lilac">✦</span>
+        <span>El Dokulu Finishing</span><span class="text-rose">✦</span>
+        <span>60+ Mağazada</span><span class="text-lilac">✦</span>
+        <span>Kadın için, Kadından</span><span class="text-rose">✦</span>
+      </div>
+      <div class="flex shrink-0 items-center gap-12 pr-12">
+        <span>Premium Türk Denimi</span><span class="text-lilac">✦</span>
+        <span>Ücretsiz İade · 30 Gün</span><span class="text-rose">✦</span>
+        <span>Yeni Sezon — SS26</span><span class="text-lilac">✦</span>
+        <span>El Dokulu Finishing</span><span class="text-rose">✦</span>
+        <span>60+ Mağazada</span><span class="text-lilac">✦</span>
+        <span>Kadın için, Kadından</span><span class="text-rose">✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Featured Collection ===== -->
+  <section id="koleksiyon" class="relative py-20 lg:py-28 bg-mist overflow-hidden">
+    <!-- decorative orb -->
+    <div class="orb animate-float" style="width:380px;height:380px;top:-150px;right:-100px;background:radial-gradient(circle, #D9C9F2 0%, transparent 70%);"></div>
+
+    <div class="relative max-w-[1280px] mx-auto px-6">
+      <div class="flex items-end justify-between flex-wrap gap-4 mb-12">
+        <div>
+          <p class="eyebrow mb-3" data-reveal><span class="dot"></span>Öne Çıkanlar</p>
+          <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[64px]" data-reveal data-reveal-delay="1">Yeni sezon, <span class="h-italic">yeni</span> kalıplar.</h2>
+        </div>
+        <a href="#" class="btn btn-ghost self-end" data-reveal data-reveal-delay="2" data-magnetic>
+          Tümünü Gör
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+
+        <!-- Product 1 -->
+        <a href="#" class="product group block" data-reveal>
+          <div class="img-treat rounded-2xl aspect-[4/5] bg-haze">
+            <img class="pimg" src="https://images.pexels.com/photos/16817886/pexels-photo-16817886.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Yüksek Bel — Lacivert Yıkama"/>
+            <div class="tone"></div>
+            <span class="absolute top-3 left-3 bg-paper text-ink text-[11px] uppercase tracking-[.18em] px-2.5 py-1 rounded-full">En çok satan</span>
+            <button aria-label="Favorile" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-paper/90 hover:bg-paper grid place-items-center text-ink shadow-card transition hover:scale-110">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+            </button>
+          </div>
+          <div class="mt-4 flex items-start justify-between gap-3">
+            <div>
+              <h3 class="font-display text-[20px] leading-tight">Yüksek Bel — Lacivert Yıkama</h3>
+              <p class="text-[13px] text-ash mt-1">Yüksek bel · 4 ton</p>
+            </div>
+            <span class="font-medium whitespace-nowrap">₺ 1.690</span>
+          </div>
+          <div class="mt-2 flex items-center gap-1.5">
+            <span class="w-3.5 h-3.5 rounded-full bg-plum ring-1 ring-ink/10"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-ink ring-1 ring-ink/10"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-haze ring-1 ring-ink/10"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-rose ring-1 ring-ink/10"></span>
+          </div>
+        </a>
+
+        <!-- Product 2 -->
+        <a href="#" class="product group block" data-reveal data-reveal-delay="1">
+          <div class="img-treat rounded-2xl aspect-[4/5] bg-haze">
+            <img class="pimg" src="https://images.pexels.com/photos/16986948/pexels-photo-16986948.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Bol Paça — Sahil"/>
+            <div class="tone"></div>
+            <span class="absolute top-3 left-3 bg-gradient-to-br from-lilac to-rose text-ink text-[11px] uppercase tracking-[.18em] px-2.5 py-1 rounded-full">Yeni</span>
+            <button aria-label="Favorile" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-paper/90 hover:bg-paper grid place-items-center text-ink shadow-card transition hover:scale-110">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+            </button>
+          </div>
+          <div class="mt-4 flex items-start justify-between gap-3">
+            <div>
+              <h3 class="font-display text-[20px] leading-tight">Bol Paça — Sahil</h3>
+              <p class="text-[13px] text-ash mt-1">Açık bel · 3 ton</p>
+            </div>
+            <span class="font-medium whitespace-nowrap">₺ 1.890</span>
+          </div>
+          <div class="mt-2 flex items-center gap-1.5">
+            <span class="w-3.5 h-3.5 rounded-full bg-haze ring-1 ring-ink/10"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-plum ring-1 ring-ink/10"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-ink ring-1 ring-ink/10"></span>
+          </div>
+        </a>
+
+        <!-- Product 3 -->
+        <a href="#" class="product group block" data-reveal data-reveal-delay="2">
+          <div class="img-treat rounded-2xl aspect-[4/5] bg-haze">
+            <img class="pimg" src="https://images.pexels.com/photos/17428639/pexels-photo-17428639.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Dar Kesim — Mat Siyah"/>
+            <div class="tone"></div>
+            <span class="absolute top-3 left-3 bg-paper text-ink text-[11px] uppercase tracking-[.18em] px-2.5 py-1 rounded-full">Klasik</span>
+            <button aria-label="Favorile" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-paper/90 hover:bg-paper grid place-items-center text-ink shadow-card transition hover:scale-110">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+            </button>
+          </div>
+          <div class="mt-4 flex items-start justify-between gap-3">
+            <div>
+              <h3 class="font-display text-[20px] leading-tight">Dar Kesim — Mat Siyah</h3>
+              <p class="text-[13px] text-ash mt-1">Süper esnek · 2 ton</p>
+            </div>
+            <span class="font-medium whitespace-nowrap">₺ 1.490</span>
+          </div>
+          <div class="mt-2 flex items-center gap-1.5">
+            <span class="w-3.5 h-3.5 rounded-full bg-ink ring-1 ring-ink/10"></span>
+            <span class="w-3.5 h-3.5 rounded-full bg-ash ring-1 ring-ink/10"></span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Editorial Story ===== -->
+  <section id="hikaye" class="relative bg-paper py-20 lg:py-28 overflow-hidden">
+    <div class="orb animate-float2" style="width:340px;height:340px;top:30%;left:-120px;background:radial-gradient(circle, #E8B5C2 0%, transparent 70%);"></div>
+
+    <div class="relative max-w-[1280px] mx-auto px-6 grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+      <div class="lg:col-span-6 order-2 lg:order-1">
+        <p class="eyebrow mb-4" data-reveal><span class="dot"></span>Hikayemiz</p>
+        <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[60px]" data-reveal data-reveal-delay="1">
+          Bir kadın için<br/>tasarlanmış,<br/>bir kadın <span class="h-italic">tarafından</span>.
+        </h2>
+        <p class="lead mt-7 max-w-[520px]" data-reveal data-reveal-delay="2">
+          Arja, kalıp masasında başladı. Yıllardır var olan, kadın bedenine uymayan jeanlere bir cevap olarak.
+          Her dikiş, her yıkama, her ton — gerçek vücutlarda denenerek geliştirildi.
+        </p>
+        <div class="mt-9 grid grid-cols-3 gap-6 max-w-[460px]" data-reveal data-reveal-delay="3">
+          <div>
+            <p class="font-display text-[40px] leading-none stat-num" data-count="12480">0</p>
+            <p class="text-[13px] text-ash mt-1">Mutlu müşteri</p>
+          </div>
+          <div>
+            <p class="font-display text-[40px] leading-none stat-num" data-count="60">0</p>
+            <p class="text-[13px] text-ash mt-1">Mağaza</p>
+          </div>
+          <div>
+            <p class="font-display text-[40px] leading-none stat-num" data-count="14">0</p>
+            <p class="text-[13px] text-ash mt-1">Yıl tecrübe</p>
+          </div>
+        </div>
+        <a href="#" class="btn btn-ghost mt-10" data-reveal data-reveal-delay="4" data-magnetic>Daha fazla oku
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="lg:col-span-6 order-1 lg:order-2 relative" data-reveal data-reveal-delay="2">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="img-treat rounded-2xl aspect-[3/4] shadow-card">
+            <img src="https://images.pexels.com/photos/17083404/pexels-photo-17083404.jpeg?auto=compress&cs=tinysrgb&w=700&h=900&fit=crop&q=85" alt="Atölye"/>
+            <div class="tone"></div>
+          </div>
+          <div class="img-treat rounded-2xl aspect-[3/4] mt-10 shadow-card">
+            <img src="https://images.pexels.com/photos/15291933/pexels-photo-15291933.jpeg?auto=compress&cs=tinysrgb&w=700&h=900&fit=crop&q=85" alt="Detay"/>
+            <div class="tone"></div>
+          </div>
+        </div>
+        <div class="absolute -bottom-4 left-4 sm:left-8 glow-card rounded-2xl px-4 py-3 flex items-center gap-3 max-w-[260px]">
+          <span class="w-9 h-9 rounded-xl bg-rose/30 grid place-items-center text-aubergine">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m5 9 7-7 7 7"/></svg>
+          </span>
+          <div class="leading-tight">
+            <p class="text-[12px] text-ash">Sürdürülebilir</p>
+            <p class="text-[14px] font-medium">Düşük su tüketimi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Categories ===== -->
+  <section id="kategoriler" class="relative py-20 lg:py-28 bg-mist overflow-hidden">
+    <div class="relative max-w-[1280px] mx-auto px-6">
+      <div class="max-w-[760px] mb-12">
+        <p class="eyebrow mb-3" data-reveal><span class="dot"></span>Kalıplar</p>
+        <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[64px]" data-reveal data-reveal-delay="1">Vücudunu en iyi anlayan <span class="h-italic">kesimi</span> bul.</h2>
+        <p class="lead mt-5 max-w-[560px]" data-reveal data-reveal-delay="2">Her kalıp, farklı bir vücut tipi düşünülerek geliştirildi. Sana uyanı bul.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+
+        <a href="#" class="cat aspect-[4/5] block group" data-reveal>
+          <img class="pimg w-full h-full object-cover" src="https://images.pexels.com/photos/28765909/pexels-photo-28765909.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Yüksek Bel"/>
+          <div class="absolute inset-0 p-6 flex flex-col justify-end z-10">
+            <p class="text-paper/80 text-[12px] uppercase tracking-[.22em] mb-1">01</p>
+            <h3 class="font-display text-paper text-[34px] leading-none tracking-tight">Yüksek Bel</h3>
+            <p class="text-paper/80 text-[14px] mt-2">Yüksek bel, geniş kalça, rahat boşluk.</p>
+            <span class="mt-4 inline-flex items-center gap-2 text-paper text-[13px]">
+              Keşfet <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="#" class="cat aspect-[4/5] block group" data-reveal data-reveal-delay="1">
+          <img class="pimg w-full h-full object-cover" src="https://images.pexels.com/photos/12812616/pexels-photo-12812616.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Bol Paça"/>
+          <div class="absolute inset-0 p-6 flex flex-col justify-end z-10">
+            <p class="text-paper/80 text-[12px] uppercase tracking-[.22em] mb-1">02</p>
+            <h3 class="font-display text-paper text-[34px] leading-none tracking-tight">Bol Paça</h3>
+            <p class="text-paper/80 text-[14px] mt-2">Akışkan paça, dramatik silüet.</p>
+            <span class="mt-4 inline-flex items-center gap-2 text-paper text-[13px]">
+              Keşfet <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <a href="#" class="cat aspect-[4/5] block group" data-reveal data-reveal-delay="2">
+          <img class="pimg w-full h-full object-cover" src="https://images.pexels.com/photos/20835832/pexels-photo-20835832.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Dar Kesim"/>
+          <div class="absolute inset-0 p-6 flex flex-col justify-end z-10">
+            <p class="text-paper/80 text-[12px] uppercase tracking-[.22em] mb-1">03</p>
+            <h3 class="font-display text-paper text-[34px] leading-none tracking-tight">Dar Kesim</h3>
+            <p class="text-paper/80 text-[14px] mt-2">Yüksek esneklik, ikinci ten.</p>
+            <span class="mt-4 inline-flex items-center gap-2 text-paper text-[13px]">
+              Keşfet <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section id="yorumlar" class="relative py-20 lg:py-28 bg-paper overflow-hidden">
+    <div class="orb animate-float3" style="width:340px;height:340px;top:-100px;right:-80px;background:radial-gradient(circle, #B89FE8 0%, transparent 70%);"></div>
+
+    <div class="relative max-w-[1280px] mx-auto px-6">
+      <div class="text-center max-w-[760px] mx-auto mb-14">
+        <p class="eyebrow mb-3" data-reveal><span class="dot"></span>Yorumlar</p>
+        <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[60px]" data-reveal data-reveal-delay="1">12.480+ kadın <span class="h-italic">ne diyor</span>?</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <article class="quote-card" data-reveal>
+          <div class="flex items-center gap-1 text-plum mb-4">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+          </div>
+          <p class="font-display text-[22px] leading-snug">"Yıllardır bel hizamda doğru oturan ilk jean. Kalıp gerçekten farklı."</p>
+          <div class="mt-6 flex items-center gap-3">
+            <img class="w-11 h-11 rounded-full object-cover" src="https://images.pexels.com/photos/16817886/pexels-photo-16817886.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop"/>
+            <div>
+              <p class="font-medium text-[14px]">Ece K.</p>
+              <p class="text-[12px] text-ash">Yüksek Bel — Lacivert</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="quote-card" data-reveal data-reveal-delay="1">
+          <div class="flex items-center gap-1 text-plum mb-4">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+          </div>
+          <p class="font-display text-[22px] leading-snug">"Bol paça hiç bu kadar şık durmamıştı. Yıkadıkça daha da güzelleşiyor."</p>
+          <div class="mt-6 flex items-center gap-3">
+            <img class="w-11 h-11 rounded-full object-cover" src="https://images.pexels.com/photos/15835264/pexels-photo-15835264.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop"/>
+            <div>
+              <p class="font-medium text-[14px]">Defne A.</p>
+              <p class="text-[12px] text-ash">Bol Paça — Sahil</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="quote-card" data-reveal data-reveal-delay="2">
+          <div class="flex items-center gap-1 text-plum mb-4">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
+          </div>
+          <p class="font-display text-[22px] leading-snug">"Esnekliği bir harika. Sabah giyip gece kadar üzerimden çıkarmıyorum."</p>
+          <div class="mt-6 flex items-center gap-3">
+            <img class="w-11 h-11 rounded-full object-cover" src="https://images.pexels.com/photos/12735244/pexels-photo-12735244.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop"/>
+            <div>
+              <p class="font-medium text-[14px]">Selin Y.</p>
+              <p class="text-[12px] text-ash">Dar Kesim — Mat Siyah</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Newsletter ===== -->
+  <section class="py-20 lg:py-24 bg-mist">
+    <div class="max-w-[1280px] mx-auto px-6">
+      <div class="relative grain rounded-[28px] bg-ink text-paper overflow-hidden px-6 sm:px-12 py-14 lg:py-20" data-reveal>
+        <!-- gradient mesh -->
+        <div class="absolute inset-0 opacity-90 pointer-events-none" style="background:
+          radial-gradient(60% 80% at 90% 20%, rgba(184,159,232,.45) 0%, transparent 60%),
+          radial-gradient(50% 80% at 5% 90%, rgba(232,181,194,.40) 0%, transparent 60%),
+          radial-gradient(40% 60% at 50% 50%, rgba(217,201,242,.20) 0%, transparent 60%);"></div>
+
+        <!-- floating orb -->
+        <div class="orb animate-float" style="width:240px;height:240px;top:-60px;right:-40px;background:radial-gradient(circle, rgba(184,159,232,.6) 0%, transparent 70%);"></div>
+
+        <div class="relative grid lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <p class="eyebrow mb-3 !text-paper/70"><span class="dot"></span>Bülten</p>
+            <h2 class="h-display text-[36px] sm:text-[48px] lg:text-[56px]">Yeni koleksiyon, önce <span class="italic" style="background:linear-gradient(135deg,#B89FE8 0%,#E8B5C2 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent; font-variation-settings:'opsz' 96, 'SOFT' 100;">sana</span>.</h2>
+            <p class="lead mt-5 !text-paper/75 max-w-[460px]">Lansmanlar, özel davetler ve sadece bültene özel %10 indirim.</p>
+          </div>
+          <form class="w-full" onsubmit="event.preventDefault();">
+            <div class="nl-wrap">
+              <input class="nl-input" type="email" placeholder="E-posta adresin" aria-label="E-posta" required />
+              <button class="btn btn-lilac" data-magnetic>Katıl</button>
+            </div>
+            <p class="mt-3 text-[12px] text-paper/55">Mailini kimseyle paylaşmıyoruz. İstediğinde ayrılabilirsin.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="bg-ink text-paper">
+    <div class="max-w-[1280px] mx-auto px-6 py-16 lg:py-20 grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-4">
+        <div class="flex items-center gap-3">
+          <span class="logo-mark">A</span>
+          <span class="wordmark text-paper">My<span class="arja">Arja</span></span>
+        </div>
+        <p class="mt-5 text-paper/70 max-w-[360px] text-[15px] leading-relaxed">
+          Vücudunu kucaklayan jean. Premium Türk denimi, kadın için tasarlanmış kalıplar.
+        </p>
+        <div class="mt-6 flex items-center gap-2">
+          <a href="#" aria-label="Instagram" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v9a4 4 0 1 1-4-4"/><path d="M14 4c.5 2.5 2.5 4.5 5 5"/></svg>
+          </a>
+          <a href="#" aria-label="Pinterest" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M11 8c2 0 3.5 1.3 3.5 3.2 0 1.7-1.1 3.3-2.7 3.3-.7 0-1.4-.4-1.6-.9l-.6 2.5c-.2.7-.7 1.6-1 2.2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-2">
+        <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">Alışveriş</h4>
+        <ul class="space-y-2.5 text-[15px] text-paper/85">
+          <li><a href="#" class="link-u">Yeni Sezon</a></li>
+          <li><a href="#" class="link-u">Yüksek Bel</a></li>
+          <li><a href="#" class="link-u">Bol Paça</a></li>
+          <li><a href="#" class="link-u">Dar Kesim</a></li>
+          <li><a href="#" class="link-u">İndirim</a></li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-2">
+        <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">Marka</h4>
+        <ul class="space-y-2.5 text-[15px] text-paper/85">
+          <li><a href="#" class="link-u">Hikayemiz</a></li>
+          <li><a href="#" class="link-u">Mağazalar</a></li>
+          <li><a href="#" class="link-u">Sürdürülebilirlik</a></li>
+          <li><a href="#" class="link-u">Basın</a></li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-2">
+        <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">Yardım</h4>
+        <ul class="space-y-2.5 text-[15px] text-paper/85">
+          <li><a href="#" class="link-u">Beden Rehberi</a></li>
+          <li><a href="#" class="link-u">Kargo & İade</a></li>
+          <li><a href="#" class="link-u">SSS</a></li>
+          <li><a href="#" class="link-u">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-2">
+        <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">İletişim</h4>
+        <ul class="space-y-2.5 text-[15px] text-paper/85">
+          <li>0850 000 00 00</li>
+          <li><a href="mailto:hello@myarja.com" class="link-u">hello@myarja.com</a></li>
+          <li>Pzt–Cmt · 09–18</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-paper/10">
+      <div class="max-w-[1280px] mx-auto px-6 py-6 flex flex-wrap items-center justify-between gap-3 text-[13px] text-paper/60">
+        <p>© 2026 My Arja Jeans. Tüm hakları saklıdır.</p>
+        <ul class="flex items-center gap-5">
+          <li><a href="#" class="link-u">Gizlilik</a></li>
+          <li><a href="#" class="link-u">Kullanım Şartları</a></li>
+          <li><a href="#" class="link-u">Çerezler</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Animations script ===== -->
+  <script>
+    (function () {
+      // 1) Scroll reveal via IntersectionObserver
+      const reveal = document.querySelectorAll('[data-reveal]');
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+        }
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      reveal.forEach(el => io.observe(el));
+
+      // 2) Number count-up
+      const stats = document.querySelectorAll('[data-count]');
+      const sIO = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (!e.isIntersecting) continue;
+          const el = e.target;
+          const target = parseInt(el.dataset.count, 10);
+          const dur = 1600;
+          const t0 = performance.now();
+          const fmt = new Intl.NumberFormat('tr-TR');
+          function tick(now) {
+            const p = Math.min(1, (now - t0) / dur);
+            const eased = 1 - Math.pow(1 - p, 3);
+            el.textContent = fmt.format(Math.floor(target * eased)) + (target >= 1000 ? '+' : (target === 60 ? '+' : (target === 14 ? 'y' : '')));
+            if (p < 1) requestAnimationFrame(tick);
+          }
+          requestAnimationFrame(tick);
+          sIO.unobserve(el);
+        }
+      }, { threshold: 0.4 });
+      stats.forEach(el => sIO.observe(el));
+
+      // 3) Magnetic buttons (small translate towards cursor on hover)
+      const mags = document.querySelectorAll('[data-magnetic]');
+      mags.forEach(btn => {
+        const strength = 14;
+        btn.addEventListener('mousemove', (ev) => {
+          const r = btn.getBoundingClientRect();
+          const x = ev.clientX - r.left - r.width / 2;
+          const y = ev.clientY - r.top  - r.height / 2;
+          btn.style.transform = `translate3d(${(x/r.width)*strength}px, ${(y/r.height)*strength}px, 0)`;
+        });
+        btn.addEventListener('mouseleave', () => { btn.style.transform = ''; });
+      });
+
+      // 4) Hero parallax — subtle layered motion on mouse move
+      const heroVisual = document.getElementById('heroVisual');
+      if (heroVisual) {
+        const heroSection = heroVisual.closest('section');
+        let raf = null;
+        heroSection.addEventListener('mousemove', (ev) => {
+          if (raf) return;
+          raf = requestAnimationFrame(() => {
+            const r = heroSection.getBoundingClientRect();
+            const px = (ev.clientX - r.left) / r.width  - 0.5; // -0.5..0.5
+            const py = (ev.clientY - r.top)  / r.height - 0.5;
+            heroVisual.style.transform = `translate3d(${px*-12}px, ${py*-10}px, 0)`;
+            raf = null;
+          });
+        });
+        heroSection.addEventListener('mouseleave', () => { heroVisual.style.transform = ''; });
+      }
+
+      // 5) Scroll progress bar
+      const bar = document.getElementById('progressBar');
+      let rafBar = null;
+      function updateBar() {
+        const h = document.documentElement;
+        const max = h.scrollHeight - h.clientHeight;
+        const p = max > 0 ? (h.scrollTop || document.body.scrollTop) / max : 0;
+        bar.style.transform = `scaleX(${p})`;
+        rafBar = null;
+      }
+      window.addEventListener('scroll', () => {
+        if (rafBar) return;
+        rafBar = requestAnimationFrame(updateBar);
+      }, { passive: true });
+      updateBar();
+    })();
+  </script>
+</body>
+</html>

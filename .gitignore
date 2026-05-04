@@ -1,0 +1,23 @@
+# Sadece site dosyalarını ve git/vercel config'ini commit et
+*
+!index.html
+!.gitignore
+!.vercelignore
+!brand_assets/
+!brand_assets/**
+
+# Geliştirme dosyaları (yedek olarak — yıldız desen zaten kapsıyor)
+node_modules/
+package.json
+package-lock.json
+serve.mjs
+screenshot.mjs
+temporary screenshots/
+.vercel/
+_thumbs.html
+.DS_Store
+Thumbs.db
+
+# Claude memory (lokal kalsın)
+claude.md
+CLAUDE.md

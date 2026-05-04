@@ -1,0 +1,11 @@
+node_modules
+package.json
+package-lock.json
+serve.mjs
+screenshot.mjs
+brand_assets
+temporary screenshots
+claude.md
+CLAUDE.md
+.vercel
+_thumbs.html
