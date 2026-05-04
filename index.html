@@ -170,6 +170,40 @@
     }
     .btn-lilac:hover { box-shadow: 0 24px 60px -20px rgba(232,181,194,.8); }
 
+    /* Aurora glow button — lila/plum/rose/champagne palette */
+    .btn-aurora {
+      position: relative;
+      isolation: isolate;
+      background: #1B0F2E;
+      color: #FAF6FC;
+      box-shadow: inset 0 0 0 1px rgba(184,159,232,.18);
+    }
+    .btn-aurora::before {
+      content: "";
+      position: absolute;
+      inset: -3px;
+      z-index: -1;
+      border-radius: inherit;
+      background: linear-gradient(135deg, #6B4A8F 0%, #B89FE8 28%, #E8B5C2 58%, #D4B896 90%);
+      filter: blur(14px);
+      opacity: .72;
+      transition: opacity 320ms cubic-bezier(.2,.8,.2,1), filter 320ms cubic-bezier(.2,.8,.2,1);
+    }
+    .btn-aurora::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      border-radius: inherit;
+      background: linear-gradient(135deg, rgba(107,74,143,.55) 0%, rgba(184,159,232,.35) 50%, rgba(232,181,194,.45) 100%);
+      opacity: 0;
+      transition: opacity 320ms cubic-bezier(.2,.8,.2,1);
+    }
+    .btn-aurora:hover { background: #2E1A47; color: #FAF6FC; }
+    .btn-aurora:hover::before { opacity: 1; filter: blur(20px); }
+    .btn-aurora:hover::after { opacity: .35; }
+    .btn-aurora:focus-visible { outline: 2px solid #B89FE8; outline-offset: 4px; }
+
     /* Card hover */
     .product { transition: transform 420ms cubic-bezier(.2,.8,.2,1); will-change: transform; }
     .product:hover { transform: translateY(-6px); }
@@ -442,7 +476,7 @@
         </p>
 
         <div class="mt-10 flex flex-wrap items-center gap-3" data-reveal data-reveal-delay="3">
-          <a href="#urunler" class="btn btn-lilac" data-magnetic>
+          <a href="#urunler" class="btn btn-aurora" data-magnetic>
             Koleksiyonu Keşfet
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
           </a>
@@ -589,7 +623,7 @@
           <p class="eyebrow mb-3" data-reveal><span class="dot"></span>Tüm Koleksiyon</p>
           <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[64px]" data-reveal data-reveal-delay="1">64 model, <span class="h-italic">tek koleksiyonda</span>.</h2>
         </div>
-        <a href="https://www.trendyol.com/sr?mid=1199692&os=1" target="_blank" rel="noopener noreferrer" class="btn btn-ghost self-end" data-reveal data-reveal-delay="2" data-magnetic>
+        <a href="https://www.trendyol.com/sr?mid=1199692&os=1" target="_blank" rel="noopener noreferrer" class="btn btn-aurora self-end" data-reveal data-reveal-delay="2" data-magnetic>
           Trendyol Mağazası <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 5h5v5"/><path d="M19 5 9 15"/><path d="M19 14v5H5V5h5"/></svg>
         </a>
       </div>

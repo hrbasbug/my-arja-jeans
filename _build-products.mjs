@@ -112,7 +112,7 @@ const SECTION = `<!-- PRODUCTS_GRID_START -->
           <p class="eyebrow mb-3" data-reveal><span class="dot"></span>Tüm Koleksiyon</p>
           <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[64px]" data-reveal data-reveal-delay="1">${PRODUCTS.length} model, <span class="h-italic">tek koleksiyonda</span>.</h2>
         </div>
-        <a href="https://www.trendyol.com/sr?mid=1199692&os=1" target="_blank" rel="noopener noreferrer" class="btn btn-ghost self-end" data-reveal data-reveal-delay="2" data-magnetic>
+        <a href="https://www.trendyol.com/sr?mid=1199692&os=1" target="_blank" rel="noopener noreferrer" class="btn btn-aurora self-end" data-reveal data-reveal-delay="2" data-magnetic>
           Trendyol Mağazası ${externalSvg(14)}
         </a>
       </div>
