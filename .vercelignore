@@ -3,7 +3,8 @@ package.json
 package-lock.json
 serve.mjs
 screenshot.mjs
-brand_assets
+_scrape-trendyol.mjs
+_build-products.mjs
 temporary screenshots
 claude.md
 CLAUDE.md
