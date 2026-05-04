@@ -123,8 +123,10 @@ ${filterPills}
 ${productCards}
       </div>
 
-      <p class="mt-8 text-center text-[13px] text-ash" data-reveal>
-        Bütün siparişler Trendyol üzerinden — güvenli ödeme + hızlı teslimat.
+      <p class="mt-8 text-center text-[13px] text-ash max-w-[680px] mx-auto leading-relaxed" data-reveal>
+        Sitede gösterilen <strong class="text-ink font-medium">mağaza fiyatları</strong>dır.
+        Trendyol'da <strong class="text-plum font-medium">sepet kampanyaları, Trendyol Plus indirimi ve "Avantajlı Ürün"</strong> rozetleriyle
+        çoğu üründe daha düşük fiyatlar bulabilirsiniz. Bütün siparişler Trendyol üzerinden — güvenli ödeme &amp; hızlı teslimat.
       </p>
     </div>
   </section>
