@@ -81,8 +81,26 @@ async function fetchAllProducts() {
 const raw = await fetchAllProducts();
 
 // Filter to only products that should be visible on the public site
-const visible = raw.filter(p => p.approved && !p.rejected && !p.blacklisted && p.onSale !== false);
-console.log(`\nTotal raw: ${raw.length}, Visible: ${visible.length}`);
+const filtered = raw.filter(p => p.approved && !p.rejected && !p.blacklisted && p.onSale !== false);
+console.log(`\nTotal raw: ${raw.length}, After approval/onSale filter: ${filtered.length}`);
+
+// === DEDUPE ===
+// Trendyol API returns one entry per color/size variant. Group them by productMainId
+// (the parent product code) and keep ONE representative per group: highest-stock variant,
+// breaking ties by lowest listPrice (cheapest "default" wins).
+const byMain = new Map();
+for (const p of filtered) {
+  const key = p.productMainId || p.productCode || p.productContentId || p.id;
+  const existing = byMain.get(key);
+  if (!existing) { byMain.set(key, p); continue; }
+  const a = p.quantity ?? 0, b = existing.quantity ?? 0;
+  if (a > b) { byMain.set(key, p); continue; }
+  if (a === b && (p.listPrice ?? Infinity) < (existing.listPrice ?? Infinity)) {
+    byMain.set(key, p);
+  }
+}
+const visible = Array.from(byMain.values());
+console.log(`Deduped by productMainId: ${filtered.length} variants → ${visible.length} unique products`);
 
 // Transform to existing products.json shape (compatible with _build-products.mjs)
 const out = visible.map(p => {
