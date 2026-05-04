@@ -80,6 +80,16 @@ async function fetchAllProducts() {
 
 const raw = await fetchAllProducts();
 
+// DEBUG: dump first product's full structure to discover the correct URL field
+if (raw.length > 0) {
+  console.log('\n--- DEBUG: first product fields ---');
+  console.log(JSON.stringify(raw[0], null, 2).slice(0, 3000));
+  console.log('--- DEBUG END ---\n');
+  // Show all top-level keys for clarity
+  console.log('Top-level keys:', Object.keys(raw[0]).sort().join(', '));
+  console.log();
+}
+
 // Filter to only products that should be visible on the public site
 const visible = raw.filter(p => p.approved && !p.rejected && !p.blacklisted && p.onSale !== false);
 console.log(`\nTotal raw: ${raw.length}, Visible: ${visible.length}`);
