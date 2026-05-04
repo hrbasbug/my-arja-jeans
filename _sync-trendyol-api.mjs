@@ -85,22 +85,35 @@ const filtered = raw.filter(p => p.approved && !p.rejected && !p.blacklisted && 
 console.log(`\nTotal raw: ${raw.length}, After approval/onSale filter: ${filtered.length}`);
 
 // === DEDUPE ===
-// Trendyol API returns one entry per color/size variant. Group them by productMainId
-// (the parent product code) and keep ONE representative per group: highest-stock variant,
-// breaking ties by lowest listPrice (cheapest "default" wins).
-const byMain = new Map();
+// Trendyol API returns one entry per (color × size) variant — e.g. ~519 entries.
+// Public Trendyol mağaza sayfası ise her RENGİ ayrı listing kartı olarak gösterir.
+// Aynı (productMainId + Renk) kombinasyonu tek bir listing → bedenler arasından
+// en yüksek stoklu varyantı temsilci seçeriz (image bedenden bağımsız aynı).
+function pickColor(p) {
+  const attrs = p.attributes || [];
+  const ca = attrs.find(a => a.attributeName === 'Renk' && a.attributeValueId);
+  if (ca) return String(ca.attributeValueId);
+  const cb = attrs.find(a => a.attributeName === 'Renk');
+  if (cb) return String(cb.attributeValue || 'default');
+  return 'default';
+}
+
+const byListing = new Map();
 for (const p of filtered) {
-  const key = p.productMainId || p.productCode || p.productContentId || p.id;
-  const existing = byMain.get(key);
-  if (!existing) { byMain.set(key, p); continue; }
+  const main  = p.productMainId || p.productCode || p.id;
+  const color = pickColor(p);
+  const key   = `${main}|${color}`;
+  const existing = byListing.get(key);
+  if (!existing) { byListing.set(key, p); continue; }
   const a = p.quantity ?? 0, b = existing.quantity ?? 0;
-  if (a > b) { byMain.set(key, p); continue; }
+  if (a > b) { byListing.set(key, p); continue; }
   if (a === b && (p.listPrice ?? Infinity) < (existing.listPrice ?? Infinity)) {
-    byMain.set(key, p);
+    byListing.set(key, p);
   }
 }
-const visible = Array.from(byMain.values());
-console.log(`Deduped by productMainId: ${filtered.length} variants → ${visible.length} unique products`);
+const visible = Array.from(byListing.values());
+const mainCount = new Set(filtered.map(p => p.productMainId || p.productCode || p.id)).size;
+console.log(`Deduped: ${filtered.length} variants → ${visible.length} listings (${mainCount} ana model, ortalama ${(visible.length / Math.max(1,mainCount)).toFixed(1)} renk/model)`);
 
 // Transform to existing products.json shape (compatible with _build-products.mjs)
 const out = visible.map(p => {
