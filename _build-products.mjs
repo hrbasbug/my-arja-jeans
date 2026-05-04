@@ -148,20 +148,27 @@ const after = html.slice(endIdx + endMarker.length);
 html = before + SECTION + after;
 
 // --- Static image slots (hero, story, categories) ---
-// We replace src+alt of any <img data-static="<slot>"> with a product from the live data.
-// Pick deterministic candidates so the page is stable across sync runs.
-function pickByCategory(cat, idx = 0) {
-  const matches = PRODUCTS.filter(p => p.localImage && categoryOf(cleanName(p.name)) === cat);
-  return matches[idx % Math.max(1, matches.length)] || PRODUCTS.find(p => p.localImage);
+// Replace src+alt of <img data-static="<slot>"> with a fresh, unique product from live data.
+const usedSlotIds = new Set();
+function pickUnique(cat, idx = 0) {
+  const pool = PRODUCTS
+    .filter(p => p.localImage && !usedSlotIds.has(p.id) && categoryOf(cleanName(p.name)) === cat);
+  let chosen = pool[idx % Math.max(1, pool.length)];
+  if (!chosen) {
+    // fallback: any unused product with image
+    chosen = PRODUCTS.find(p => p.localImage && !usedSlotIds.has(p.id));
+  }
+  if (chosen) usedSlotIds.add(chosen.id);
+  return chosen;
 }
 
 const SLOTS = {
-  'hero':    pickByCategory('jean', 2),
-  'story-1': pickByCategory('bol', 1),
-  'story-2': pickByCategory('jean', 5),
-  'cat-1':   pickByCategory('pantolon', 0),  // Yüksek Bel kategorisi
-  'cat-2':   pickByCategory('bol', 0),       // Bol Paça
-  'cat-3':   pickByCategory('jean', 0),      // Dar Kesim (kullanılır)
+  'hero':    pickUnique('jean', 2),
+  'story-1': pickUnique('bol', 1),
+  'story-2': pickUnique('jean', 5),
+  'cat-1':   pickUnique('pantolon', 0),  // Yüksek Bel
+  'cat-2':   pickUnique('bol', 0),       // Bol Paça
+  'cat-3':   pickUnique('jean', 0),      // Dar Kesim
 };
 
 let replacedSlots = 0;
