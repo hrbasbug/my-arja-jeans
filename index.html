@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -149,6 +150,19 @@
     .btn-ghost { background: transparent; color:#1B0F2E; box-shadow: inset 0 0 0 1px rgba(27,15,46,.18); }
     .btn-ghost:hover { background:#1B0F2E; color:#FAF6FC; box-shadow: inset 0 0 0 1px #1B0F2E; }
     .btn-ghost:focus-visible { outline: 2px solid #B89FE8; outline-offset: 3px; }
+    .btn-ghost-light { background: transparent; color:#FAF6FC; box-shadow: inset 0 0 0 1px rgba(250,246,252,.4); }
+    .btn-ghost-light:hover { background:#FAF6FC; color:#1B0F2E; box-shadow: inset 0 0 0 1px #FAF6FC; }
+    .btn-ghost-light:focus-visible { outline: 2px solid #B89FE8; outline-offset: 3px; }
+
+    /* Hero shader canvas */
+    #heroShader { position:absolute; inset:0; z-index:0; pointer-events:none; }
+    #heroShader canvas { display:block; width:100%; height:100%; }
+    .hero-veil {
+      position:absolute; inset:0; z-index:1; pointer-events:none;
+      background:
+        radial-gradient(60% 80% at 20% 50%, rgba(27,15,46,.55) 0%, transparent 60%),
+        linear-gradient(180deg, rgba(27,15,46,.10) 0%, rgba(27,15,46,.45) 100%);
+    }
     .btn-lilac {
       background: linear-gradient(135deg, #B89FE8 0%, #E8B5C2 100%);
       color:#1B0F2E;
@@ -340,53 +354,55 @@
     </nav>
   </header>
 
-  <!-- ===== Hero ===== -->
-  <section class="relative hero-bg grain overflow-hidden">
-    <!-- Floating gradient orbs -->
-    <div class="orb animate-float"  style="width:380px;height:380px;top:-120px;left:-80px;background:radial-gradient(circle, #B89FE8 0%, transparent 70%);"></div>
-    <div class="orb animate-float2" style="width:280px;height:280px;top:30%;right:-60px;background:radial-gradient(circle, #E8B5C2 0%, transparent 70%);"></div>
-    <div class="orb animate-float3" style="width:320px;height:320px;bottom:-100px;left:30%;background:radial-gradient(circle, #D9C9F2 0%, transparent 70%);"></div>
+  <!-- ===== Hero (Three.js shader bg) ===== -->
+  <section class="relative bg-ink overflow-hidden">
+    <!-- Three.js shader canvas -->
+    <div id="heroShader" aria-hidden="true"></div>
+    <!-- Veil for text legibility -->
+    <div class="hero-veil"></div>
+    <!-- Grain on top -->
+    <div class="grain absolute inset-0 z-[2] pointer-events-none"></div>
 
-    <div class="relative max-w-[1280px] mx-auto px-6 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+    <div class="relative z-[3] max-w-[1280px] mx-auto px-6 pt-16 pb-24 lg:pt-24 lg:pb-32 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
       <div class="lg:col-span-6 relative">
-        <p class="eyebrow mb-6" data-reveal><span class="dot"></span>Sonbahar Koleksiyonu — 26</p>
+        <p class="eyebrow mb-6 !text-haze" data-reveal><span class="dot"></span>Sonbahar Koleksiyonu — 26</p>
 
-        <h1 class="h-display text-[58px] sm:text-[78px] lg:text-[96px] text-ink" data-reveal data-reveal-delay="1">
+        <h1 class="h-display text-[58px] sm:text-[78px] lg:text-[96px] text-paper" data-reveal data-reveal-delay="1">
           Vücudunu<br/>
           <span class="h-italic">kucaklayan</span><br/>
           jean.
         </h1>
 
-        <p class="lead mt-7 max-w-[480px]" data-reveal data-reveal-delay="2">
+        <p class="lead mt-7 max-w-[480px] !text-paper/80" data-reveal data-reveal-delay="2">
           My Arja Jeans, kadın için kadından doğan bir kalıp anlayışı. Premium Türk denimi,
           el dokulu finish ve her vücudu kucaklayan kesimler.
         </p>
 
         <div class="mt-10 flex flex-wrap items-center gap-3" data-reveal data-reveal-delay="3">
-          <a href="#koleksiyon" class="btn btn-primary" data-magnetic>
+          <a href="#koleksiyon" class="btn btn-lilac" data-magnetic>
             Koleksiyonu Keşfet
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
           </a>
-          <a href="#hikaye" class="btn btn-ghost" data-magnetic>Hikayemizi oku</a>
+          <a href="#hikaye" class="btn btn-ghost-light" data-magnetic>Hikayemizi oku</a>
         </div>
 
         <div class="mt-12 flex items-center gap-7" data-reveal data-reveal-delay="4">
           <div class="flex -space-x-2.5">
-            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/16817886/pexels-photo-16817886.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
-            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/15835264/pexels-photo-15835264.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
-            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/12735244/pexels-photo-12735244.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
-            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-mist object-cover" src="https://images.pexels.com/photos/18837657/pexels-photo-18837657.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-aubergine object-cover" src="https://images.pexels.com/photos/16817886/pexels-photo-16817886.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-aubergine object-cover" src="https://images.pexels.com/photos/15835264/pexels-photo-15835264.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-aubergine object-cover" src="https://images.pexels.com/photos/12735244/pexels-photo-12735244.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
+            <img alt="" class="w-10 h-10 rounded-full ring-2 ring-aubergine object-cover" src="https://images.pexels.com/photos/18837657/pexels-photo-18837657.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop"/>
           </div>
           <div>
-            <div class="flex items-center gap-1 text-plum">
+            <div class="flex items-center gap-1 text-rose">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 14.9 8.6 22 9.3l-5.4 4.7L18.2 22 12 18.3 5.8 22l1.6-8L2 9.3l7.1-.7L12 2Z"/></svg>
-              <span class="ml-1 text-ink font-medium text-[13px]">4.9</span>
+              <span class="ml-1 text-paper font-medium text-[13px]">4.9</span>
             </div>
-            <p class="text-[13px] text-ash mt-0.5">12.480+ kadının seçimi</p>
+            <p class="text-[13px] text-paper/65 mt-0.5">12.480+ kadının seçimi</p>
           </div>
         </div>
       </div>
@@ -960,6 +976,129 @@
         rafBar = requestAnimationFrame(updateBar);
       }, { passive: true });
       updateBar();
+
+      // 6) Hero Three.js shader — celestial bloom, lila palette
+      (function initHeroShader () {
+        const container = document.getElementById('heroShader');
+        if (!container || typeof THREE === 'undefined') return;
+        const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        let renderer;
+        try {
+          renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        } catch (err) { return; /* silent fallback to bg-ink */ }
+
+        // Cap pixelRatio for perf on retina/mobile
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.75));
+        container.appendChild(renderer.domElement);
+
+        const scene = new THREE.Scene();
+        const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+        const clock = new THREE.Clock();
+
+        const vertexShader = `void main(){ gl_Position = vec4(position, 1.0); }`;
+
+        const fragmentShader = `
+          precision highp float;
+          uniform vec2  iResolution;
+          uniform float iTime;
+
+          float hash(vec2 p) { return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453123); }
+          float noise(vec2 st){
+            vec2 i = floor(st), f = fract(st);
+            float a = hash(i);
+            float b = hash(i + vec2(1.0, 0.0));
+            float c = hash(i + vec2(0.0, 1.0));
+            float d = hash(i + vec2(1.0, 1.0));
+            vec2 u = f*f*(3.0-2.0*f);
+            return mix(a, b, u.x) + (c - a)*u.y*(1.0 - u.x) + (d - b)*u.x*u.y;
+          }
+          float fbm(vec2 st){
+            float v = 0.0; float a = 0.5;
+            for (int i = 0; i < 5; i++) { v += a * noise(st); st *= 2.0; a *= 0.5; }
+            return v;
+          }
+
+          void main(){
+            vec2 uv = (gl_FragCoord.xy * 2.0 - iResolution.xy) / min(iResolution.x, iResolution.y);
+            float t = iTime * 0.55;
+            float radius = length(uv);
+            float angle  = atan(uv.y, uv.x);
+
+            // 5-petal bloom shape with subtle distortion
+            float petals = 5.0;
+            float bloom  = sin(angle * petals + t);
+            float dist   = radius + bloom * 0.10 * fbm(uv * 2.4 + t * 0.15);
+
+            // Lila / plum / rose palette
+            vec3 deepSpace = vec3(0.07, 0.04, 0.13);   // very dark plum (matches bg-ink)
+            vec3 nebulaA   = vec3(0.42, 0.29, 0.56);   // plum
+            vec3 nebulaB   = vec3(0.72, 0.62, 0.91);   // lilac
+            vec3 rose      = vec3(0.91, 0.71, 0.76);   // dusty rose
+            vec3 starWarm  = vec3(0.96, 0.86, 0.78);   // champagne
+
+            // Two-tone nebula mix (plum -> lilac) modulated by polar angle + time
+            float nebMix = 0.5 + 0.5 * sin(angle * 2.0 + t * 0.6);
+            vec3  nebula = mix(nebulaA, nebulaB, nebMix);
+
+            float fade = smoothstep(0.05, 0.65, dist);
+            vec3  color = mix(nebula, deepSpace, fade);
+
+            // Rose ring around mid-radius
+            float ring = smoothstep(0.45, 0.32, abs(radius - 0.40 + 0.04 * sin(t)));
+            color = mix(color, rose, ring * 0.45);
+
+            // Core bloom glow
+            float core = smoothstep(0.16, 0.0, radius);
+            color = mix(color, starWarm, core * 0.85);
+
+            // Twinkling stars
+            float tw = smoothstep(0.985, 0.998, fbm(uv * 9.0 + t * 0.05));
+            color = mix(color, starWarm, tw * (1.0 - core));
+
+            // Slight vignette
+            color *= 1.0 - 0.25 * smoothstep(0.7, 1.4, radius);
+
+            gl_FragColor = vec4(color, 1.0);
+          }
+        `;
+
+        const uniforms = {
+          iTime:       { value: 0 },
+          iResolution: { value: new THREE.Vector2() },
+        };
+        const material = new THREE.ShaderMaterial({ vertexShader, fragmentShader, uniforms });
+        const geometry = new THREE.PlaneGeometry(2, 2);
+        const mesh     = new THREE.Mesh(geometry, material);
+        scene.add(mesh);
+
+        function onResize () {
+          const w = container.clientWidth;
+          const h = container.clientHeight;
+          renderer.setSize(w, h, false);
+          uniforms.iResolution.value.set(w * renderer.getPixelRatio(), h * renderer.getPixelRatio());
+        }
+        window.addEventListener('resize', onResize, { passive: true });
+        onResize();
+
+        if (reducedMotion) {
+          // Render one frame, no animation loop
+          uniforms.iTime.value = 0.5;
+          renderer.render(scene, camera);
+          return;
+        }
+
+        // Pause when section out of view (perf)
+        let inView = true;
+        const obs = new IntersectionObserver(([e]) => { inView = e.isIntersecting; }, { threshold: 0.01 });
+        obs.observe(container);
+
+        renderer.setAnimationLoop(() => {
+          if (!inView) return;
+          uniforms.iTime.value = clock.getElapsedTime();
+          renderer.render(scene, camera);
+        });
+      })();
     })();
   </script>
 </body>
