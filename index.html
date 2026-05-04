@@ -297,6 +297,25 @@
       border-radius: 9999px; filter: blur(1px);
     }
 
+    /* Brand logo fallback (when logo.png missing) */
+    .brand-fallback { display: none; }
+    .brand-fallback:not(.hidden) { display: inline-flex !important; }
+
+    /* Floating contact buttons (bottom-right) */
+    .float-cta {
+      position: fixed; right: 22px; z-index: 50;
+      display: inline-flex; align-items: center; gap: .55rem;
+      padding: 0; width: 56px; height: 56px;
+      border-radius: 9999px;
+      box-shadow: 0 18px 36px -10px rgba(15,10,6,.40), 0 6px 14px -6px rgba(15,10,6,.25);
+      transition: transform 260ms cubic-bezier(.2,.8,.2,1), box-shadow 260ms;
+      will-change: transform;
+    }
+    .float-cta:hover { transform: translateY(-3px) scale(1.04); box-shadow: 0 24px 48px -10px rgba(15,10,6,.50), 0 10px 20px -6px rgba(15,10,6,.30); }
+    .float-cta:focus-visible { outline: 3px solid #B89FE8; outline-offset: 3px; }
+    .float-cta-wa { background:#25D366; color:#FFFFFF; bottom: 22px; }
+    .float-cta-ig { background: linear-gradient(135deg,#FCAF45 0%, #E1306C 50%, #833AB4 100%); color:#FFFFFF; bottom: 88px; }
+
     /* Filter pills */
     .pill {
       display:inline-flex; align-items:center; gap:.5rem;
@@ -356,7 +375,7 @@
     <div class="max-w-[1280px] mx-auto px-6 py-2.5 flex items-center justify-between">
       <span class="opacity-90">Yeni Sezon · Sonbahar 2026</span>
       <span class="hidden sm:inline opacity-70">30 gün iade · Mağazalarda deneme</span>
-      <a href="#" class="link-u opacity-90">Mağazaları bul →</a>
+      <a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer" class="link-u opacity-90">WhatsApp ile iletişim →</a>
     </div>
     <!-- shimmer line -->
     <div class="absolute inset-y-0 -left-1/3 w-1/3 bg-gradient-to-r from-transparent via-lilac/25 to-transparent animate-shimmer pointer-events-none"></div>
@@ -365,9 +384,13 @@
   <!-- ===== Nav ===== -->
   <header class="sticky top-0 z-40 bg-mist/85 backdrop-blur-md border-b border-ink/[.06]">
     <nav class="max-w-[1280px] mx-auto px-6 h-[78px] flex items-center justify-between">
-      <a href="#" class="flex items-center gap-3 group">
-        <span class="logo-mark">A</span>
-        <span class="wordmark">My<span class="arja">Arja</span></span>
+      <a href="#" class="flex items-center gap-3 group" aria-label="My Arja Jeans — anasayfa">
+        <img src="brand_assets/logo.png" alt="My Arja Jeans" class="brand-img h-12 w-auto"
+             onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')"/>
+        <span class="brand-fallback hidden items-center gap-3">
+          <span class="logo-mark">A</span>
+          <span class="wordmark">My<span class="arja">Arja</span></span>
+        </span>
       </a>
 
       <ul class="hidden lg:flex items-center gap-8 text-[14px] text-ink/85">
@@ -375,7 +398,7 @@
         <li><a href="#kategoriler" class="link-u">Kalıplar</a></li>
         <li><a href="#hikaye" class="link-u">Hikayemiz</a></li>
         <li><a href="#yorumlar" class="link-u">Yorumlar</a></li>
-        <li><a href="#" class="link-u">İletişim</a></li>
+        <li><a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer" class="link-u">İletişim</a></li>
       </ul>
 
       <div class="flex items-center gap-1">
@@ -537,19 +560,19 @@
     <div class="marquee-track text-[14px] tracking-[.22em] uppercase">
       <div class="flex shrink-0 items-center gap-12 pr-12">
         <span>Premium Türk Denimi</span><span class="text-lilac">✦</span>
-        <span>Ücretsiz İade · 30 Gün</span><span class="text-rose">✦</span>
+        <span>30 Gün İçinde İade</span><span class="text-rose">✦</span>
         <span>Yeni Sezon — SS26</span><span class="text-lilac">✦</span>
-        <span>El Dokulu Finishing</span><span class="text-rose">✦</span>
-        <span>60+ Mağazada</span><span class="text-lilac">✦</span>
-        <span>Kadın için, Kadından</span><span class="text-rose">✦</span>
+        <span>Hassas İşçilik</span><span class="text-rose">✦</span>
+        <span>74+ Model</span><span class="text-lilac">✦</span>
+        <span>Trendyol'dan Satış</span><span class="text-rose">✦</span>
       </div>
       <div class="flex shrink-0 items-center gap-12 pr-12">
         <span>Premium Türk Denimi</span><span class="text-lilac">✦</span>
-        <span>Ücretsiz İade · 30 Gün</span><span class="text-rose">✦</span>
+        <span>30 Gün İçinde İade</span><span class="text-rose">✦</span>
         <span>Yeni Sezon — SS26</span><span class="text-lilac">✦</span>
-        <span>El Dokulu Finishing</span><span class="text-rose">✦</span>
-        <span>60+ Mağazada</span><span class="text-lilac">✦</span>
-        <span>Kadın için, Kadından</span><span class="text-rose">✦</span>
+        <span>Hassas İşçilik</span><span class="text-rose">✦</span>
+        <span>74+ Model</span><span class="text-lilac">✦</span>
+        <span>Trendyol'dan Satış</span><span class="text-rose">✦</span>
       </div>
     </div>
   </section>
@@ -1927,29 +1950,30 @@
 
     <div class="relative max-w-[1280px] mx-auto px-6 grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
       <div class="lg:col-span-6 order-2 lg:order-1">
-        <p class="eyebrow mb-4" data-reveal><span class="dot"></span>Hikayemiz</p>
+        <p class="eyebrow mb-4" data-reveal><span class="dot"></span>Felsefemiz</p>
         <h2 class="h-display text-[40px] sm:text-[52px] lg:text-[60px]" data-reveal data-reveal-delay="1">
-          Bir kadın için<br/>tasarlanmış,<br/>bir kadın <span class="h-italic">tarafından</span>.
+          Yıllar geçtikçe<br/>sana <span class="h-italic">daha çok</span><br/>yakışan jean.
         </h2>
         <p class="lead mt-7 max-w-[520px]" data-reveal data-reveal-delay="2">
-          Arja, kalıp masasında başladı. Yıllardır var olan, kadın bedenine uymayan jeanlere bir cevap olarak.
-          Her dikiş, her yıkama, her ton — gerçek vücutlarda denenerek geliştirildi.
+          My Arja koleksiyonu, premium denim ve özenle seçilmiş kumaşlarla hazırlanır.
+          Hassas işçilik, doğru kalıp ve modaya yön veren detaylar bir araya gelir —
+          %5 likralı esnek dokumalar, yüksek bel pensli kesimler, palazzo, wide leg ve mom fit
+          alternatifleriyle her vücut tipine bir cevap.
         </p>
-        <div class="mt-9 grid grid-cols-3 gap-6 max-w-[460px]" data-reveal data-reveal-delay="3">
+        <div class="mt-9 grid grid-cols-3 gap-6 max-w-[480px]" data-reveal data-reveal-delay="3">
           <div>
-            <p class="font-display text-[40px] leading-none stat-num" data-count="12480">0</p>
+            <p class="font-display text-[40px] leading-none stat-num" data-count="12480" data-suffix="+">0</p>
             <p class="text-[13px] text-ash mt-1">Mutlu müşteri</p>
           </div>
           <div>
-            <p class="font-display text-[40px] leading-none stat-num" data-count="60">0</p>
-            <p class="text-[13px] text-ash mt-1">Mağaza</p>
+            <p class="font-display text-[40px] leading-none stat-num" data-count="74" data-suffix="+">0</p>
+            <p class="text-[13px] text-ash mt-1">Model</p>
           </div>
           <div>
-            <p class="font-display text-[40px] leading-none stat-num" data-count="14">0</p>
-            <p class="text-[13px] text-ash mt-1">Yıl tecrübe</p>
+            <p class="font-display text-[26px] leading-none mt-2.5">Türk<br/>üretimi</p>
           </div>
         </div>
-        <a href="#" class="btn btn-ghost mt-10" data-reveal data-reveal-delay="4" data-magnetic>Daha fazla oku
+        <a href="#urunler" class="btn btn-ghost mt-10" data-reveal data-reveal-delay="4" data-magnetic>Koleksiyonu Gör
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -1957,21 +1981,12 @@
       <div class="lg:col-span-6 order-1 lg:order-2 relative" data-reveal data-reveal-delay="2">
         <div class="grid grid-cols-2 gap-4">
           <div class="img-treat rounded-2xl aspect-[3/4] shadow-card">
-            <img src="https://images.pexels.com/photos/17083404/pexels-photo-17083404.jpeg?auto=compress&cs=tinysrgb&w=700&h=900&fit=crop&q=85" alt="Atölye"/>
+            <img src="brand_assets/products/1135677448.jpg" alt="Wide Leg Palazzo Jean" loading="lazy"/>
             <div class="tone"></div>
           </div>
           <div class="img-treat rounded-2xl aspect-[3/4] mt-10 shadow-card">
-            <img src="https://images.pexels.com/photos/15291933/pexels-photo-15291933.jpeg?auto=compress&cs=tinysrgb&w=700&h=900&fit=crop&q=85" alt="Detay"/>
+            <img src="brand_assets/products/1132022869.jpg" alt="Yırtmaçlı Yüksek Bel Kot Etek" loading="lazy"/>
             <div class="tone"></div>
-          </div>
-        </div>
-        <div class="absolute -bottom-4 left-4 sm:left-8 glow-card rounded-2xl px-4 py-3 flex items-center gap-3 max-w-[260px]">
-          <span class="w-9 h-9 rounded-xl bg-rose/30 grid place-items-center text-aubergine">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m5 9 7-7 7 7"/></svg>
-          </span>
-          <div class="leading-tight">
-            <p class="text-[12px] text-ash">Sürdürülebilir</p>
-            <p class="text-[14px] font-medium">Düşük su tüketimi</p>
           </div>
         </div>
       </div>
@@ -1990,7 +2005,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
 
         <a href="#" class="cat aspect-[4/5] block group" data-reveal>
-          <img class="pimg w-full h-full object-cover" src="https://images.pexels.com/photos/28765909/pexels-photo-28765909.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Yüksek Bel"/>
+          <img class="pimg w-full h-full object-cover" src="brand_assets/products/1088265687.jpg" alt="Yüksek Bel" loading="lazy"/>
           <div class="absolute inset-0 p-6 flex flex-col justify-end z-10">
             <p class="text-paper/80 text-[12px] uppercase tracking-[.22em] mb-1">01</p>
             <h3 class="font-display text-paper text-[34px] leading-none tracking-tight">Yüksek Bel</h3>
@@ -2002,7 +2017,7 @@
         </a>
 
         <a href="#" class="cat aspect-[4/5] block group" data-reveal data-reveal-delay="1">
-          <img class="pimg w-full h-full object-cover" src="https://images.pexels.com/photos/12812616/pexels-photo-12812616.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Bol Paça"/>
+          <img class="pimg w-full h-full object-cover" src="brand_assets/products/1135677448.jpg" alt="Bol Paça" loading="lazy"/>
           <div class="absolute inset-0 p-6 flex flex-col justify-end z-10">
             <p class="text-paper/80 text-[12px] uppercase tracking-[.22em] mb-1">02</p>
             <h3 class="font-display text-paper text-[34px] leading-none tracking-tight">Bol Paça</h3>
@@ -2014,7 +2029,7 @@
         </a>
 
         <a href="#" class="cat aspect-[4/5] block group" data-reveal data-reveal-delay="2">
-          <img class="pimg w-full h-full object-cover" src="https://images.pexels.com/photos/20835832/pexels-photo-20835832.jpeg?auto=compress&cs=tinysrgb&w=1000&h=1250&fit=crop&q=85" alt="Dar Kesim"/>
+          <img class="pimg w-full h-full object-cover" src="brand_assets/products/1060258232.jpg" alt="Dar Kesim" loading="lazy"/>
           <div class="absolute inset-0 p-6 flex flex-col justify-end z-10">
             <p class="text-paper/80 text-[12px] uppercase tracking-[.22em] mb-1">03</p>
             <h3 class="font-display text-paper text-[34px] leading-none tracking-tight">Dar Kesim</h3>
@@ -2099,57 +2114,43 @@
     </div>
   </section>
 
-  <!-- ===== Newsletter ===== -->
-  <section class="py-20 lg:py-24 bg-mist">
-    <div class="max-w-[1280px] mx-auto px-6">
-      <div class="relative grain rounded-[28px] bg-ink text-paper overflow-hidden px-6 sm:px-12 py-14 lg:py-20" data-reveal>
-        <!-- gradient mesh -->
-        <div class="absolute inset-0 opacity-90 pointer-events-none" style="background:
-          radial-gradient(60% 80% at 90% 20%, rgba(184,159,232,.45) 0%, transparent 60%),
-          radial-gradient(50% 80% at 5% 90%, rgba(232,181,194,.40) 0%, transparent 60%),
-          radial-gradient(40% 60% at 50% 50%, rgba(217,201,242,.20) 0%, transparent 60%);"></div>
-
-        <!-- floating orb -->
-        <div class="orb animate-float" style="width:240px;height:240px;top:-60px;right:-40px;background:radial-gradient(circle, rgba(184,159,232,.6) 0%, transparent 70%);"></div>
-
-        <div class="relative grid lg:grid-cols-2 gap-10 items-center">
-          <div>
-            <p class="eyebrow mb-3 !text-paper/70"><span class="dot"></span>Bülten</p>
-            <h2 class="h-display text-[36px] sm:text-[48px] lg:text-[56px]">Yeni koleksiyon, önce <span class="italic" style="background:linear-gradient(135deg,#B89FE8 0%,#E8B5C2 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent; font-variation-settings:'opsz' 96, 'SOFT' 100;">sana</span>.</h2>
-            <p class="lead mt-5 !text-paper/75 max-w-[460px]">Lansmanlar, özel davetler ve sadece bültene özel %10 indirim.</p>
-          </div>
-          <form class="w-full" onsubmit="event.preventDefault();">
-            <div class="nl-wrap">
-              <input class="nl-input" type="email" placeholder="E-posta adresin" aria-label="E-posta" required />
-              <button class="btn btn-lilac" data-magnetic>Katıl</button>
-            </div>
-            <p class="mt-3 text-[12px] text-paper/55">Mailini kimseyle paylaşmıyoruz. İstediğinde ayrılabilirsin.</p>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- ===== Floating contact CTAs ===== -->
+  <a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer"
+     class="float-cta float-cta-wa" aria-label="WhatsApp ile iletişime geç">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M19.05 4.91A9.82 9.82 0 0 0 12.05 2c-5.45 0-9.89 4.43-9.89 9.88 0 1.74.46 3.44 1.32 4.93L2 22l5.31-1.39a9.86 9.86 0 0 0 4.74 1.21h.01c5.45 0 9.88-4.44 9.88-9.89a9.82 9.82 0 0 0-2.89-7Zm-7 15.21h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.15.83.84-3.07-.2-.32a8.18 8.18 0 0 1-1.26-4.36c0-4.53 3.69-8.21 8.22-8.21 2.2 0 4.26.86 5.81 2.41a8.16 8.16 0 0 1 2.41 5.81c0 4.53-3.69 8.24-8.18 8.24Zm4.5-6.16c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.04-.38-1.97-1.22-.73-.65-1.22-1.45-1.36-1.7-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.16 1.74 2.66 4.22 3.73.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.46-.6 1.66-1.17.21-.58.21-1.07.14-1.17-.06-.1-.22-.16-.47-.28Z"/>
+    </svg>
+  </a>
+  <a href="https://instagram.com/myarjajeans" target="_blank" rel="noopener noreferrer"
+     class="float-cta float-cta-ig" aria-label="Instagram @myarjajeans">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+    </svg>
+  </a>
 
   <!-- ===== Footer ===== -->
   <footer class="bg-ink text-paper">
     <div class="max-w-[1280px] mx-auto px-6 py-16 lg:py-20 grid lg:grid-cols-12 gap-10">
       <div class="lg:col-span-4">
         <div class="flex items-center gap-3">
-          <span class="logo-mark">A</span>
-          <span class="wordmark text-paper">My<span class="arja">Arja</span></span>
+          <img src="brand_assets/logo.png" alt="My Arja Jeans" class="brand-img h-14 w-auto bg-paper rounded-full p-1"
+               onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')"/>
+          <span class="brand-fallback hidden items-center gap-3">
+            <span class="logo-mark">A</span>
+            <span class="wordmark text-paper">My<span class="arja">Arja</span></span>
+          </span>
         </div>
         <p class="mt-5 text-paper/70 max-w-[360px] text-[15px] leading-relaxed">
-          Vücudunu kucaklayan jean. Premium Türk denimi, kadın için tasarlanmış kalıplar.
+          Premium denim ve kumaş pantolon koleksiyonu. Hassas işçilik, doğru kalıp, modaya saygı.
         </p>
         <div class="mt-6 flex items-center gap-2">
-          <a href="#" aria-label="Instagram" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
+          <a href="https://instagram.com/myarjajeans" target="_blank" rel="noopener noreferrer" aria-label="Instagram @myarjajeans" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
           </a>
-          <a href="#" aria-label="TikTok" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v9a4 4 0 1 1-4-4"/><path d="M14 4c.5 2.5 2.5 4.5 5 5"/></svg>
-          </a>
-          <a href="#" aria-label="Pinterest" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M11 8c2 0 3.5 1.3 3.5 3.2 0 1.7-1.1 3.3-2.7 3.3-.7 0-1.4-.4-1.6-.9l-.6 2.5c-.2.7-.7 1.6-1 2.2"/></svg>
+          <a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp 0534 457 75 73" class="w-10 h-10 rounded-full grid place-items-center bg-paper/[.08] hover:bg-gradient-to-br hover:from-lilac hover:to-rose hover:text-ink transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.6-4.6A8.5 8.5 0 1 1 7 19.4L3 21Z"/><path d="M8.5 9.5c.3.9.9 1.8 1.7 2.5.8.7 1.7 1.3 2.7 1.6.4.1.7 0 1-.3l.5-.5c.2-.2.6-.3.9-.1.6.3 1.2.5 1.8.7.3.1.5.4.5.7v1.3c0 .5-.4.9-.9.9-3.6-.1-7-3.5-7.1-7.1 0-.5.4-.9.9-.9h1.3c.3 0 .6.2.7.5.2.6.4 1.2.7 1.8.1.3 0 .7-.1.9l-.6.6c-.3.3-.4.5-.3.8Z"/></svg>
           </a>
         </div>
       </div>
@@ -2168,29 +2169,28 @@
       <div class="lg:col-span-2">
         <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">Marka</h4>
         <ul class="space-y-2.5 text-[15px] text-paper/85">
-          <li><a href="#" class="link-u">Hikayemiz</a></li>
-          <li><a href="#" class="link-u">Mağazalar</a></li>
-          <li><a href="#" class="link-u">Sürdürülebilirlik</a></li>
-          <li><a href="#" class="link-u">Basın</a></li>
+          <li><a href="#hikaye" class="link-u">Felsefemiz</a></li>
+          <li><a href="#yorumlar" class="link-u">Yorumlar</a></li>
+          <li><a href="https://www.trendyol.com/sr?mid=1199692" target="_blank" rel="noopener noreferrer" class="link-u">Trendyol Mağazası</a></li>
         </ul>
       </div>
 
       <div class="lg:col-span-2">
         <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">Yardım</h4>
         <ul class="space-y-2.5 text-[15px] text-paper/85">
-          <li><a href="#" class="link-u">Beden Rehberi</a></li>
-          <li><a href="#" class="link-u">Kargo & İade</a></li>
-          <li><a href="#" class="link-u">SSS</a></li>
-          <li><a href="#" class="link-u">İletişim</a></li>
+          <li><a href="https://www.trendyol.com/sr?mid=1199692" target="_blank" rel="noopener noreferrer" class="link-u">Beden Rehberi</a></li>
+          <li><a href="https://www.trendyol.com/sr?mid=1199692" target="_blank" rel="noopener noreferrer" class="link-u">Kargo & İade</a></li>
+          <li><a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer" class="link-u">SSS</a></li>
+          <li><a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer" class="link-u">İletişim</a></li>
         </ul>
       </div>
 
       <div class="lg:col-span-2">
         <h4 class="text-[12px] uppercase tracking-[.22em] text-paper/60 mb-4">İletişim</h4>
         <ul class="space-y-2.5 text-[15px] text-paper/85">
-          <li>0850 000 00 00</li>
-          <li><a href="mailto:hello@myarja.com" class="link-u">hello@myarja.com</a></li>
-          <li>Pzt–Cmt · 09–18</li>
+          <li><a href="https://wa.me/905344577573" target="_blank" rel="noopener noreferrer" class="link-u">WhatsApp · 0534 457 75 73</a></li>
+          <li><a href="https://instagram.com/myarjajeans" target="_blank" rel="noopener noreferrer" class="link-u">Instagram · @myarjajeans</a></li>
+          <li><a href="https://www.trendyol.com/sr?mid=1199692" target="_blank" rel="noopener noreferrer" class="link-u">Trendyol Mağazası</a></li>
         </ul>
       </div>
     </div>
@@ -2229,10 +2229,11 @@
           const dur = 1600;
           const t0 = performance.now();
           const fmt = new Intl.NumberFormat('tr-TR');
+          const suffix = el.dataset.suffix || '';
           function tick(now) {
             const p = Math.min(1, (now - t0) / dur);
             const eased = 1 - Math.pow(1 - p, 3);
-            el.textContent = fmt.format(Math.floor(target * eased)) + (target >= 1000 ? '+' : (target === 60 ? '+' : (target === 14 ? 'y' : '')));
+            el.textContent = fmt.format(Math.floor(target * eased)) + suffix;
             if (p < 1) requestAnimationFrame(tick);
           }
           requestAnimationFrame(tick);
