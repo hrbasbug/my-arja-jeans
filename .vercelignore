@@ -4,7 +4,9 @@ package-lock.json
 serve.mjs
 screenshot.mjs
 _scrape-trendyol.mjs
+_sync-trendyol-api.mjs
 _build-products.mjs
+.github
 temporary screenshots
 claude.md
 CLAUDE.md

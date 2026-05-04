@@ -1,0 +1,54 @@
+name: Sync Trendyol Products
+
+on:
+  schedule:
+    # Her 4 saatte bir (UTC) — Trendyol fiyatlarını ve stoğu site ile senkronize et
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}   # GitHub UI'dan manuel tetikleme için
+
+permissions:
+  contents: write          # bot'un commit + push yapabilmesi için
+
+concurrency:
+  group: trendyol-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Node 20 kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Trendyol API'den ürünleri çek
+        run: node _sync-trendyol-api.mjs
+        env:
+          TRENDYOL_API_KEY:     ${{ secrets.TRENDYOL_API_KEY }}
+          TRENDYOL_API_SECRET:  ${{ secrets.TRENDYOL_API_SECRET }}
+          TRENDYOL_SUPPLIER_ID: ${{ secrets.TRENDYOL_SUPPLIER_ID }}
+
+      - name: index.html'e ürünleri inject et
+        run: node _build-products.mjs
+
+      - name: Değişiklikleri commit + push
+        run: |
+          git config user.name  "Trendyol Sync Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add brand_assets index.html
+          if git diff --staged --quiet; then
+            echo "✓ No changes — nothing to commit."
+          else
+            files=$(git diff --staged --name-only | wc -l)
+            git commit -m "chore(sync): Trendyol ürünleri güncellendi (${files} dosya)"
+            git push
+            echo "✓ Pushed updates — Vercel will auto-deploy."
+          fi

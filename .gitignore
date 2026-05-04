@@ -6,12 +6,19 @@
 !brand_assets/
 !brand_assets/**
 
+# Otomatik Trendyol sync için gerekli dosyalar
+!.github/
+!.github/**
+!_sync-trendyol-api.mjs
+!_build-products.mjs
+
 # Geliştirme dosyaları (yedek olarak — yıldız desen zaten kapsıyor)
 node_modules/
 package.json
 package-lock.json
 serve.mjs
 screenshot.mjs
+_scrape-trendyol.mjs
 temporary screenshots/
 .vercel/
 _thumbs.html
