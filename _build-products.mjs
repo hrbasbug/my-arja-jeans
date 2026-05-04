@@ -146,6 +146,36 @@ if (startIdx === -1 || endIdx === -1) {
 const before = html.slice(0, startIdx);
 const after = html.slice(endIdx + endMarker.length);
 html = before + SECTION + after;
+
+// --- Static image slots (hero, story, categories) ---
+// We replace src+alt of any <img data-static="<slot>"> with a product from the live data.
+// Pick deterministic candidates so the page is stable across sync runs.
+function pickByCategory(cat, idx = 0) {
+  const matches = PRODUCTS.filter(p => p.localImage && categoryOf(cleanName(p.name)) === cat);
+  return matches[idx % Math.max(1, matches.length)] || PRODUCTS.find(p => p.localImage);
+}
+
+const SLOTS = {
+  'hero':    pickByCategory('jean', 2),
+  'story-1': pickByCategory('bol', 1),
+  'story-2': pickByCategory('jean', 5),
+  'cat-1':   pickByCategory('pantolon', 0),  // Yüksek Bel kategorisi
+  'cat-2':   pickByCategory('bol', 0),       // Bol Paça
+  'cat-3':   pickByCategory('jean', 0),      // Dar Kesim (kullanılır)
+};
+
+let replacedSlots = 0;
+for (const [slot, prod] of Object.entries(SLOTS)) {
+  if (!prod || !prod.localImage) continue;
+  const cleanedName = cleanName(prod.name).slice(0, 100);
+  // Match the img tag carrying data-static="<slot>" and rewrite its src + alt
+  const re = new RegExp(`(<img[^>]*?data-static="${slot}"[^>]*?\\s)src="[^"]*"([^>]*?\\salt=")[^"]*("[^>]*>)`, 'i');
+  const before2 = html;
+  html = html.replace(re, (_m, p1, p2, p3) => `${p1}src="${escapeHtml(prod.localImage)}"${p2}${escapeHtml(cleanedName)}${p3}`);
+  if (html !== before2) replacedSlots++;
+}
+
 fs.writeFileSync(HTML_PATH, html, 'utf8');
 console.log(`✓ Injected ${PRODUCTS.length} products into index.html`);
 console.log(`  Categories:`, Object.fromEntries(catsOrder.map(c => [CAT_LABELS[c], catCounts[c]])));
+console.log(`  Static image slots filled: ${replacedSlots}/${Object.keys(SLOTS).length}`);
