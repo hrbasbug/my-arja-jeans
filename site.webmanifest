@@ -1,0 +1,14 @@
+{
+  "name": "My Arja Jeans",
+  "short_name": "My Arja",
+  "description": "Premium kadın denim ve kumaş pantolon koleksiyonu",
+  "icons": [
+    { "src": "/brand_assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "theme_color": "#1B0F2E",
+  "background_color": "#F5F0F8",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "tr"
+}

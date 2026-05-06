@@ -12,6 +12,11 @@
 !_sync-trendyol-api.mjs
 !_build-products.mjs
 
+# SEO dosyaları
+!sitemap.xml
+!robots.txt
+!site.webmanifest
+
 # Geliştirme dosyaları (yedek olarak — yıldız desen zaten kapsıyor)
 node_modules/
 package.json
