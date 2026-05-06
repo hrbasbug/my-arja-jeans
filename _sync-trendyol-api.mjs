@@ -1,6 +1,13 @@
 /**
  * Trendyol Marketplace API → products.json + lokal görseller senkronizasyonu.
  *
+ * Özellikler:
+ *  - productMainId+Renk dedupe (varyantları gruplar, her renge tek listing)
+ *  - Image URL değişimi tespit edip eski dosyayı silip yeniden indirir
+ *  - Stok=0 ürünleri otomatik gizler
+ *  - Yeni ürün rozeti için isNew flag (önceki sync'te yoktu / son 30 gün içinde yaratıldı)
+ *  - Fiyat değişimi log'u + commit message için .sync-summary.json
+ *
  * GitHub Actions tarafından her 4 saatte bir çalıştırılır.
  * Lokal test:
  *   TRENDYOL_API_KEY=... TRENDYOL_API_SECRET=... TRENDYOL_SUPPLIER_ID=1199692 node _sync-trendyol-api.mjs
@@ -28,9 +35,22 @@ const HEADERS = {
   'Accept':        'application/json',
 };
 
-const IMG_DIR  = path.join(__dirname, 'brand_assets', 'products');
-const META_OUT = path.join(__dirname, 'brand_assets', 'products.json');
+const IMG_DIR     = path.join(__dirname, 'brand_assets', 'products');
+const META_OUT    = path.join(__dirname, 'brand_assets', 'products.json');
+const SUMMARY_OUT = path.join(__dirname, 'brand_assets', '.sync-summary.json');
+const NEW_PRODUCT_DAYS = 30;
+
 if (!fs.existsSync(IMG_DIR)) fs.mkdirSync(IMG_DIR, { recursive: true });
+
+// Read previous products to detect changes
+let previous = {};
+try {
+  const prev = JSON.parse(fs.readFileSync(META_OUT, 'utf8'));
+  previous = Object.fromEntries(prev.map(p => [p.id, p]));
+  console.log(`Loaded ${Object.keys(previous).length} previous products for change detection`);
+} catch {
+  console.log('No previous products.json — first run');
+}
 
 function fetchJson(url) {
   return new Promise((resolve, reject) => {
@@ -80,15 +100,13 @@ async function fetchAllProducts() {
 
 const raw = await fetchAllProducts();
 
-// Filter to only products that should be visible on the public site
-const filtered = raw.filter(p => p.approved && !p.rejected && !p.blacklisted && p.onSale !== false);
-console.log(`\nTotal raw: ${raw.length}, After approval/onSale filter: ${filtered.length}`);
+// Filter: only approved + on-sale + has stock
+const filtered = raw.filter(p =>
+  p.approved && !p.rejected && !p.blacklisted && p.onSale !== false && (p.quantity ?? 0) > 0
+);
+console.log(`\nTotal raw: ${raw.length}, After approval+stock filter: ${filtered.length}`);
 
-// === DEDUPE ===
-// Trendyol API returns one entry per (color × size) variant — e.g. ~519 entries.
-// Public Trendyol mağaza sayfası ise her RENGİ ayrı listing kartı olarak gösterir.
-// Aynı (productMainId + Renk) kombinasyonu tek bir listing → bedenler arasından
-// en yüksek stoklu varyantı temsilci seçeriz (image bedenden bağımsız aynı).
+// Dedupe: aynı (productMainId + Renk) tek listing → en yüksek stoklu varyantı temsilci seç
 function pickColor(p) {
   const attrs = p.attributes || [];
   const ca = attrs.find(a => a.attributeName === 'Renk' && a.attributeValueId);
@@ -113,24 +131,29 @@ for (const p of filtered) {
 }
 const visible = Array.from(byListing.values());
 const mainCount = new Set(filtered.map(p => p.productMainId || p.productCode || p.id)).size;
-console.log(`Deduped: ${filtered.length} variants → ${visible.length} listings (${mainCount} ana model, ortalama ${(visible.length / Math.max(1,mainCount)).toFixed(1)} renk/model)`);
+console.log(`Deduped: ${filtered.length} variants → ${visible.length} listings (${mainCount} ana model)`);
 
-// Transform to existing products.json shape (compatible with _build-products.mjs)
+// Transform to public shape + flag new/changed
+const now = Date.now();
 const out = visible.map(p => {
-  const img = (p.images && p.images[0] && p.images[0].url) || '';
+  const publicId = p.productContentId || p.id;
+  const id = String(publicId);
   let priceStr = null;
   if (p.salePrice && p.listPrice && p.salePrice < p.listPrice) {
     priceStr = `Sepette${fmt(p.salePrice)} TL${fmt(p.listPrice)} TL`;
   } else if (p.salePrice) {
     priceStr = `${fmt(p.salePrice)} TL`;
   }
-  // Trendyol API returns:
-  //   id              -> internal hash (32-char hex, NOT for public URLs)
-  //   productContentId -> public numeric ID used in trendyol.com URLs
-  //   productUrl       -> full public URL (preferred)
-  const publicId = p.productContentId || p.id;
+  const img = (p.images && p.images[0] && p.images[0].url) || '';
+  const prev = previous[id];
+  // "Yeni" if previously absent OR created within last NEW_PRODUCT_DAYS
+  let isNew = !prev;
+  if (!isNew && p.createDateTime) {
+    const ageDays = (now - p.createDateTime) / (1000 * 60 * 60 * 24);
+    if (ageDays < NEW_PRODUCT_DAYS) isNew = true;
+  }
   return {
-    id:        String(publicId),
+    id,
     href:      p.productUrl || `https://www.trendyol.com/-p-${publicId}`,
     name:      (p.title || '').trim(),
     brand:     (p.brand || 'MY ARJA JEANS').trim(),
@@ -140,13 +163,66 @@ const out = visible.map(p => {
     stock:     p.quantity ?? 0,
     image:     img,
     localImage: null,
+    isNew,
+    createdAt: p.createDateTime ?? null,
   };
 });
 
-// Stable sort: in-stock first, then by id (stable across runs)
-out.sort((a, b) => (b.stock - a.stock) || a.id.localeCompare(b.id));
+// Stable sort: in-stock first, then newer first, then by id (deterministic)
+out.sort((a, b) =>
+  (b.stock - a.stock) ||
+  ((b.createdAt || 0) - (a.createdAt || 0)) ||
+  a.id.localeCompare(b.id)
+);
 
-// Download missing images (existing ones are kept — content-addressed by id)
+// === Change detection ===
+const newIds       = [];
+const priceChanges = [];
+const imageChanges = [];
+const removedIds   = [];
+
+for (const oldId of Object.keys(previous)) {
+  if (!out.find(p => p.id === oldId)) removedIds.push(oldId);
+}
+
+for (const p of out) {
+  const prev = previous[p.id];
+  if (!prev) {
+    newIds.push(p.id);
+    continue;
+  }
+  if ((prev.salePrice ?? null) !== (p.salePrice ?? null)) {
+    priceChanges.push({ id: p.id, name: p.name.slice(0, 50), from: prev.salePrice, to: p.salePrice });
+  }
+  if ((prev.image || '') !== (p.image || '')) {
+    imageChanges.push(p.id);
+  }
+}
+
+console.log(`\n=== Changes ===`);
+console.log(`  + Yeni:           ${newIds.length}`);
+console.log(`  - Kaldırılan:     ${removedIds.length}`);
+console.log(`  ₺ Fiyat değişen: ${priceChanges.length}`);
+console.log(`  📷 Görsel değişen: ${imageChanges.length}`);
+if (priceChanges.length) {
+  console.log(`  Fiyat detayları (ilk 8):`);
+  for (const c of priceChanges.slice(0, 8)) {
+    console.log(`    ${c.id}  ${fmt(c.from)} → ${fmt(c.to)} TL  (${c.name})`);
+  }
+}
+
+// Delete local image for products with changed image URL — they will be re-downloaded
+for (const id of imageChanges) {
+  for (const ext of ['jpg', 'jpeg', 'png', 'webp']) {
+    const dest = path.join(IMG_DIR, `${id}.${ext}`);
+    if (fs.existsSync(dest)) {
+      fs.unlinkSync(dest);
+      console.log(`  ↻ removed stale image ${id}.${ext} (URL changed)`);
+    }
+  }
+}
+
+// Download images: new ones + the ones we just deleted because of URL change
 let dl = 0, cached = 0, failed = 0;
 for (const p of out) {
   if (!p.image) continue;
@@ -171,11 +247,11 @@ for (const p of out) {
 }
 console.log(`\nImages: ${dl} new, ${cached} cached, ${failed} failed.`);
 
-// Remove stale local images for products that no longer exist
+// Cleanup stale images for products that no longer exist
 const validIds = new Set(out.map(p => p.id));
 let removed = 0;
 for (const f of fs.readdirSync(IMG_DIR)) {
-  const m = f.match(/^(\d+)\./);
+  const m = f.match(/^([^.]+)\./);
   if (m && !validIds.has(m[1])) {
     fs.unlinkSync(path.join(IMG_DIR, f));
     removed++;
@@ -183,5 +259,17 @@ for (const f of fs.readdirSync(IMG_DIR)) {
 }
 if (removed) console.log(`Cleanup: removed ${removed} stale image(s).`);
 
+// Write outputs
 fs.writeFileSync(META_OUT, JSON.stringify(out, null, 2), 'utf8');
 console.log(`✓ Wrote ${out.length} products to ${META_OUT}`);
+
+const summary = {
+  total:         out.length,
+  newCount:      newIds.length,
+  removedCount:  removedIds.length,
+  priceChanges:  priceChanges.length,
+  imageUpdates:  imageChanges.length,
+  syncedAt:      new Date().toISOString(),
+};
+fs.writeFileSync(SUMMARY_OUT, JSON.stringify(summary, null, 2), 'utf8');
+console.log(`✓ Wrote sync summary to ${SUMMARY_OUT}`);

@@ -67,11 +67,14 @@ const productCards = PRODUCTS.map((p, i) => {
   const { current, original } = parsePrice(p.price);
   const cat = categoryOf(name);
   const img = p.localImage || p.image || '';
+  const newBadge = p.isNew
+    ? `\n            <span class="absolute top-3 left-3 z-10 bg-gradient-to-br from-lilac to-rose text-ink text-[11px] uppercase tracking-[.18em] px-2.5 py-1 rounded-full font-medium shadow-card">Yeni</span>`
+    : '';
   return `        <a href="${escapeHtml(p.href)}" target="_blank" rel="noopener noreferrer"
           class="product group block" data-cat="${cat}" data-reveal>
           <div class="img-treat rounded-2xl aspect-[4/5] bg-haze">
             <img class="pimg" loading="lazy" decoding="async" src="${escapeHtml(img)}" alt="${escapeHtml(name)}"/>
-            <div class="tone"></div>
+            <div class="tone"></div>${newBadge}
           </div>
           <div class="mt-3">
             <p class="text-[10px] uppercase tracking-[.22em] text-ash">My Arja</p>

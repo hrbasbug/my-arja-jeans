@@ -47,8 +47,16 @@ jobs:
           if git diff --staged --quiet; then
             echo "✓ No changes — nothing to commit."
           else
-            files=$(git diff --staged --name-only | wc -l)
-            git commit -m "chore(sync): Trendyol ürünleri güncellendi (${files} dosya)"
+            MSG="chore(sync): Trendyol senkronizasyon"
+            if [ -f brand_assets/.sync-summary.json ]; then
+              TOTAL=$(jq -r .total brand_assets/.sync-summary.json)
+              NEW=$(jq -r .newCount brand_assets/.sync-summary.json)
+              REMOVED=$(jq -r .removedCount brand_assets/.sync-summary.json)
+              PRICE=$(jq -r .priceChanges brand_assets/.sync-summary.json)
+              IMG=$(jq -r .imageUpdates brand_assets/.sync-summary.json)
+              MSG="chore(sync): ${TOTAL} ürün — yeni:${NEW} kaldırılan:${REMOVED} fiyat:${PRICE} görsel:${IMG}"
+            fi
+            git commit -m "$MSG"
             git push
             echo "✓ Pushed updates — Vercel will auto-deploy."
           fi
