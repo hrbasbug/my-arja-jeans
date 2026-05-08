@@ -206,7 +206,7 @@
     "stock": 1500,
     "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/18/6706361a-a2fa-32ce-a24e-f2d8dbdb87b5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130442113.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1775666182000
   },
   {
@@ -658,6 +658,20 @@
     "createdAt": 1775633136000
   },
   {
+    "id": "1066171806",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1066171806?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.430,00 TL",
+    "salePrice": 1430,
+    "listPrice": 1430,
+    "stock": 4,
+    "image": "https://cdn.dsmcdn.com/ty1857/prod/QC_ENRICHMENT/20260422/10/ccf13d7d-a0f7-3768-b04b-b8f03bf50f3f/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1066171806.jpg",
+    "isNew": false,
+    "createdAt": 1765607107000
+  },
+  {
     "id": "1136283709",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1136283709?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
@@ -908,19 +922,5 @@
     "localImage": "brand_assets/products/1067937771.jpg",
     "isNew": false,
     "createdAt": 1765827523000
-  },
-  {
-    "id": "1066171806",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1066171806?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.430,00 TL",
-    "salePrice": 1430,
-    "listPrice": 1430,
-    "stock": 1,
-    "image": "https://cdn.dsmcdn.com/ty1857/prod/QC_ENRICHMENT/20260422/10/ccf13d7d-a0f7-3768-b04b-b8f03bf50f3f/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1066171806.jpg",
-    "isNew": false,
-    "createdAt": 1765607468000
   }
 ]
