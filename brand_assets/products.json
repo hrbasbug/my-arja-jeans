@@ -210,20 +210,6 @@
     "createdAt": 1764750544000
   },
   {
-    "id": "1060308179",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060308179?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.375,00 TL",
-    "salePrice": 1375,
-    "listPrice": 1375,
-    "stock": 1500,
-    "image": "https://cdn.dsmcdn.com/ty1861/prod/QC_ENRICHMENT/20260427/10/c26b4b79-e707-3196-a755-54c05a71c597/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060308179.jpg",
-    "isNew": false,
-    "createdAt": 1764748234000
-  },
-  {
     "id": "1060323534",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060323534?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -236,6 +222,20 @@
     "localImage": "brand_assets/products/1060323534.jpg",
     "isNew": false,
     "createdAt": 1764749924000
+  },
+  {
+    "id": "1060308179",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060308179?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.375,00 TL",
+    "salePrice": 1375,
+    "listPrice": 1375,
+    "stock": 1499,
+    "image": "https://cdn.dsmcdn.com/ty1861/prod/QC_ENRICHMENT/20260427/10/c26b4b79-e707-3196-a755-54c05a71c597/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060308179.jpg",
+    "isNew": false,
+    "createdAt": 1764748509000
   },
   {
     "id": "1060258232",
