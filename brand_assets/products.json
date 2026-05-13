@@ -53,7 +53,7 @@
     "image": "https://cdn.dsmcdn.com/ty1857/prod/QC_PREP/20260422/15/33752381-c828-32c5-aa38-40ad32e9c1fe/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136448529.jpg",
     "isNew": true,
-    "createdAt": 1776860698000
+    "createdAt": 1776860628000
   },
   {
     "id": "1136446112",
@@ -448,20 +448,6 @@
     "createdAt": 1775975088000
   },
   {
-    "id": "1130183919",
-    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183919?merchantId=1199692&filterOverPriceListings=false",
-    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
-    "brand": "MY ARJA JEANS",
-    "price": "1.400,00 TL",
-    "salePrice": 1400,
-    "listPrice": 1400,
-    "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1938/prod/QC_ENRICHMENT/20260428/12/2ac45975-e73a-30d4-ab6b-86d2a87e7d44/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130183919.jpg",
-    "isNew": false,
-    "createdAt": 1775633257000
-  },
-  {
     "id": "1136283712",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1136283712?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
@@ -502,6 +488,20 @@
     "localImage": "brand_assets/products/1130220834.jpg",
     "isNew": false,
     "createdAt": 1775641230000
+  },
+  {
+    "id": "1130183919",
+    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183919?merchantId=1199692&filterOverPriceListings=false",
+    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
+    "brand": "MY ARJA JEANS",
+    "price": "1.400,00 TL",
+    "salePrice": 1400,
+    "listPrice": 1400,
+    "stock": 4,
+    "image": "https://cdn.dsmcdn.com/ty1938/prod/QC_ENRICHMENT/20260428/12/2ac45975-e73a-30d4-ab6b-86d2a87e7d44/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1130183919.jpg",
+    "isNew": false,
+    "createdAt": 1775633476000
   },
   {
     "id": "1130183699",
@@ -576,7 +576,7 @@
   {
     "id": "1137384596",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1137384596?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kad��n İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
+    "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
     "brand": "MY ARJA JEANS",
     "price": "1.430,00 TL",
     "salePrice": 1430,
