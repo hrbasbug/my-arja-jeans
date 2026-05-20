@@ -196,20 +196,6 @@
     "createdAt": 1765017793000
   },
   {
-    "id": "1060323534",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060323534?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
-    "brand": "MY ARJA JEANS",
-    "price": "1.375,00 TL",
-    "salePrice": 1375,
-    "listPrice": 1375,
-    "stock": 1499,
-    "image": "https://cdn.dsmcdn.com/ty1862/prod/QC_ENRICHMENT/20260427/10/4f62b7ba-c714-3dd8-a008-faea14eca5e0/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060323534.jpg",
-    "isNew": false,
-    "createdAt": 1764749857000
-  },
-  {
     "id": "1060328155",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060328155?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -222,6 +208,20 @@
     "localImage": "brand_assets/products/1060328155.jpg",
     "isNew": false,
     "createdAt": 1764750624000
+  },
+  {
+    "id": "1060323534",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060323534?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
+    "brand": "MY ARJA JEANS",
+    "price": "1.375,00 TL",
+    "salePrice": 1375,
+    "listPrice": 1375,
+    "stock": 1498,
+    "image": "https://cdn.dsmcdn.com/ty1862/prod/QC_ENRICHMENT/20260427/10/4f62b7ba-c714-3dd8-a008-faea14eca5e0/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060323534.jpg",
+    "isNew": false,
+    "createdAt": 1764749857000
   },
   {
     "id": "1060308179",
@@ -304,7 +304,7 @@
     "stock": 6,
     "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260505/19/945476f2-9120-3990-a8ff-1d65ae547ef9/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527363.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1776668210000
   },
   {
@@ -490,20 +490,6 @@
     "createdAt": 1775641230000
   },
   {
-    "id": "1130183919",
-    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183919?merchantId=1199692&filterOverPriceListings=false",
-    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
-    "brand": "MY ARJA JEANS",
-    "price": "1.400,00 TL",
-    "salePrice": 1400,
-    "listPrice": 1400,
-    "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1938/prod/QC_ENRICHMENT/20260428/12/2ac45975-e73a-30d4-ab6b-86d2a87e7d44/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130183919.jpg",
-    "isNew": false,
-    "createdAt": 1775633476000
-  },
-  {
     "id": "1130183699",
     "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183699?merchantId=1199692&filterOverPriceListings=false",
     "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
@@ -626,7 +612,7 @@
     "stock": 3,
     "image": "https://cdn.dsmcdn.com/ty1909/prod/QC_ENRICHMENT/20260507/09/483fe9cb-599e-37fd-b0d2-6c5f1f0f79fb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527359.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1776668602000
   },
   {
@@ -670,6 +656,20 @@
     "localImage": "brand_assets/products/1130220819.jpg",
     "isNew": false,
     "createdAt": 1775641275000
+  },
+  {
+    "id": "1130183919",
+    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183919?merchantId=1199692&filterOverPriceListings=false",
+    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
+    "brand": "MY ARJA JEANS",
+    "price": "1.400,00 TL",
+    "salePrice": 1400,
+    "listPrice": 1400,
+    "stock": 3,
+    "image": "https://cdn.dsmcdn.com/ty1938/prod/QC_ENRICHMENT/20260428/12/2ac45975-e73a-30d4-ab6b-86d2a87e7d44/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1130183919.jpg",
+    "isNew": false,
+    "createdAt": 1775633476000
   },
   {
     "id": "1061029308",
