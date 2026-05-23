@@ -182,20 +182,6 @@
     "createdAt": 1764748509000
   },
   {
-    "id": "1060258232",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060258232?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.375,00 TL",
-    "salePrice": 1375,
-    "listPrice": 1375,
-    "stock": 14,
-    "image": "https://cdn.dsmcdn.com/ty1932/prod/QC_ENRICHMENT/20260521/13/8e292b9c-26e1-330a-846b-7a191ab55ca4/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060258232.jpg",
-    "isNew": false,
-    "createdAt": 1764746509000
-  },
-  {
     "id": "1132022869",
     "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1132022869?merchantId=1199692&filterOverPriceListings=false",
     "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
@@ -203,11 +189,25 @@
     "price": "1.400,00 TL",
     "salePrice": 1400,
     "listPrice": 1400,
-    "stock": 11,
+    "stock": 16,
     "image": "https://cdn.dsmcdn.com/ty1903/prod/QC_ENRICHMENT/20260520/18/c5ad7496-1edb-389f-a775-1f055428bb17/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1132022869.jpg",
     "isNew": false,
     "createdAt": 1775975088000
+  },
+  {
+    "id": "1060258232",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060258232?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.375,00 TL",
+    "salePrice": 1375,
+    "listPrice": 1375,
+    "stock": 15,
+    "image": "https://cdn.dsmcdn.com/ty1932/prod/QC_ENRICHMENT/20260521/13/8e292b9c-26e1-330a-846b-7a191ab55ca4/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060258232.jpg",
+    "isNew": false,
+    "createdAt": 1764749181000
   },
   {
     "id": "1139601707",
@@ -222,6 +222,20 @@
     "localImage": "brand_assets/products/1139601707.jpg",
     "isNew": true,
     "createdAt": 1777386421000
+  },
+  {
+    "id": "1130183741",
+    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183741?merchantId=1199692&filterOverPriceListings=false",
+    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
+    "brand": "MY ARJA JEANS",
+    "price": "1.400,00 TL",
+    "salePrice": 1400,
+    "listPrice": 1400,
+    "stock": 8,
+    "image": "https://cdn.dsmcdn.com/ty1913/prod/QC_ENRICHMENT/20260519/18/50847c88-4f7b-3ff8-b07e-5b92c8750349/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1130183741.jpg",
+    "isNew": false,
+    "createdAt": 1775633207000
   },
   {
     "id": "1135527363",
@@ -252,6 +266,34 @@
     "createdAt": 1776161098000
   },
   {
+    "id": "1130183919",
+    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183919?merchantId=1199692&filterOverPriceListings=false",
+    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
+    "brand": "MY ARJA JEANS",
+    "price": "1.400,00 TL",
+    "salePrice": 1400,
+    "listPrice": 1400,
+    "stock": 6,
+    "image": "https://cdn.dsmcdn.com/ty1913/prod/QC_ENRICHMENT/20260520/19/8d155ae7-0d41-3565-8562-f32e2b6a08e4/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1130183919.jpg",
+    "isNew": false,
+    "createdAt": 1775633476000
+  },
+  {
+    "id": "1130183699",
+    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183699?merchantId=1199692&filterOverPriceListings=false",
+    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
+    "brand": "MY ARJA JEANS",
+    "price": "1.400,00 TL",
+    "salePrice": 1400,
+    "listPrice": 1400,
+    "stock": 6,
+    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_ENRICHMENT/20260520/19/e8a2e06a-ae62-3be1-8b9f-632d706677fb/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1130183699.jpg",
+    "isNew": false,
+    "createdAt": 1775633136000
+  },
+  {
     "id": "1088265687",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-beyaz-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1088265687?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli BEYAZ ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -263,7 +305,7 @@
     "image": "https://cdn.dsmcdn.com/ty1901/prod/QC_ENRICHMENT/20260521/13/7bca5750-d0c2-34f7-871d-8a434f1238a3/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1088265687.jpg",
     "isNew": false,
-    "createdAt": 1768857903000
+    "createdAt": 1768858270000
   },
   {
     "id": "1066241233",
@@ -375,7 +417,7 @@
     "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260507/09/8e0bc67c-8f50-3107-a87a-4c6d71d9a460/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136086577.jpg",
     "isNew": false,
-    "createdAt": 1776775547000
+    "createdAt": 1776775753000
   },
   {
     "id": "1133002848",
@@ -390,20 +432,6 @@
     "localImage": "brand_assets/products/1133002848.jpg",
     "isNew": false,
     "createdAt": 1776152778000
-  },
-  {
-    "id": "1130183741",
-    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183741?merchantId=1199692&filterOverPriceListings=false",
-    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
-    "brand": "MY ARJA JEANS",
-    "price": "1.400,00 TL",
-    "salePrice": 1400,
-    "listPrice": 1400,
-    "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1913/prod/QC_ENRICHMENT/20260519/18/50847c88-4f7b-3ff8-b07e-5b92c8750349/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130183741.jpg",
-    "isNew": false,
-    "createdAt": 1775633207000
   },
   {
     "id": "1067934758",
@@ -570,7 +598,7 @@
     "stock": 3,
     "image": "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/17/76344c20-383b-362b-8173-c6bc77bdb5a0/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1137384596.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1776955045000
   },
   {
@@ -658,34 +686,6 @@
     "createdAt": 1775641275000
   },
   {
-    "id": "1130183919",
-    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183919?merchantId=1199692&filterOverPriceListings=false",
-    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
-    "brand": "MY ARJA JEANS",
-    "price": "1.400,00 TL",
-    "salePrice": 1400,
-    "listPrice": 1400,
-    "stock": 3,
-    "image": "https://cdn.dsmcdn.com/ty1913/prod/QC_ENRICHMENT/20260520/19/8d155ae7-0d41-3565-8562-f32e2b6a08e4/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130183919.jpg",
-    "isNew": false,
-    "createdAt": 1775633476000
-  },
-  {
-    "id": "1130183699",
-    "href": "https://www.trendyol.com/my-arja-jeans/denim-kadin-arkadan-yirtmac-li-yu-ksek-bel-kot-etek-p-1130183699?merchantId=1199692&filterOverPriceListings=false",
-    "name": "denim kadın arkadan yırtmaçlı Yüksek Bel Kot Etek",
-    "brand": "MY ARJA JEANS",
-    "price": "1.400,00 TL",
-    "salePrice": 1400,
-    "listPrice": 1400,
-    "stock": 3,
-    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_ENRICHMENT/20260520/19/e8a2e06a-ae62-3be1-8b9f-632d706677fb/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130183699.jpg",
-    "isNew": false,
-    "createdAt": 1775633136000
-  },
-  {
     "id": "1061029308",
     "href": "https://www.trendyol.com/my-arja-jeans/yeni-sezon-yu-ksek-bel-toparlayici-li-krali-ski-nny-jeans-kadin-p-1061029308?merchantId=1199692&filterOverPriceListings=false",
     "name": "//YENİ SEZON//YÜKSEK BEL//TOPARLAYICI//LİKRALI//SKİNNY JEANS//KADIN",
@@ -726,6 +726,20 @@
     "localImage": "brand_assets/products/1140843765.jpg",
     "isNew": true,
     "createdAt": 1777632517000
+  },
+  {
+    "id": "1140843766",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843766?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 2,
+    "image": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260501/13/1c180c91-6e6a-30bd-9714-ef3517cfe44a/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1140843766.jpg",
+    "isNew": true,
+    "createdAt": 1777632393000
   },
   {
     "id": "1137425021",
@@ -810,20 +824,6 @@
     "localImage": "brand_assets/products/1062158894.jpg",
     "isNew": false,
     "createdAt": 1765017762000
-  },
-  {
-    "id": "1140843766",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843766?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 1,
-    "image": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260501/13/1c180c91-6e6a-30bd-9714-ef3517cfe44a/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1140843766.jpg",
-    "isNew": true,
-    "createdAt": 1777632608000
   },
   {
     "id": "1139637862",
