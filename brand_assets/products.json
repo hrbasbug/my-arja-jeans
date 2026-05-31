@@ -724,7 +724,7 @@
     "stock": 2,
     "image": "https://cdn.dsmcdn.com/ty1922/prod/QC_PREP/20260501/13/e2ef16d2-3be2-381e-8842-7c5e96476d92/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1140843765.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1777632517000
   },
   {
@@ -738,7 +738,7 @@
     "stock": 2,
     "image": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260501/13/1c180c91-6e6a-30bd-9714-ef3517cfe44a/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1140843766.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1777632393000
   },
   {
