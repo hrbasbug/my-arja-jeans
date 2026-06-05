@@ -406,20 +406,6 @@
     "createdAt": 1776860011000
   },
   {
-    "id": "1136086577",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1136086577?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
-    "brand": "MY ARJA JEANS",
-    "price": "1.460,00 TL",
-    "salePrice": 1460,
-    "listPrice": 1460,
-    "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260507/09/8e0bc67c-8f50-3107-a87a-4c6d71d9a460/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1136086577.jpg",
-    "isNew": false,
-    "createdAt": 1776775547000
-  },
-  {
     "id": "1133002848",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-boyfriend-deni-m-kot-pantolon-yu-ksek-bel-salas-rahat-kesim-p-1133002848?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Boyfriend DENİM Kot Pantolon Yüksek Bel Salaş Rahat Kesim",
@@ -502,6 +488,20 @@
     "localImage": "brand_assets/products/1136283712.jpg",
     "isNew": false,
     "createdAt": 1776843332000
+  },
+  {
+    "id": "1136086577",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1136086577?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
+    "brand": "MY ARJA JEANS",
+    "price": "1.460,00 TL",
+    "salePrice": 1460,
+    "listPrice": 1460,
+    "stock": 4,
+    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260507/09/8e0bc67c-8f50-3107-a87a-4c6d71d9a460/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1136086577.jpg",
+    "isNew": false,
+    "createdAt": 1776775547000
   },
   {
     "id": "1134831949",
