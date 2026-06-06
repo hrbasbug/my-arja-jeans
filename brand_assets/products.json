@@ -189,7 +189,7 @@
     "price": "1.400,00 TL",
     "salePrice": 1400,
     "listPrice": 1400,
-    "stock": 20,
+    "stock": 19,
     "image": "https://cdn.dsmcdn.com/ty1903/prod/QC_ENRICHMENT/20260520/18/c5ad7496-1edb-389f-a775-1f055428bb17/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1132022869.jpg",
     "isNew": false,
@@ -263,7 +263,7 @@
     "image": "https://cdn.dsmcdn.com/ty1914/prod/QC_ENRICHMENT/20260521/13/764e753a-0d58-3847-9f9f-251aa6540232/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139341140.jpg",
     "isNew": false,
-    "createdAt": 1777366455000
+    "createdAt": 1777366278000
   },
   {
     "id": "1135527363",
@@ -444,7 +444,7 @@
     "stock": 4,
     "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_PREP/20260507/19/8fdc35c0-88da-3439-be9b-bfb64a608337/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143062869.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1778171371000
   },
   {
