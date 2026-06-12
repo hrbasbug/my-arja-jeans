@@ -273,7 +273,7 @@
     "price": "1.400,00 TL",
     "salePrice": 1400,
     "listPrice": 1400,
-    "stock": 16,
+    "stock": 15,
     "image": "https://cdn.dsmcdn.com/ty1913/prod/QC_ENRICHMENT/20260519/18/50847c88-4f7b-3ff8-b07e-5b92c8750349/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130183741.jpg",
     "isNew": false,
@@ -728,20 +728,6 @@
     "createdAt": 1777632517000
   },
   {
-    "id": "1140843766",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843766?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 2,
-    "image": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260501/13/1c180c91-6e6a-30bd-9714-ef3517cfe44a/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1140843766.jpg",
-    "isNew": false,
-    "createdAt": 1777632393000
-  },
-  {
     "id": "1137425021",
     "href": "https://www.trendyol.com/my-arja-jeans/yeni-sezon-yu-ksek-bel-toparlayici-li-krali-ski-nny-jeans-kadin-p-1137425021?merchantId=1199692&filterOverPriceListings=false",
     "name": "//YENİ SEZON//YÜKSEK BEL//TOPARLAYICI//LİKRALI//SKİNNY JEANS//KADIN",
@@ -824,6 +810,20 @@
     "localImage": "brand_assets/products/1062158894.jpg",
     "isNew": false,
     "createdAt": 1765017762000
+  },
+  {
+    "id": "1140843766",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843766?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 1,
+    "image": "https://cdn.dsmcdn.com/ty1897/prod/QC_PREP/20260501/13/1c180c91-6e6a-30bd-9714-ef3517cfe44a/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1140843766.jpg",
+    "isNew": false,
+    "createdAt": 1777632532000
   },
   {
     "id": "1139637862",
