@@ -259,7 +259,7 @@
     "price": "1.400,00 TL",
     "salePrice": 1400,
     "listPrice": 1400,
-    "stock": 17,
+    "stock": 16,
     "image": "https://cdn.dsmcdn.com/ty1913/prod/QC_ENRICHMENT/20260520/19/8d155ae7-0d41-3565-8562-f32e2b6a08e4/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130183919.jpg",
     "isNew": false,
@@ -532,20 +532,6 @@
     "createdAt": 1776924649000
   },
   {
-    "id": "1135677448",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1135677448?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
-    "brand": "MY ARJA JEANS",
-    "price": "1.460,00 TL",
-    "salePrice": 1460,
-    "listPrice": 1460,
-    "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260506/13/58ab9310-6bcd-357c-9341-4548371b5d21/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1135677448.jpg",
-    "isNew": false,
-    "createdAt": 1776775403000
-  },
-  {
     "id": "1130220834",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-havuc-pac-a-pileli-kemerli-mevsimlik-kumas-pantolon-p-1130220834?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın HAVUÇ Paça Pileli Kemerli Mevsimlik Kumaş Pantolon",
@@ -642,6 +628,20 @@
     "localImage": "brand_assets/products/1136283709.jpg",
     "isNew": false,
     "createdAt": 1776843131000
+  },
+  {
+    "id": "1135677448",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1135677448?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
+    "brand": "MY ARJA JEANS",
+    "price": "1.460,00 TL",
+    "salePrice": 1460,
+    "listPrice": 1460,
+    "stock": 3,
+    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260506/13/58ab9310-6bcd-357c-9341-4548371b5d21/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1135677448.jpg",
+    "isNew": false,
+    "createdAt": 1776775851000
   },
   {
     "id": "1135943313",
