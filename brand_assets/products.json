@@ -140,20 +140,6 @@
     "createdAt": 1768858270000
   },
   {
-    "id": "1060328155",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060328155?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
-    "brand": "MY ARJA JEANS",
-    "price": "1.375,00 TL",
-    "salePrice": 1375,
-    "listPrice": 1375,
-    "stock": 200,
-    "image": "https://cdn.dsmcdn.com/ty1922/prod/QC_ENRICHMENT/20260521/13/adf39af6-38ce-3b1a-9bf2-63f1bec5f6ef/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060328155.jpg",
-    "isNew": false,
-    "createdAt": 1764750709000
-  },
-  {
     "id": "1060323534",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060323534?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -166,6 +152,20 @@
     "localImage": "brand_assets/products/1060323534.jpg",
     "isNew": false,
     "createdAt": 1764749924000
+  },
+  {
+    "id": "1060328155",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060328155?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
+    "brand": "MY ARJA JEANS",
+    "price": "1.375,00 TL",
+    "salePrice": 1375,
+    "listPrice": 1375,
+    "stock": 199,
+    "image": "https://cdn.dsmcdn.com/ty1922/prod/QC_ENRICHMENT/20260521/13/adf39af6-38ce-3b1a-9bf2-63f1bec5f6ef/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060328155.jpg",
+    "isNew": false,
+    "createdAt": 1764750709000
   },
   {
     "id": "1060308179",
@@ -641,7 +641,7 @@
     "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260506/13/58ab9310-6bcd-357c-9341-4548371b5d21/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135677448.jpg",
     "isNew": false,
-    "createdAt": 1776775759000
+    "createdAt": 1776775235000
   },
   {
     "id": "1135943313",
