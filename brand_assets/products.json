@@ -189,11 +189,11 @@
     "price": "1.400,00 TL",
     "salePrice": 1400,
     "listPrice": 1400,
-    "stock": 28,
+    "stock": 27,
     "image": "https://cdn.dsmcdn.com/ty1932/prod/QC_ENRICHMENT/20260521/13/8e292b9c-26e1-330a-846b-7a191ab55ca4/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060258232.jpg",
     "isNew": false,
-    "createdAt": 1764746509000
+    "createdAt": 1764746663000
   },
   {
     "id": "1130183699",
