@@ -630,20 +630,6 @@
     "createdAt": 1776843131000
   },
   {
-    "id": "1135677448",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1135677448?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
-    "brand": "MY ARJA JEANS",
-    "price": "1.460,00 TL",
-    "salePrice": 1460,
-    "listPrice": 1460,
-    "stock": 3,
-    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260506/13/58ab9310-6bcd-357c-9341-4548371b5d21/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1135677448.jpg",
-    "isNew": false,
-    "createdAt": 1776775235000
-  },
-  {
     "id": "1135943313",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1135943313?merchantId=1199692&filterOverPriceListings=false",
     "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
@@ -754,6 +740,20 @@
     "localImage": "brand_assets/products/1137426924.jpg",
     "isNew": false,
     "createdAt": 1776960196000
+  },
+  {
+    "id": "1135677448",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1135677448?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
+    "brand": "MY ARJA JEANS",
+    "price": "1.460,00 TL",
+    "salePrice": 1460,
+    "listPrice": 1460,
+    "stock": 2,
+    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260506/13/58ab9310-6bcd-357c-9341-4548371b5d21/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1135677448.jpg",
+    "isNew": false,
+    "createdAt": 1776775851000
   },
   {
     "id": "1133002792",
