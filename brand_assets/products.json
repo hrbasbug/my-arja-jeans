@@ -406,6 +406,20 @@
     "createdAt": 1776843332000
   },
   {
+    "id": "1136086577",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1136086577?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
+    "brand": "MY ARJA JEANS",
+    "price": "1.460,00 TL",
+    "salePrice": 1460,
+    "listPrice": 1460,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260507/09/8e0bc67c-8f50-3107-a87a-4c6d71d9a460/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1136086577.jpg",
+    "isNew": false,
+    "createdAt": 1776775547000
+  },
+  {
     "id": "1135527359",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksel-bel-boyfriend-denim-pantolon-p-1135527359?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksel Bel Boyfriend Denim Pantolon",
@@ -502,20 +516,6 @@
     "localImage": "brand_assets/products/1136866752.jpg",
     "isNew": false,
     "createdAt": 1776924649000
-  },
-  {
-    "id": "1136086577",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1136086577?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
-    "brand": "MY ARJA JEANS",
-    "price": "1.460,00 TL",
-    "salePrice": 1460,
-    "listPrice": 1460,
-    "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260507/09/8e0bc67c-8f50-3107-a87a-4c6d71d9a460/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1136086577.jpg",
-    "isNew": false,
-    "createdAt": 1776775675000
   },
   {
     "id": "1134831949",
@@ -655,7 +655,7 @@
     "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_ENRICHMENT/20260506/16/bc7a771f-f7ac-3058-b388-7bf96e48d1f5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135943313.jpg",
     "isNew": false,
-    "createdAt": 1776755454000
+    "createdAt": 1776755277000
   },
   {
     "id": "1130220822",
