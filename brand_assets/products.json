@@ -442,7 +442,7 @@
     "salePrice": 1600,
     "listPrice": 1600,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/20/ef1b7e24-a4a2-3157-a073-197f73ec231c/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/23/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
     "createdAt": 1777387743000
@@ -456,7 +456,7 @@
     "salePrice": 1600,
     "listPrice": 1600,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/20/69ce5110-e7e9-397b-8e1b-2a8c728f31bd/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/23/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
     "createdAt": 1777386440000
@@ -472,7 +472,7 @@
     "stock": 5000,
     "image": "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/12/c1e7faff-b1d9-33b4-809b-0b65af2602b4/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1131200352.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1775812620000
   },
   {
@@ -486,7 +486,7 @@
     "stock": 5000,
     "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/a3274212-07ba-339a-8dc5-625e6b4b89c0/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130731430.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1775733519000
   },
   {
@@ -500,7 +500,7 @@
     "stock": 5000,
     "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/ca3e0430-8daf-3989-8200-b91bd4a89071/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130730971.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1775733293000
   },
   {
@@ -514,7 +514,7 @@
     "stock": 5000,
     "image": "https://cdn.dsmcdn.com/ty1806/prod/QC_PREP/20260107/20/4ff37b20-fbea-3602-8869-4221747b2a47/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130224987.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1775642550000
   },
   {
@@ -542,7 +542,7 @@
     "stock": 5000,
     "image": "https://cdn.dsmcdn.com/ty1796/prod/QC_PREP/20251203/09/6f1e306e-c035-34bb-bcd7-6c7ff84ab0c9/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060203457.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1764745527000
   },
   {
@@ -654,7 +654,7 @@
     "stock": 50,
     "image": "https://cdn.dsmcdn.com/ty1917/prod/QC_PREP/20260501/13/6d963192-17e5-3c2b-b36d-8670ec3356fc/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1140843831.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1777632662000
   },
   {
@@ -694,7 +694,7 @@
     "salePrice": 1600,
     "listPrice": 1600,
     "stock": 50,
-    "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/20/9d406748-f9f7-3164-8e00-bdf7f4e4ba92/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1965/prod/QC_ENRICHMENT/20260928/23/c4527e18-1581-3e94-ad6d-da3497f06f23/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601707.jpg",
     "isNew": false,
     "createdAt": 1777386421000
@@ -708,7 +708,7 @@
     "salePrice": 1600,
     "listPrice": 1600,
     "stock": 50,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/20/f2eda1c0-065c-3aad-b6de-cbbf8dd6cafc/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/23/786a6932-bc68-37f0-ac4f-45a8d36a2031/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139600395.jpg",
     "isNew": false,
     "createdAt": 1777386058000
@@ -864,7 +864,7 @@
     "stock": 4,
     "image": "https://cdn.dsmcdn.com/ty1857/prod/QC_ENRICHMENT/20260422/10/8ca6063d-3ef0-3716-9d1c-ccebc5ec3c81/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1066171806.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1765607107000
   },
   {
