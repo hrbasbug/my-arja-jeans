@@ -826,6 +826,20 @@
     "createdAt": 1765620519000
   },
   {
+    "id": "1130220822",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-havuc-pac-a-pileli-kemerli-mevsimlik-kumas-pantolon-p-1130220822?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın HAVUÇ Paça Pileli Kemerli Mevsimlik Kumaş Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.369,99 TL",
+    "salePrice": 1369.99,
+    "listPrice": 1369.99,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty1860/prod/QC_ENRICHMENT/20260427/14/d0846e10-b7b2-34ba-b4c3-24b47c8b1c23/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1130220822.jpg",
+    "isNew": false,
+    "createdAt": 1775641350000
+  },
+  {
     "id": "1136283709",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1136283709?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
@@ -908,20 +922,6 @@
     "localImage": "brand_assets/products/1135677448.jpg",
     "isNew": false,
     "createdAt": 1776775403000
-  },
-  {
-    "id": "1130220822",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-havuc-pac-a-pileli-kemerli-mevsimlik-kumas-pantolon-p-1130220822?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın HAVUÇ Paça Pileli Kemerli Mevsimlik Kumaş Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.369,99 TL",
-    "salePrice": 1369.99,
-    "listPrice": 1369.99,
-    "stock": 3,
-    "image": "https://cdn.dsmcdn.com/ty1860/prod/QC_ENRICHMENT/20260427/14/d0846e10-b7b2-34ba-b4c3-24b47c8b1c23/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130220822.jpg",
-    "isNew": false,
-    "createdAt": 1775641514000
   },
   {
     "id": "1130220813",
