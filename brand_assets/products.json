@@ -1,8 +1,36 @@
 [
   {
+    "id": "1113111855",
+    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-siyah-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1113111855?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Siyah Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
+    "brand": "FlexiFit",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 20000,
+    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_ENRICHMENT/20260712/08/4bf51797-63ed-301d-a721-f294f091b52b/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1113111855.jpg",
+    "isNew": true,
+    "createdAt": 1791239426000
+  },
+  {
+    "id": "1113111757",
+    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-kar-yikama-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1113111757?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Kar Yıkama Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
+    "brand": "FlexiFit",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 20000,
+    "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260712/08/5abc1c09-59ec-3112-828a-5c62090f42c4/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1113111757.jpg",
+    "isNew": true,
+    "createdAt": 1791239275000
+  },
+  {
     "id": "1136866752",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-5-li-krali-wi-de-leg-palazzo-esnek-jeans-yeni-sezon-p-1136866752?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL %5 LİKRALI WİDE LEG (PALAZZO) ESNEK JEANS (YENİ SEZON)",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-li-krali-wi-de-leg-palazzo-p-1136866752?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL LİKRALI WİDE LEG PALAZZO",
     "brand": "MY ARJA JEANS",
     "price": "1.460,00 TL",
     "salePrice": 1460,
@@ -308,6 +336,20 @@
     "createdAt": 1776506394000
   },
   {
+    "id": "1134106383",
+    "href": "https://www.trendyol.com/hepli-na/kadin-deri-kemer-hediyeli-yu-ksek-bel-bilek-boy-baggy-jean-kot-pantolon-p-1134106383?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın deri kemer hediyeli Yüksek Bel Bilek Boy Baggy Jean Kot Pantolon",
+    "brand": "HEPLİNA",
+    "price": "1.500,00 TL",
+    "salePrice": 1500,
+    "listPrice": 1500,
+    "stock": 20000,
+    "image": "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260416/13/74f37ffb-ec1b-3539-b735-ba5bb5812dad/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1134106383.jpg",
+    "isNew": true,
+    "createdAt": 1776335604000
+  },
+  {
     "id": "1133002848",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-boyfriend-deni-m-kot-pantolon-yu-ksek-bel-salas-rahat-kesim-p-1133002848?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Boyfriend DENİM Kot Pantolon Yüksek Bel Salaş Rahat Kesim",
@@ -502,20 +544,6 @@
     "localImage": "brand_assets/products/1130730971.jpg",
     "isNew": false,
     "createdAt": 1775733293000
-  },
-  {
-    "id": "1130224987",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-kemer-detayli-beli-lastikli-salas-palazzo-kumas-pantolon-kemer-dahi-l-deg-i-ldi-r-p-1130224987?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Kemer Detaylı Beli Lastikli Salaş Palazzo Kumaş Pantolon[KEMER DAHİL DEĞİLDİR]",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1806/prod/QC_PREP/20260107/20/4ff37b20-fbea-3602-8869-4221747b2a47/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1130224987.jpg",
-    "isNew": false,
-    "createdAt": 1775642550000
   },
   {
     "id": "1062158894",
