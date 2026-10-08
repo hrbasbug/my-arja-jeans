@@ -179,7 +179,7 @@
     "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/23/786a6932-bc68-37f0-ac4f-45a8d36a2031/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139600395.jpg",
     "isNew": false,
-    "createdAt": 1777386380000
+    "createdAt": 1777386317000
   },
   {
     "id": "1139274573",
@@ -700,20 +700,6 @@
     "createdAt": 1791344306000
   },
   {
-    "id": "1210627999",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-i-spanyol-pac-a-pantolon-pensli-zra-kumas-kahverengi-ofis-s-ik-p-1210627999?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel İspanyol Paça Pantolon Pensli Zra Kumaş Kahverengi Ofis Şık",
-    "brand": "MY ARJA JEANS",
-    "price": "Sepette1.999,00 TL2.299,00 TL",
-    "salePrice": 1999,
-    "listPrice": 2299,
-    "stock": 2000,
-    "image": "https://cdn.dsmcdn.com/ty1971/prod/QC_ENRICHMENT/20261007/06/380a1e11-09c4-3834-b42b-4d8f43bb6c3f/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1210627999.jpg",
-    "isNew": true,
-    "createdAt": 1791344306000
-  },
-  {
     "id": "1210627967",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-i-spanyol-pac-a-pantolon-pensli-zra-kumas-siyah-ofis-s-ik-p-1210627967?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel İspanyol Paça Pantolon Pensli Zra Kumaş Siyah Ofis Şık",
@@ -1008,20 +994,6 @@
     "createdAt": 1775641230000
   },
   {
-    "id": "1067934758",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-boru-pac-a-yu-ksek-bel-regular-fit-likrali-pantolon-p-1067934758?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Boru Paça Yüksek Bel Regular Fit Likralı Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.415,00 TL",
-    "salePrice": 1415,
-    "listPrice": 1415,
-    "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1939/prod/QC_ENRICHMENT/20260512/17/250086ac-10e7-30e9-be0e-86d575f2d9a7/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1067934758.jpg",
-    "isNew": false,
-    "createdAt": 1765814529000
-  },
-  {
     "id": "1067940516",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-boru-pac-a-yu-ksek-bel-regular-fit-likrali-pantolon-p-1067940516?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Boru Paça Yüksek Bel Regular Fit Likralı Pantolon",
@@ -1062,6 +1034,20 @@
     "localImage": "brand_assets/products/1135677448.jpg",
     "isNew": false,
     "createdAt": 1776775403000
+  },
+  {
+    "id": "1067934758",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-boru-pac-a-yu-ksek-bel-regular-fit-likrali-pantolon-p-1067934758?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Boru Paça Yüksek Bel Regular Fit Likralı Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.415,00 TL",
+    "salePrice": 1415,
+    "listPrice": 1415,
+    "stock": 3,
+    "image": "https://cdn.dsmcdn.com/ty1939/prod/QC_ENRICHMENT/20260512/17/250086ac-10e7-30e9-be0e-86d575f2d9a7/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1067934758.jpg",
+    "isNew": false,
+    "createdAt": 1765827146000
   },
   {
     "id": "1130220813",
