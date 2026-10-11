@@ -28,20 +28,6 @@
     "createdAt": 1791383083000
   },
   {
-    "id": "1074645990",
-    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
-    "brand": "FlexiFit",
-    "price": "1.499,00 TL",
-    "salePrice": 1499,
-    "listPrice": 1499,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1074645990.jpg",
-    "isNew": true,
-    "createdAt": 1791383083000
-  },
-  {
     "id": "1074646126",
     "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074646126?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
@@ -218,7 +204,7 @@
     "salePrice": 1430,
     "listPrice": 1430,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1858/prod/QC_PREP/20260423/17/76344c20-383b-362b-8173-c6bc77bdb5a0/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261011/09/fec1c4b3-2120-33f9-9502-8f971e4fe9de/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1137384596.jpg",
     "isNew": false,
     "createdAt": 1776955177000
@@ -386,7 +372,7 @@
     "salePrice": 1430,
     "listPrice": 1430,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1972/prod/QC_ENRICHMENT/20261007/16/1c296534-7131-3663-9fea-8933f0b8f741/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261011/09/0d73a873-c2be-3e58-a279-3d6738257721/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527359.jpg",
     "isNew": false,
     "createdAt": 1776668602000
@@ -414,7 +400,7 @@
     "salePrice": 1430,
     "listPrice": 1430,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1907/prod/QC_ENRICHMENT/20260507/08/5e454759-034b-3d80-8de7-cd358a3cc651/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1973/prod/QC_ENRICHMENT/20261008/00/feb2d5f3-b139-3d28-8d02-e856fbf300a0/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527364.jpg",
     "isNew": false,
     "createdAt": 1776668504000
@@ -572,6 +558,20 @@
     "localImage": "brand_assets/products/1060308179.jpg",
     "isNew": false,
     "createdAt": 1764748509000
+  },
+  {
+    "id": "1074645990",
+    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
+    "brand": "FlexiFit",
+    "price": "1.499,00 TL",
+    "salePrice": 1499,
+    "listPrice": 1499,
+    "stock": 19999,
+    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1074645990.jpg",
+    "isNew": true,
+    "createdAt": 1791383084000
   },
   {
     "id": "1113111855",
@@ -988,7 +988,7 @@
     "salePrice": 1430,
     "listPrice": 1430,
     "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260422/10/8b9fc659-380d-3ecc-a094-e73ec3693417/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261011/09/283b151b-3345-39d8-a09e-9985f7551b0a/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136283709.jpg",
     "isNew": false,
     "createdAt": 1776843131000
@@ -1030,7 +1030,7 @@
     "salePrice": 1450,
     "listPrice": 1450,
     "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1857/prod/QC_ENRICHMENT/20260422/10/8ca6063d-3ef0-3716-9d1c-ccebc5ec3c81/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261011/09/f3c94ae6-e45d-349e-9f51-f3f9bb0b53d2/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1066171806.jpg",
     "isNew": false,
     "createdAt": 1765607107000
