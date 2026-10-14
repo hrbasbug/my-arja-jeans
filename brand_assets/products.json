@@ -361,7 +361,7 @@
     "image": "https://cdn.dsmcdn.com/ty1965/prod/QC_ENRICHMENT/20260928/13/fcbcdd14-30d4-3fe2-95ca-ae2cd762e75f/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135943313.jpg",
     "isNew": false,
-    "createdAt": 1776755737000
+    "createdAt": 1776755682000
   },
   {
     "id": "1135527359",
@@ -670,6 +670,20 @@
     "localImage": "brand_assets/products/1060203457.jpg",
     "isNew": false,
     "createdAt": 1764745527000
+  },
+  {
+    "id": "1210628035",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-i-spanyol-pac-a-pantolon-pensli-zra-kumas-lacivert-ofis-s-ik-p-1210628035?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel İspanyol Paça Pantolon Pensli Zra Kumaş Lacivert Ofis Şık",
+    "brand": "MY ARJA JEANS",
+    "price": "Sepette1.999,00 TL2.299,00 TL",
+    "salePrice": 1999,
+    "listPrice": 2299,
+    "stock": 2000,
+    "image": "https://cdn.dsmcdn.com/ty1971/prod/QC_ENRICHMENT/20261007/06/9458bcbd-bb8b-33a3-82d5-28ba83777609/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1210628035.jpg",
+    "isNew": true,
+    "createdAt": 1791344391000
   },
   {
     "id": "1210628035",
