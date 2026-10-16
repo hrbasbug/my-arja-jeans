@@ -588,20 +588,6 @@
     "createdAt": 1765017875000
   },
   {
-    "id": "1062158991",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-bol-pac-a-yu-ksek-bel-c-ift-pileli-palazzo-pantolon-p-1062158991?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN Bol Paça Yüksek Bel çift pileli Palazzo Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "9.999,00 TL",
-    "salePrice": 9999,
-    "listPrice": 9999,
-    "stock": 1500,
-    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260604/16/897786c7-f97f-35da-99f6-4ee578d5f5af/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1062158991.jpg",
-    "isNew": false,
-    "createdAt": 1765017827000
-  },
-  {
     "id": "1062158896",
     "href": "https://www.trendyol.com/my-arja-jeans/bol-pac-a-yu-ksek-bel-c-ift-pileli-palazzo-pantolon-p-1062158896?merchantId=1199692&filterOverPriceListings=false",
     "name": "Bol Paça Yüksek Bel çift pileli Palazzo Pantolon",
@@ -614,6 +600,20 @@
     "localImage": "brand_assets/products/1062158896.jpg",
     "isNew": false,
     "createdAt": 1765017793000
+  },
+  {
+    "id": "1062158991",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-bol-pac-a-yu-ksek-bel-c-ift-pileli-palazzo-pantolon-p-1062158991?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN Bol Paça Yüksek Bel çift pileli Palazzo Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "9.999,00 TL",
+    "salePrice": 9999,
+    "listPrice": 9999,
+    "stock": 1500,
+    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260604/16/897786c7-f97f-35da-99f6-4ee578d5f5af/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1062158991.jpg",
+    "isNew": false,
+    "createdAt": 1765017758000
   },
   {
     "id": "1140843766",
