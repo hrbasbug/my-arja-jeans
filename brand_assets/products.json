@@ -84,20 +84,6 @@
     "createdAt": 1778158314000
   },
   {
-    "id": "1139613734",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139613734?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.600,00 TL",
-    "salePrice": 1600,
-    "listPrice": 1600,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/23/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1139613734.jpg",
-    "isNew": false,
-    "createdAt": 1777387550000
-  },
-  {
     "id": "1139601707",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139601707?merchantId=1199692&filterOverPriceListings=false",
     "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
@@ -305,7 +291,7 @@
     "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261011/09/c31a82ff-4dad-3388-b021-09eb7c5bd05d/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1133087286.jpg",
     "isNew": false,
-    "createdAt": 1776166005000
+    "createdAt": 1776165901000
   },
   {
     "id": "1133002848",
@@ -418,6 +404,20 @@
     "localImage": "brand_assets/products/1113111855.jpg",
     "isNew": true,
     "createdAt": 1791239426000
+  },
+  {
+    "id": "1139613734",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139613734?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.600,00 TL",
+    "salePrice": 1600,
+    "listPrice": 1600,
+    "stock": 19999,
+    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/23/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1139613734.jpg",
+    "isNew": false,
+    "createdAt": 1777387550000
   },
   {
     "id": "1139601947",
