@@ -260,7 +260,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1854/prod/QC_PREP/20260416/13/74f37ffb-ec1b-3539-b735-ba5bb5812dad/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/04/28ec68bf-0815-3f0e-9050-97d708308535/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1134106383.jpg",
     "isNew": false,
     "createdAt": 1776335604000
@@ -316,7 +316,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1922/prod/QC_ENRICHMENT/20260521/13/adf39af6-38ce-3b1a-9bf2-63f1bec5f6ef/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/11d8dc59-153e-3969-ae31-1f7b0a2ef14f/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060328155.jpg",
     "isNew": false,
     "createdAt": 1764750544000
@@ -330,7 +330,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1902/prod/QC_ENRICHMENT/20260521/13/b8bf360f-002a-3808-bd8d-c7d6ccc60bb4/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/54754c26-db6c-3067-947c-a011c31a53af/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060323534.jpg",
     "isNew": false,
     "createdAt": 1764749924000
@@ -344,7 +344,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1932/prod/QC_ENRICHMENT/20260521/13/8e292b9c-26e1-330a-846b-7a191ab55ca4/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/02/bb72ced4-361c-38b8-9c74-d38316eb743b/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060258232.jpg",
     "isNew": false,
     "createdAt": 1764749181000
@@ -358,7 +358,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1943/prod/QC_ENRICHMENT/20260522/13/fe476627-7872-3761-b33f-0545d5900d57/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/02/818c53fb-6dd2-3ab5-9fa8-8d86aa531798/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060308179.jpg",
     "isNew": false,
     "createdAt": 1764748509000
@@ -392,20 +392,6 @@
     "createdAt": 1791239426000
   },
   {
-    "id": "1139613734",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139613734?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.600,00 TL",
-    "salePrice": 1600,
-    "listPrice": 1600,
-    "stock": 19999,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/23/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1139613734.jpg",
-    "isNew": false,
-    "createdAt": 1777387550000
-  },
-  {
     "id": "1139600395",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139600395?merchantId=1199692&filterOverPriceListings=false",
     "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
@@ -420,6 +406,20 @@
     "createdAt": 1777386317000
   },
   {
+    "id": "1139613734",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139613734?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.600,00 TL",
+    "salePrice": 1600,
+    "listPrice": 1600,
+    "stock": 19998,
+    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/23/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1139613734.jpg",
+    "isNew": false,
+    "createdAt": 1777387550000
+  },
+  {
     "id": "1139601947",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-jeans-kemerli-o-nu-c-imali-geni-s-pac-a-kot-pantolon-p-1139601947?merchantId=1199692&filterOverPriceListings=false",
     "name": "KADIN YÜKSEKBEL JEANS KEMERLİ ÖNÜ ÇIMALI GENİŞ PAÇA KOT PANTOLON",
@@ -427,7 +427,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19998,
+    "stock": 19997,
     "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/23/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -435,14 +435,14 @@
   },
   {
     "id": "1134106166",
-    "href": "https://www.trendyol.com/hepli-na/kadin-deri-kemer-hediyeli-yu-ksek-bel-bilek-boy-baggy-jean-kot-pantolon-p-1134106166?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın deri kemer hediyeli Yüksek Bel Bilek Boy Baggy Jean Kot Pantolon",
+    "href": "https://www.trendyol.com/hepli-na/yu-ksek-bel-siyah-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1134106166?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Siyah Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
     "brand": "HEPLİNA",
     "price": "1.599,00 TL",
     "salePrice": 1599,
     "listPrice": 1599,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260416/13/0dc8af15-b914-356b-ac2b-e510519b6460/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/04/4df3c986-4450-345b-bf75-5ff05578f149/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1134106166.jpg",
     "isNew": false,
     "createdAt": 1776335636000
@@ -456,7 +456,7 @@
     "salePrice": 1379.99,
     "listPrice": 1379.99,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1853/prod/QC_PREP/20260410/12/c1e7faff-b1d9-33b4-809b-0b65af2602b4/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/333dd261-798d-3cca-9338-b84772e636f8/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1131200352.jpg",
     "isNew": false,
     "createdAt": 1775812620000
@@ -470,7 +470,7 @@
     "salePrice": 1379.99,
     "listPrice": 1379.99,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/a3274212-07ba-339a-8dc5-625e6b4b89c0/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/7a854482-5746-37ff-92c0-b93477f1cce2/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130731430.jpg",
     "isNew": false,
     "createdAt": 1775733519000
@@ -484,7 +484,7 @@
     "salePrice": 1379.99,
     "listPrice": 1379.99,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260409/14/ca3e0430-8daf-3989-8200-b91bd4a89071/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/02/65c1bd9d-f612-35af-beb8-13de6fecdac6/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130730971.jpg",
     "isNew": false,
     "createdAt": 1775733293000
@@ -498,7 +498,7 @@
     "salePrice": 1375,
     "listPrice": 1375,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1796/prod/QC_PREP/20251206/13/c2ef18db-1486-362a-9b5d-ae0ea132ce54/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/02/2a2df0d4-2eb6-3160-a7a5-1e8a37a1011f/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1062158894.jpg",
     "isNew": false,
     "createdAt": 1765017828000
@@ -512,7 +512,7 @@
     "salePrice": 1450,
     "listPrice": 1450,
     "stock": 5000,
-    "image": "https://cdn.dsmcdn.com/ty1796/prod/QC_PREP/20251203/09/6f1e306e-c035-34bb-bcd7-6c7ff84ab0c9/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/aef28f39-82d5-3ace-a065-106545d396c4/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060203457.jpg",
     "isNew": false,
     "createdAt": 1764745527000
@@ -520,7 +520,7 @@
   {
     "id": "1210628035",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-i-spanyol-pac-a-pantolon-pensli-zra-kumas-lacivert-ofis-s-ik-p-1210628035?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel ��spanyol Paça Pantolon Pensli Zra Kumaş Lacivert Ofis Şık",
+    "name": "Kadın Yüksek Bel İspanyol Paça Pantolon Pensli Zra Kumaş Lacivert Ofis Şık",
     "brand": "MY ARJA JEANS",
     "price": "Sepette1.999,00 TL2.299,00 TL",
     "salePrice": 1999,
@@ -582,7 +582,7 @@
     "salePrice": 1375,
     "listPrice": 1375,
     "stock": 1500,
-    "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_ENRICHMENT/20260408/18/d859e332-cdf5-3740-8313-b91f55f4bfcc/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/02/1b01ed45-6412-368b-93a1-74c871729ebc/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1062158892.jpg",
     "isNew": false,
     "createdAt": 1765017875000
@@ -596,7 +596,7 @@
     "salePrice": 1375,
     "listPrice": 1375,
     "stock": 1500,
-    "image": "https://cdn.dsmcdn.com/ty1931/prod/QC_ENRICHMENT/20260604/15/a74d74b6-d754-3f2b-ac17-2ecc79263524/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/02/b80b4506-8ff4-3e12-afc3-689f695e7b78/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1062158896.jpg",
     "isNew": false,
     "createdAt": 1765017793000
@@ -610,7 +610,7 @@
     "salePrice": 9999,
     "listPrice": 9999,
     "stock": 1500,
-    "image": "https://cdn.dsmcdn.com/ty1894/prod/QC_ENRICHMENT/20260604/16/897786c7-f97f-35da-99f6-4ee578d5f5af/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/02/84951c29-4f1d-307a-8d78-cf37dfac2769/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1062158991.jpg",
     "isNew": false,
     "createdAt": 1765017758000
@@ -652,7 +652,7 @@
     "salePrice": 1369.99,
     "listPrice": 1369.99,
     "stock": 500,
-    "image": "https://cdn.dsmcdn.com/ty1861/prod/QC_ENRICHMENT/20260427/14/aac50315-0502-3bc0-906b-a2612661c0fc/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/03/1199cb3f-b14e-37e1-a192-d85750e8cb01/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130220834.jpg",
     "isNew": false,
     "createdAt": 1775641609000
@@ -666,7 +666,7 @@
     "salePrice": 1369.99,
     "listPrice": 1369.99,
     "stock": 500,
-    "image": "https://cdn.dsmcdn.com/ty1852/prod/QC_PREP/20260408/12/cb48fae1-b9a8-3a54-92c1-41ea8729f4fb/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/03/7bdded6b-e57b-3d52-aad4-a0995a1000c7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130220819.jpg",
     "isNew": false,
     "createdAt": 1775641545000
@@ -680,7 +680,7 @@
     "salePrice": 1369.99,
     "listPrice": 1369.99,
     "stock": 500,
-    "image": "https://cdn.dsmcdn.com/ty1862/prod/QC_ENRICHMENT/20260427/16/d231b08e-c9e3-3e9d-80c5-f09d6aa6193b/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/03/39964f23-9e1f-32ba-87a0-656439b5c318/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130220813.jpg",
     "isNew": false,
     "createdAt": 1775641533000
@@ -736,7 +736,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 25,
-    "image": "https://cdn.dsmcdn.com/ty1862/prod/QC_ENRICHMENT/20260427/12/77fe56bb-3a43-3fbf-a6c6-27374ea86912/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/398bc676-81e4-3da4-96ae-6aa2de414abc/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1105332898.jpg",
     "isNew": false,
     "createdAt": 1771318354000
@@ -778,7 +778,7 @@
     "salePrice": 1500,
     "listPrice": 1500,
     "stock": 18,
-    "image": "https://cdn.dsmcdn.com/ty1901/prod/QC_ENRICHMENT/20260521/13/7bca5750-d0c2-34f7-871d-8a434f1238a3/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/fa5e00a2-2662-376c-8832-be54576aac8f/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1088265687.jpg",
     "isNew": false,
     "createdAt": 1768857903000
@@ -834,7 +834,7 @@
     "salePrice": 1369.99,
     "listPrice": 1369.99,
     "stock": 10,
-    "image": "https://cdn.dsmcdn.com/ty1860/prod/QC_ENRICHMENT/20260427/14/d0846e10-b7b2-34ba-b4c3-24b47c8b1c23/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/03/c26adf18-d6b7-385e-b0d9-54b2671c24d3/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130220822.jpg",
     "isNew": false,
     "createdAt": 1775641514000
@@ -848,7 +848,7 @@
     "salePrice": 1475,
     "listPrice": 1475,
     "stock": 6,
-    "image": "https://cdn.dsmcdn.com/ty1931/prod/QC_ENRICHMENT/20260512/18/52d392b0-7566-352f-931e-c871ff6e897f/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/03/e7125033-b14f-32d5-97f1-ee5981196950/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1066241233.jpg",
     "isNew": false,
     "createdAt": 1765620519000
@@ -876,7 +876,7 @@
     "salePrice": 1450,
     "listPrice": 1450,
     "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260422/18/03217309-8709-3e71-bbff-7e16a26ebeb5/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/04/5e12aee5-b944-33b9-b15d-209cfa9e5aa1/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136500270.jpg",
     "isNew": false,
     "createdAt": 1776871898000
@@ -890,7 +890,7 @@
     "salePrice": 1425,
     "listPrice": 1425,
     "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1859/prod/QC_PREP/20260422/15/6bcedc75-71ac-3e5f-a8d4-3a6504a9f50c/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/04/986984ae-4ead-3be2-843a-193d88e8bac4/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136459568.jpg",
     "isNew": false,
     "createdAt": 1776862690000
@@ -904,7 +904,7 @@
     "salePrice": 1425,
     "listPrice": 1425,
     "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1892/prod/QC_ENRICHMENT/20260514/19/265f8d54-754e-3f6b-adf5-64824990dea3/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/04/e7c29863-0fcc-3a1d-a4d3-d3cb106b8f45/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136448558.jpg",
     "isNew": false,
     "createdAt": 1776860788000
@@ -918,7 +918,7 @@
     "salePrice": 1425,
     "listPrice": 1425,
     "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1943/prod/QC_ENRICHMENT/20260514/19/be86eb14-f79c-34bd-846b-c6141a54399e/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/04/0ed32a5a-5824-3257-842c-0d3a600deedc/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136448529.jpg",
     "isNew": false,
     "createdAt": 1776860698000
@@ -932,7 +932,7 @@
     "salePrice": 1425,
     "listPrice": 1425,
     "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1902/prod/QC_ENRICHMENT/20260514/19/8d465c55-7a6a-37ee-807e-dbbba72a3c5c/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/04/c8298861-e1a8-3e03-a2c2-62ddca0b1d9a/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136446112.jpg",
     "isNew": false,
     "createdAt": 1776860605000
@@ -1030,7 +1030,7 @@
     "salePrice": 1415,
     "listPrice": 1415,
     "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1801/prod/QC_PREP/20251215/12/b33a450b-6ba2-3773-bf95-1ee34de29d8f/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/05/13b997b5-85e0-34dc-89dd-ce890bbc088b/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1067940516.jpg",
     "isNew": false,
     "createdAt": 1765806062000
@@ -1072,7 +1072,7 @@
     "salePrice": 1415,
     "listPrice": 1415,
     "stock": 3,
-    "image": "https://cdn.dsmcdn.com/ty1939/prod/QC_ENRICHMENT/20260512/17/250086ac-10e7-30e9-be0e-86d575f2d9a7/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/05/08b0765c-5d5c-3cfd-a28d-c830f6ffa743/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1067934758.jpg",
     "isNew": false,
     "createdAt": 1765827146000
@@ -1086,7 +1086,7 @@
     "salePrice": 1415,
     "listPrice": 1415,
     "stock": 2,
-    "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_ENRICHMENT/20260512/16/2e10e4f7-3f7f-3d76-b84b-6e3e7e34690e/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261018/05/099b6b18-05aa-3185-ba63-a955afac67f1/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1067937771.jpg",
     "isNew": false,
     "createdAt": 1765826355000
