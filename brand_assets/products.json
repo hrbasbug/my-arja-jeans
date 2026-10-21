@@ -357,7 +357,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19997,
+    "stock": 19995,
     "image": "https://cdn.dsmcdn.com/ty1981/prod/QC_ENRICHMENT/20261017/21/5b6a051e-6120-3426-9a7c-179e83b80990/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139600395.jpg",
     "isNew": false,
@@ -455,7 +455,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 4994,
+    "stock": 4993,
     "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/23/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -714,20 +714,6 @@
     "createdAt": 1775633136000
   },
   {
-    "id": "1113111855",
-    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-siyah-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1113111855?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Siyah Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
-    "brand": "FlexiFit",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 18,
-    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_ENRICHMENT/20260712/08/4bf51797-63ed-301d-a721-f294f091b52b/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1113111855.jpg",
-    "isNew": true,
-    "createdAt": 1791239426000
-  },
-  {
     "id": "1088265687",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-beyaz-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1088265687?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli BEYAZ ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -740,6 +726,20 @@
     "localImage": "brand_assets/products/1088265687.jpg",
     "isNew": false,
     "createdAt": 1768857903000
+  },
+  {
+    "id": "1113111855",
+    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-siyah-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1113111855?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Siyah Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
+    "brand": "FlexiFit",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 16,
+    "image": "https://cdn.dsmcdn.com/ty1910/prod/QC_ENRICHMENT/20260712/08/4bf51797-63ed-301d-a721-f294f091b52b/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1113111855.jpg",
+    "isNew": true,
+    "createdAt": 1791239426000
   },
   {
     "id": "1132022869",
@@ -810,20 +810,6 @@
     "localImage": "brand_assets/products/1066241233.jpg",
     "isNew": false,
     "createdAt": 1765620519000
-  },
-  {
-    "id": "1210627900",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-i-spanyol-pac-a-pantolon-pensli-zra-kumas-beyaz-ofis-s-ik-p-1210627900?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel İspanyol Paça Pantolon Pensli Zra Kumaş Beyaz Ofis Şık",
-    "brand": "MY ARJA JEANS",
-    "price": "Sepette1.999,00 TL2.299,00 TL",
-    "salePrice": 1999,
-    "listPrice": 2299,
-    "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1973/prod/QC_ENRICHMENT/20261007/06/8a2c5ac3-5296-36f1-8eba-503bbf9cddbd/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1210627900.jpg",
-    "isNew": true,
-    "createdAt": 1791344240000
   },
   {
     "id": "1113111757",
