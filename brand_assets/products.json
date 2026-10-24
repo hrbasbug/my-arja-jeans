@@ -168,20 +168,6 @@
     "createdAt": 1776755682000
   },
   {
-    "id": "1135527359",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksel-bel-boyfriend-denim-pantolon-p-1135527359?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksel Bel Boyfriend Denim Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.430,00 TL",
-    "salePrice": 1430,
-    "listPrice": 1430,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261011/09/0d73a873-c2be-3e58-a279-3d6738257721/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1135527359.jpg",
-    "isNew": false,
-    "createdAt": 1776668602000
-  },
-  {
     "id": "1135527363",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksel-bel-boyfriend-denim-pantolon-p-1135527363?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksel Bel Boyfriend Denim Pantolon",
@@ -208,6 +194,20 @@
     "localImage": "brand_assets/products/1135527364.jpg",
     "isNew": false,
     "createdAt": 1776668504000
+  },
+  {
+    "id": "1135527359",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksel-bel-boyfriend-denim-pantolon-p-1135527359?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksel Bel Boyfriend Denim Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.430,00 TL",
+    "salePrice": 1430,
+    "listPrice": 1430,
+    "stock": 20000,
+    "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261011/09/0d73a873-c2be-3e58-a279-3d6738257721/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1135527359.jpg",
+    "isNew": false,
+    "createdAt": 1776668371000
   },
   {
     "id": "1134831949",
@@ -308,20 +308,6 @@
     "createdAt": 1764748443000
   },
   {
-    "id": "1074645990",
-    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
-    "brand": "FlexiFit",
-    "price": "1.499,00 TL",
-    "salePrice": 1499,
-    "listPrice": 1499,
-    "stock": 19999,
-    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1074645990.jpg",
-    "isNew": true,
-    "createdAt": 1791383082000
-  },
-  {
     "id": "1142973745",
     "href": "https://www.trendyol.com/my-arja-jeans/yu-ksekbel-dar-pac-a-kadin-kot-pantolon-ski-nny-kalip-p-1142973745?merchantId=1199692&filterOverPriceListings=false",
     "name": "YÜKSEKBEL DAR PAÇA KADIN KOT PANTOLON -SKİNNY KALIP-",
@@ -348,6 +334,20 @@
     "localImage": "brand_assets/products/1060258232.jpg",
     "isNew": false,
     "createdAt": 1764746716000
+  },
+  {
+    "id": "1074645990",
+    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
+    "brand": "FlexiFit",
+    "price": "1.499,00 TL",
+    "salePrice": 1499,
+    "listPrice": 1499,
+    "stock": 19998,
+    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1074645990.jpg",
+    "isNew": true,
+    "createdAt": 1791383082000
   },
   {
     "id": "1139601707",
