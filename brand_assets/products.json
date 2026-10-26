@@ -98,20 +98,6 @@
     "createdAt": 1792878552000
   },
   {
-    "id": "1143481132",
-    "href": "https://www.trendyol.com/proshine/boyfriend-yu-ksek-bel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1143481132?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Boyfriend Yüksek Bel Kadın Kot Pantolon - Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
-    "brand": "Proshine",
-    "price": "1.999,00 TL",
-    "salePrice": 1999,
-    "listPrice": 1999,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1917/prod/QC_ENRICHMENT/20260712/08/5e48d92b-0bb3-3fb4-bde2-807f4ae1523b/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1143481132.jpg",
-    "isNew": true,
-    "createdAt": 1792878551000
-  },
-  {
     "id": "1143481152",
     "href": "https://www.trendyol.com/proshine/boyfriend-yu-ksek-bel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1143481152?merchantId=1199692&filterOverPriceListings=false",
     "name": "Boyfriend Yüksek Bel Kadın Kot Pantolon - Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
@@ -763,7 +749,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 4975,
+    "stock": 4973,
     "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/23/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -1246,6 +1232,20 @@
     "createdAt": 1765620519000
   },
   {
+    "id": "1143481132",
+    "href": "https://www.trendyol.com/proshine/boyfriend-yu-ksek-bel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1143481132?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Boyfriend Yüksek Bel Kadın Kot Pantolon - Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
+    "brand": "Proshine",
+    "price": "1.999,00 TL",
+    "salePrice": 1999,
+    "listPrice": 1999,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty1917/prod/QC_ENRICHMENT/20260712/08/5e48d92b-0bb3-3fb4-bde2-807f4ae1523b/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1143481132.jpg",
+    "isNew": true,
+    "createdAt": 1792878551000
+  },
+  {
     "id": "1197023722",
     "href": "https://www.trendyol.com/proshine/kadin-yu-ksek-bel-kumas-pantolon-pensli-zra-beyaz-ofis-business-s-ik-p-1197023722?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Kumaş Pantolon – Pensli Zra Beyaz Ofis Business Şık",
@@ -1258,20 +1258,6 @@
     "localImage": "brand_assets/products/1197023722.jpg",
     "isNew": true,
     "createdAt": 1792869953000
-  },
-  {
-    "id": "1136272341",
-    "href": "https://www.trendyol.com/my-arja-jeans/yu-ksek-bel-toparlayici-li-krali-dar-pac-a-kadin-kot-pantolon-ski-nny-jeans-p-1136272341?merchantId=1199692&filterOverPriceListings=false",
-    "name": "YÜKSEK BEL TOPARLAYICI LİKRALI DAR PAÇA KADIN KOT PANTOLON SKİNNY JEANS",
-    "brand": "MY ARJA JEANS",
-    "price": "1.430,00 TL",
-    "salePrice": 1430,
-    "listPrice": 1430,
-    "stock": 5,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/14/692fe45f-a35d-3179-acc1-cb401077ef6d/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1136272341.jpg",
-    "isNew": false,
-    "createdAt": 1776836134000
   },
   {
     "id": "1136119521",
