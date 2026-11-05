@@ -651,7 +651,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19975,
+    "stock": 19974,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/5b6a051e-6120-3426-9a7c-179e83b80990/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139600395.jpg",
     "isNew": false,
@@ -665,7 +665,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19948,
+    "stock": 19940,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -735,7 +735,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 4948,
+    "stock": 4947,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -810,34 +810,6 @@
     "localImage": "brand_assets/products/1074118475.jpg",
     "isNew": true,
     "createdAt": 1792756991000
-  },
-  {
-    "id": "1140843766",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843766?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 500,
-    "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/20/6e55e7b3-4549-3ec5-8901-34aa3323e9dc/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1140843766.jpg",
-    "isNew": false,
-    "createdAt": 1777632608000
-  },
-  {
-    "id": "1139637862",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1139637862?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 500,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/20/014057dc-cbee-3ab3-bdd1-c0730f36b770/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1139637862.jpg",
-    "isNew": false,
-    "createdAt": 1777392538000
   },
   {
     "id": "1136500270",
@@ -994,34 +966,6 @@
     "createdAt": 1776335604000
   },
   {
-    "id": "1140843765",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843765?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 50,
-    "image": "https://cdn.dsmcdn.com/ty1970/prod/QC_ENRICHMENT/20261001/13/1865412f-92a4-3868-9048-b6eed0514022/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1140843765.jpg",
-    "isNew": false,
-    "createdAt": 1777632668000
-  },
-  {
-    "id": "1140843831",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843831?merchantId=1199692&filterOverPriceListings=false",
-    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 50,
-    "image": "https://cdn.dsmcdn.com/ty1969/prod/QC_ENRICHMENT/20261001/13/23c86dbd-aaba-3bc7-b673-5c298dac76c9/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1140843831.jpg",
-    "isNew": false,
-    "createdAt": 1777632502000
-  },
-  {
     "id": "1105332898",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1105332898?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -1104,6 +1048,20 @@
     "localImage": "brand_assets/products/1132022869.jpg",
     "isNew": false,
     "createdAt": 1775975088000
+  },
+  {
+    "id": "1140843831",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843831?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 12,
+    "image": "https://cdn.dsmcdn.com/ty1969/prod/QC_ENRICHMENT/20261001/13/23c86dbd-aaba-3bc7-b673-5c298dac76c9/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1140843831.jpg",
+    "isNew": false,
+    "createdAt": 1777632437000
   },
   {
     "id": "1113381932",
@@ -1190,6 +1148,20 @@
     "createdAt": 1791383083000
   },
   {
+    "id": "1139637862",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1139637862?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 10,
+    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/20/014057dc-cbee-3ab3-bdd1-c0730f36b770/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1139637862.jpg",
+    "isNew": false,
+    "createdAt": 1777392538000
+  },
+  {
     "id": "1130220822",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-havuc-pac-a-pileli-kemerli-mevsimlik-kumas-pantolon-p-1130220822?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın HAVUÇ Paça Pileli Kemerli Mevsimlik Kumaş Pantolon",
@@ -1202,6 +1174,20 @@
     "localImage": "brand_assets/products/1130220822.jpg",
     "isNew": false,
     "createdAt": 1775641514000
+  },
+  {
+    "id": "1140843766",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843766?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 8,
+    "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/20/6e55e7b3-4549-3ec5-8901-34aa3323e9dc/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1140843766.jpg",
+    "isNew": false,
+    "createdAt": 1777632608000
   },
   {
     "id": "1066241233",
@@ -1258,6 +1244,20 @@
     "localImage": "brand_assets/products/1074118706.jpg",
     "isNew": true,
     "createdAt": 1792756990000
+  },
+  {
+    "id": "1140843765",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-kemerli-o-nu-c-imali-mevsi-mli-k-geni-s-pac-ali-kumas-pantolon-p-1140843765?merchantId=1199692&filterOverPriceListings=false",
+    "name": "KADIN YÜKSEKBEL KEMERLİ ÖNÜ ÇIMALI MEVSİMLİK GENİŞ PAÇALI KUMAŞ PANTOLON",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty1970/prod/QC_ENRICHMENT/20261001/13/1865412f-92a4-3868-9048-b6eed0514022/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1140843765.jpg",
+    "isNew": false,
+    "createdAt": 1777632668000
   },
   {
     "id": "1136119521",
@@ -1330,20 +1330,6 @@
     "createdAt": 1765806062000
   },
   {
-    "id": "1066171806",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1066171806?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261011/09/f3c94ae6-e45d-349e-9f51-f3f9bb0b53d2/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1066171806.jpg",
-    "isNew": false,
-    "createdAt": 1765607107000
-  },
-  {
     "id": "1135677448",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksekbel-li-krali-wi-de-leg-palazzo-esnek-jeans-p-1135677448?merchantId=1199692&filterOverPriceListings=false",
     "name": "KADIN YÜKSEKBEL LİKRALI WİDE LEG PALAZZO ESNEK JEANS",
@@ -1370,6 +1356,20 @@
     "localImage": "brand_assets/products/1067934758.jpg",
     "isNew": false,
     "createdAt": 1765827146000
+  },
+  {
+    "id": "1066171806",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-i-spanyol-pac-a-jean-yu-ksek-bel-toparlayici-kot-pantolon-p-1066171806?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın İspanyol Paça Jean Yüksek Bel Toparlayıcı Kot Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 3,
+    "image": "https://cdn.dsmcdn.com/ty1975/prod/QC_ENRICHMENT/20261011/09/f3c94ae6-e45d-349e-9f51-f3f9bb0b53d2/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1066171806.jpg",
+    "isNew": false,
+    "createdAt": 1765607107000
   },
   {
     "id": "1067937771",
