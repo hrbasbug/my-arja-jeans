@@ -1,5 +1,19 @@
 [
   {
+    "id": "1158092733",
+    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-kahve-tint-rahat-kesim-deri-kemer-hediyeli-p-1158092733?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Baggy Jean Kot Pantolon Kahve Tint- Rahat Kesim Deri Kemer Hediyeli",
+    "brand": "Trendrift Store",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 20000,
+    "image": "https://cdn.dsmcdn.com/ty1914/prod/QC_ENRICHMENT/20260712/04/0478a9c4-4239-3f88-b745-358f1359bf87/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1158092733.jpg",
+    "isNew": true,
+    "createdAt": 1794336272000
+  },
+  {
     "id": "1167913092",
     "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-yes-il-tint-rahat-kesim-deri-kemer-hediyeli-p-1167913092?merchantId=1199692&filterOverPriceListings=false",
     "name": "Yüksek Bel Baggy Jean Kot Pantolon Yeşil Tint - Rahat Kesim Deri Kemer Hediyeli",
@@ -8,24 +22,10 @@
     "salePrice": 1599,
     "listPrice": 1599,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1898/prod/QC_ENRICHMENT/20260712/07/15104d92-d060-371a-95b1-f73d2716a62e/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty2015/prod/QC_ENRICHMENT/20261110/21/1336c49e-4a32-375f-a219-b6eee872e78b/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1167913092.jpg",
     "isNew": true,
     "createdAt": 1793976891000
-  },
-  {
-    "id": "1075056773",
-    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-kadin-palazzo-kot-pantolon-esnek-denim-kumas-du-z-bol-pac-a-modern-jean-p-1075056773?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Kadın Palazzo Kot Pantolon – Esnek Denim Kumaş, Düz Bol Paça,Modern Jean",
-    "brand": "FlexiFit",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1900/prod/QC_ENRICHMENT/20260505/17/fbdca49a-ca2b-3fe1-8322-5da51f208bf6/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1075056773.jpg",
-    "isNew": true,
-    "createdAt": 1792879372000
   },
   {
     "id": "1075056796",
@@ -344,7 +344,7 @@
     "salePrice": 1460,
     "listPrice": 1460,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/13/aadb6e7e-89ed-3b40-8a03-844b826e9aae/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty2016/prod/QC_ENRICHMENT/20261111/00/a374fd28-a063-38f6-b6fa-97b79a4c8ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1136866752.jpg",
     "isNew": false,
     "createdAt": 1790359777000
@@ -462,20 +462,6 @@
     "createdAt": 1776506334000
   },
   {
-    "id": "1133087286",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-mom-yu-ksek-bel-boyfriend-kesim-likrali-kot-pantolon-p-1133087286?merchantId=1199692&filterOverPriceListings=false",
-    "name": "kadın mom Yüksek Bel Boyfriend Kesim Likralı Kot Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/93d7a6bf-227a-3aa9-9350-362137efa4e9/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1133087286.jpg",
-    "isNew": false,
-    "createdAt": 1776165799000
-  },
-  {
     "id": "1133002848",
     "href": "https://www.trendyol.com/my-arja-jeans/boyfriend-yu-ksek-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1133002848?merchantId=1199692&filterOverPriceListings=false",
     "name": "Boyfriend Yüksek Kadın Kot Pantolon - Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
@@ -498,7 +484,7 @@
     "salePrice": 1460,
     "listPrice": 1460,
     "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1967/prod/QC_ENRICHMENT/20260928/13/214d6870-de30-39ad-a8c5-f3fbdd1a100c/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty2016/prod/QC_ENRICHMENT/20261111/00/378051a7-6690-3396-b9ed-c379b94a1015/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1061006156.jpg",
     "isNew": false,
     "createdAt": 1765517394000
@@ -574,6 +560,20 @@
     "createdAt": 1792756990000
   },
   {
+    "id": "1133087286",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-mom-yu-ksek-bel-boyfriend-kesim-likrali-kot-pantolon-p-1133087286?merchantId=1199692&filterOverPriceListings=false",
+    "name": "kadın mom Yüksek Bel Boyfriend Kesim Likralı Kot Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 19999,
+    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/93d7a6bf-227a-3aa9-9350-362137efa4e9/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1133087286.jpg",
+    "isNew": false,
+    "createdAt": 1776165799000
+  },
+  {
     "id": "1060258232",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060258232?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
@@ -588,20 +588,6 @@
     "createdAt": 1764746716000
   },
   {
-    "id": "1074645990",
-    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
-    "brand": "FlexiFit",
-    "price": "1.499,00 TL",
-    "salePrice": 1499,
-    "listPrice": 1499,
-    "stock": 19997,
-    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1074645990.jpg",
-    "isNew": false,
-    "createdAt": 1791383082000
-  },
-  {
     "id": "1135527359",
     "href": "https://www.trendyol.com/my-arja-jeans/boyfriend-yu-ksel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1135527359?merchantId=1199692&filterOverPriceListings=false",
     "name": "Boyfriend Yüksel Kadın Kot Pantolon Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
@@ -614,6 +600,20 @@
     "localImage": "brand_assets/products/1135527359.jpg",
     "isNew": false,
     "createdAt": 1776668256000
+  },
+  {
+    "id": "1074645990",
+    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
+    "brand": "FlexiFit",
+    "price": "1.499,00 TL",
+    "salePrice": 1499,
+    "listPrice": 1499,
+    "stock": 19996,
+    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1074645990.jpg",
+    "isNew": false,
+    "createdAt": 1791383082000
   },
   {
     "id": "1142973745",
@@ -679,7 +679,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19914,
+    "stock": 19912,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -749,7 +749,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 4911,
+    "stock": 4905,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -1288,6 +1288,20 @@
     "createdAt": 1776775675000
   },
   {
+    "id": "1134105768",
+    "href": "https://www.trendyol.com/hepli-na/kadin-deri-kemer-hediyeli-yu-ksek-bel-bilek-boy-baggy-jean-kot-pantolon-p-1134105768?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın deri kemer hediyeli Yüksek Bel Bilek Boy Baggy Jean Kot Pantolon",
+    "brand": "HEPLİNA",
+    "price": "1.600,00 TL",
+    "salePrice": 1600,
+    "listPrice": 1600,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty1856/prod/QC_PREP/20260416/13/7d2748c5-5762-3da1-bab4-2e784386354d/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1134105768.jpg",
+    "isNew": true,
+    "createdAt": 1776335361000
+  },
+  {
     "id": "1133002797",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksel-bel-boyfriend-denim-pantolon-p-1133002797?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksel Bel Boyfriend Denim Pantolon",
@@ -1300,20 +1314,6 @@
     "localImage": "brand_assets/products/1133002797.jpg",
     "isNew": false,
     "createdAt": 1776152797000
-  },
-  {
-    "id": "1074118706",
-    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-mom-boyfriend-kadin-jean-pantolon-rahat-kalip-denim-ac-ik-gri-p-1074118706?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Mom Boyfriend Kadın Jean Pantolon | Rahat Kalıp | Denim | AÇIK GRİ",
-    "brand": "FlexiFit",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 4,
-    "image": "https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260712/08/a6798b85-7769-37b5-9e72-88dfbf7f761b/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1074118706.jpg",
-    "isNew": true,
-    "createdAt": 1792756990000
   },
   {
     "id": "1136283709",
@@ -1342,6 +1342,20 @@
     "localImage": "brand_assets/products/1067940516.jpg",
     "isNew": false,
     "createdAt": 1765806062000
+  },
+  {
+    "id": "1074118706",
+    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-mom-boyfriend-kadin-jean-pantolon-rahat-kalip-denim-ac-ik-gri-p-1074118706?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Mom Boyfriend Kadın Jean Pantolon | Rahat Kalıp | Denim | AÇIK GRİ",
+    "brand": "FlexiFit",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 3,
+    "image": "https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260712/08/a6798b85-7769-37b5-9e72-88dfbf7f761b/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1074118706.jpg",
+    "isNew": true,
+    "createdAt": 1792756990000
   },
   {
     "id": "1135677448",
