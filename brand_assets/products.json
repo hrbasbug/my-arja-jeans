@@ -389,7 +389,7 @@
     "image": "https://cdn.dsmcdn.com/ty1976/prod/QC_ENRICHMENT/20261011/09/fec1c4b3-2120-33f9-9502-8f971e4fe9de/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1137384596.jpg",
     "isNew": false,
-    "createdAt": 1776955177000
+    "createdAt": 1776955113000
   },
   {
     "id": "1136283713",
@@ -532,20 +532,6 @@
     "createdAt": 1792869952000
   },
   {
-    "id": "1133087286",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-mom-yu-ksek-bel-boyfriend-kesim-likrali-kot-pantolon-p-1133087286?merchantId=1199692&filterOverPriceListings=false",
-    "name": "kadın mom Yüksek Bel Boyfriend Kesim Likralı Kot Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 19999,
-    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/93d7a6bf-227a-3aa9-9350-362137efa4e9/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1133087286.jpg",
-    "isNew": false,
-    "createdAt": 1776165799000
-  },
-  {
     "id": "1060328155",
     "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060328155?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Yüksek Bel Pensli ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
@@ -572,6 +558,20 @@
     "localImage": "brand_assets/products/1093858931.jpg",
     "isNew": true,
     "createdAt": 1792756991000
+  },
+  {
+    "id": "1133087286",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-mom-yu-ksek-bel-boyfriend-kesim-likrali-kot-pantolon-p-1133087286?merchantId=1199692&filterOverPriceListings=false",
+    "name": "kadın mom Yüksek Bel Boyfriend Kesim Likralı Kot Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 19998,
+    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/93d7a6bf-227a-3aa9-9350-362137efa4e9/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1133087286.jpg",
+    "isNew": false,
+    "createdAt": 1776165901000
   },
   {
     "id": "1060258232",
@@ -630,20 +630,6 @@
     "createdAt": 1777386215000
   },
   {
-    "id": "1135527363",
-    "href": "https://www.trendyol.com/my-arja-jeans/boyfriend-yu-ksel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1135527363?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Boyfriend Yüksel Kadın Kot Pantolon Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
-    "brand": "MY ARJA JEANS",
-    "price": "1.430,00 TL",
-    "salePrice": 1430,
-    "listPrice": 1430,
-    "stock": 19991,
-    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1135527363.jpg",
-    "isNew": false,
-    "createdAt": 1776668210000
-  },
-  {
     "id": "1135527359",
     "href": "https://www.trendyol.com/my-arja-jeans/boyfriend-yu-ksel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1135527359?merchantId=1199692&filterOverPriceListings=false",
     "name": "Boyfriend Yüksel Kadın Kot Pantolon Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
@@ -656,6 +642,20 @@
     "localImage": "brand_assets/products/1135527359.jpg",
     "isNew": false,
     "createdAt": 1776668602000
+  },
+  {
+    "id": "1135527363",
+    "href": "https://www.trendyol.com/my-arja-jeans/boyfriend-yu-ksel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1135527363?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Boyfriend Yüksel Kadın Kot Pantolon Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
+    "brand": "MY ARJA JEANS",
+    "price": "1.430,00 TL",
+    "salePrice": 1430,
+    "listPrice": 1430,
+    "stock": 19990,
+    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1135527363.jpg",
+    "isNew": false,
+    "createdAt": 1776668210000
   },
   {
     "id": "1139600395",
