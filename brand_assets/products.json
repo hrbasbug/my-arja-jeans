@@ -532,20 +532,6 @@
     "createdAt": 1792869952000
   },
   {
-    "id": "1060328155",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060328155?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
-    "brand": "MY ARJA JEANS",
-    "price": "1.500,00 TL",
-    "salePrice": 1500,
-    "listPrice": 1500,
-    "stock": 19999,
-    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/11d8dc59-153e-3969-ae31-1f7b0a2ef14f/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060328155.jpg",
-    "isNew": false,
-    "createdAt": 1764750490000
-  },
-  {
     "id": "1093858931",
     "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-mom-boyfriend-kadin-jean-pantolon-rahat-kalip-denim-bej-p-1093858931?merchantId=1199692&filterOverPriceListings=false",
     "name": "Yüksek Bel Mom Boyfriend Kadın Jean Pantolon | Rahat Kalıp | Denim | BEJ",
@@ -572,6 +558,20 @@
     "localImage": "brand_assets/products/1133087286.jpg",
     "isNew": false,
     "createdAt": 1776165799000
+  },
+  {
+    "id": "1060328155",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060328155?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
+    "brand": "MY ARJA JEANS",
+    "price": "1.500,00 TL",
+    "salePrice": 1500,
+    "listPrice": 1500,
+    "stock": 19998,
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/11d8dc59-153e-3969-ae31-1f7b0a2ef14f/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060328155.jpg",
+    "isNew": false,
+    "createdAt": 1764750417000
   },
   {
     "id": "1060258232",
@@ -651,7 +651,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19990,
+    "stock": 19989,
     "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527363.jpg",
     "isNew": false,
