@@ -504,20 +504,6 @@
     "createdAt": 1764748443000
   },
   {
-    "id": "1167913092",
-    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-yes-il-tint-rahat-kesim-deri-kemer-hediyeli-p-1167913092?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Baggy Jean Kot Pantolon Yeşil Tint - Rahat Kesim Deri Kemer Hediyeli",
-    "brand": "Trendrift Store",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 19999,
-    "image": "https://cdn.dsmcdn.com/ty2015/prod/QC_ENRICHMENT/20261110/21/1336c49e-4a32-375f-a219-b6eee872e78b/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1167913092.jpg",
-    "isNew": true,
-    "createdAt": 1793976891000
-  },
-  {
     "id": "1075045876",
     "href": "https://www.trendyol.com/flexifit/slim-havuc-pac-a-kemerli-kadin-pantolon-zamansiz-s-iklik-maksimum-konfor-modern-siluet-p-1075045876?merchantId=1199692&filterOverPriceListings=false",
     "name": "Slim Havuç Paça Kemerli Kadın Pantolon – Zamansız Şıklık, Maksimum Konfor, Modern Siluet",
@@ -558,6 +544,20 @@
     "localImage": "brand_assets/products/1060258232.jpg",
     "isNew": false,
     "createdAt": 1764746716000
+  },
+  {
+    "id": "1167913092",
+    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-yes-il-tint-rahat-kesim-deri-kemer-hediyeli-p-1167913092?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Baggy Jean Kot Pantolon Yeşil Tint - Rahat Kesim Deri Kemer Hediyeli",
+    "brand": "Trendrift Store",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 19997,
+    "image": "https://cdn.dsmcdn.com/ty2015/prod/QC_ENRICHMENT/20261110/21/1336c49e-4a32-375f-a219-b6eee872e78b/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1167913092.jpg",
+    "isNew": true,
+    "createdAt": 1793976891000
   },
   {
     "id": "1133087286",
@@ -651,7 +651,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19987,
+    "stock": 19986,
     "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527363.jpg",
     "isNew": false,
@@ -665,7 +665,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19959,
+    "stock": 19958,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/5b6a051e-6120-3426-9a7c-179e83b80990/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139600395.jpg",
     "isNew": false,
@@ -679,7 +679,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19868,
+    "stock": 19866,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -749,7 +749,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 4888,
+    "stock": 4886,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -1313,7 +1313,7 @@
     "image": "https://cdn.dsmcdn.com/ty1997/prod/QC_ENRICHMENT/20261028/20/5f0c733b-4233-31e8-9c4b-8d2d6e8c9b71/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1133002797.jpg",
     "isNew": false,
-    "createdAt": 1776152797000
+    "createdAt": 1776152581000
   },
   {
     "id": "1140843765",
