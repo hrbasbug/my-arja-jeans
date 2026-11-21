@@ -501,7 +501,7 @@
     "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/02/818c53fb-6dd2-3ab5-9fa8-8d86aa531798/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1060308179.jpg",
     "isNew": false,
-    "createdAt": 1764748443000
+    "createdAt": 1764748342000
   },
   {
     "id": "1075045876",
@@ -716,7 +716,7 @@
   {
     "id": "1062158894",
     "href": "https://www.trendyol.com/my-arja-jeans/bol-pac-a-yu-ksek-bel-c-ift-pileli-palazzo-pantolon-p-1062158894?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Bol Paça Yüksek Bel çift pileli Palazzo Pantolon",
+    "name": "Bol Pa��a Yüksek Bel çift pileli Palazzo Pantolon",
     "brand": "MY ARJA JEANS",
     "price": "1.375,00 TL",
     "salePrice": 1375,
@@ -810,20 +810,6 @@
     "localImage": "brand_assets/products/1062158896.jpg",
     "isNew": false,
     "createdAt": 1765017563000
-  },
-  {
-    "id": "1074118475",
-    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-mom-boyfriend-kadin-jean-pantolon-rahat-kalip-denim-si-yah-p-1074118475?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Mom Boyfriend Kadın Jean Pantolon | Rahat Kalıp | Denim | SİYAH",
-    "brand": "FlexiFit",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 500,
-    "image": "https://cdn.dsmcdn.com/ty1991/prod/QC_ENRICHMENT/20261024/22/061ebadf-7cf9-3f7e-803c-620fde80e338/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1074118475.jpg",
-    "isNew": true,
-    "createdAt": 1792756991000
   },
   {
     "id": "1136500270",
@@ -950,6 +936,20 @@
     "localImage": "brand_assets/products/1073869743.jpg",
     "isNew": false,
     "createdAt": 1766268644000
+  },
+  {
+    "id": "1074118475",
+    "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-mom-boyfriend-kadin-jean-pantolon-rahat-kalip-denim-si-yah-p-1074118475?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Mom Boyfriend Kadın Jean Pantolon | Rahat Kalıp | Denim | SİYAH",
+    "brand": "FlexiFit",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 499,
+    "image": "https://cdn.dsmcdn.com/ty1991/prod/QC_ENRICHMENT/20261024/22/061ebadf-7cf9-3f7e-803c-620fde80e338/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1074118475.jpg",
+    "isNew": true,
+    "createdAt": 1792756991000
   },
   {
     "id": "1134106166",
