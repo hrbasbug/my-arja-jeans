@@ -518,20 +518,6 @@
     "createdAt": 1792869952000
   },
   {
-    "id": "1075045876",
-    "href": "https://www.trendyol.com/flexifit/slim-havuc-pac-a-kemerli-kadin-pantolon-zamansiz-s-iklik-maksimum-konfor-modern-siluet-p-1075045876?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Slim Havuç Paça Kemerli Kadın Pantolon – Zamansız Şıklık, Maksimum Konfor, Modern Siluet",
-    "brand": "FlexiFit",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 19998,
-    "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_ENRICHMENT/20260622/23/46667709-c873-3035-8280-0fd78066e6e1/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1075045876.jpg",
-    "isNew": true,
-    "createdAt": 1792869952000
-  },
-  {
     "id": "1093858931",
     "href": "https://www.trendyol.com/flexifit/yu-ksek-bel-mom-boyfriend-kadin-jean-pantolon-rahat-kalip-denim-bej-p-1093858931?merchantId=1199692&filterOverPriceListings=false",
     "name": "Yüksek Bel Mom Boyfriend Kadın Jean Pantolon | Rahat Kalıp | Denim | BEJ",
@@ -542,22 +528,8 @@
     "stock": 19998,
     "image": "https://cdn.dsmcdn.com/ty1991/prod/QC_ENRICHMENT/20261024/22/952e38b1-9bf6-308a-9dee-e8aceb4fc0e4/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1093858931.jpg",
-    "isNew": true,
-    "createdAt": 1792756991000
-  },
-  {
-    "id": "1133087286",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-mom-yu-ksek-bel-boyfriend-kesim-likrali-kot-pantolon-p-1133087286?merchantId=1199692&filterOverPriceListings=false",
-    "name": "kadın mom Yüksek Bel Boyfriend Kesim Likralı Kot Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.450,00 TL",
-    "salePrice": 1450,
-    "listPrice": 1450,
-    "stock": 19997,
-    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/93d7a6bf-227a-3aa9-9350-362137efa4e9/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1133087286.jpg",
     "isNew": false,
-    "createdAt": 1776165799000
+    "createdAt": 1792756991000
   },
   {
     "id": "1060328155",
@@ -616,6 +588,20 @@
     "createdAt": 1778157832000
   },
   {
+    "id": "1133087286",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-mom-yu-ksek-bel-boyfriend-kesim-likrali-kot-pantolon-p-1133087286?merchantId=1199692&filterOverPriceListings=false",
+    "name": "kadın mom Yüksek Bel Boyfriend Kesim Likralı Kot Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.450,00 TL",
+    "salePrice": 1450,
+    "listPrice": 1450,
+    "stock": 19996,
+    "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/93d7a6bf-227a-3aa9-9350-362137efa4e9/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1133087286.jpg",
+    "isNew": false,
+    "createdAt": 1776165901000
+  },
+  {
     "id": "1167913092",
     "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-yes-il-tint-rahat-kesim-deri-kemer-hediyeli-p-1167913092?merchantId=1199692&filterOverPriceListings=false",
     "name": "Yüksek Bel Baggy Jean Kot Pantolon Yeşil Tint - Rahat Kesim Deri Kemer Hediyeli",
@@ -651,7 +637,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19987,
+    "stock": 19986,
     "image": "https://cdn.dsmcdn.com/ty1997/prod/QC_ENRICHMENT/20261028/20/5b90e60f-db9c-3b7e-a579-031b0c8bc0d1/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527359.jpg",
     "isNew": false,
@@ -665,7 +651,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19985,
+    "stock": 19984,
     "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527363.jpg",
     "isNew": false,
@@ -693,7 +679,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19865,
+    "stock": 19863,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -962,7 +948,7 @@
     "stock": 499,
     "image": "https://cdn.dsmcdn.com/ty1991/prod/QC_ENRICHMENT/20261024/22/061ebadf-7cf9-3f7e-803c-620fde80e338/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1074118475.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792756991000
   },
   {
@@ -1270,7 +1256,7 @@
     "stock": 5,
     "image": "https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260712/08/a6798b85-7769-37b5-9e72-88dfbf7f761b/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1074118706.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792756990000
   },
   {
