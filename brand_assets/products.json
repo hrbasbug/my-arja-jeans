@@ -136,7 +136,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260907/23/6e4fe030-191e-3978-a9a1-dbee7d78c77a/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1197019642.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869960000
   },
   {
@@ -150,7 +150,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_PREP/20260908/01/36255e37-6262-3355-b4de-4b65a8133f44/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1197032508.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869955000
   },
   {
@@ -164,7 +164,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_ENRICHMENT/20260628/23/d70e5eb1-f3ab-31b2-af43-5a1bb4a6084f/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1009576362.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
@@ -178,7 +178,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1906/prod/QC_ENRICHMENT/20260622/23/2ed93268-bda3-3630-84d5-04efd01db2d6/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075045873.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
@@ -192,7 +192,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1912/prod/QC_ENRICHMENT/20260623/03/e32b8de0-9343-375b-b1be-6cc0b9ce7385/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1113381907.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
@@ -206,7 +206,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_ENRICHMENT/20260908/01/fc24902f-360a-3f16-b951-3b8869790346/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1194244916.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
@@ -220,7 +220,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1943/prod/QC_ENRICHMENT/20260628/23/c6d32c64-4928-3b36-a24c-1d3d6708113d/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1009573232.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
   },
   {
@@ -234,7 +234,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1920/prod/QC_ENRICHMENT/20260622/23/5bc97502-92f5-3bf9-9b22-36e50e821d49/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075045871.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
   },
   {
@@ -248,7 +248,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1911/prod/QC_ENRICHMENT/20260623/23/51a35e66-b799-312d-bab5-36730cbe0e02/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1113381836.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
   },
   {
@@ -262,7 +262,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1954/prod/QC_PREP/20260908/02/1272614a-4ac1-31ef-8c14-7432f954b4ae/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1197036892.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
   },
   {
@@ -462,34 +462,6 @@
     "createdAt": 1764860444000
   },
   {
-    "id": "1060323534",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060323534?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
-    "brand": "MY ARJA JEANS",
-    "price": "1.500,00 TL",
-    "salePrice": 1500,
-    "listPrice": 1500,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/54754c26-db6c-3067-947c-a011c31a53af/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060323534.jpg",
-    "isNew": false,
-    "createdAt": 1764749924000
-  },
-  {
-    "id": "1060308179",
-    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060308179?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
-    "brand": "MY ARJA JEANS",
-    "price": "1.500,00 TL",
-    "salePrice": 1500,
-    "listPrice": 1500,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/02/818c53fb-6dd2-3ab5-9fa8-8d86aa531798/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1060308179.jpg",
-    "isNew": false,
-    "createdAt": 1764748342000
-  },
-  {
     "id": "1158092733",
     "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-kahve-tint-rahat-kesim-deri-kemer-hediyeli-p-1158092733?merchantId=1199692&filterOverPriceListings=false",
     "name": "Yüksek Bel Baggy Jean Kot Pantolon Kahve Tint- Rahat Kesim Deri Kemer Hediyeli",
@@ -514,8 +486,36 @@
     "stock": 19999,
     "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_ENRICHMENT/20260622/23/46667709-c873-3035-8280-0fd78066e6e1/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075045876.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
+  },
+  {
+    "id": "1060323534",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-orta-kalinlikta-kumas-pantolon-bel-ve-basen-o-lc-u-leri-ne-di-kkat-edi-ni-z-p-1060323534?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli [ORTA KALINLIKTA Kumaş Pantolon[BEL VE BASEN ÖLÇÜLERİNE DİKKAT EDİNİZ]",
+    "brand": "MY ARJA JEANS",
+    "price": "1.500,00 TL",
+    "salePrice": 1500,
+    "listPrice": 1500,
+    "stock": 19999,
+    "image": "https://cdn.dsmcdn.com/ty1982/prod/QC_ENRICHMENT/20261018/02/54754c26-db6c-3067-947c-a011c31a53af/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060323534.jpg",
+    "isNew": false,
+    "createdAt": 1764749924000
+  },
+  {
+    "id": "1060308179",
+    "href": "https://www.trendyol.com/my-arja-jeans/kadin-yu-ksek-bel-pensli-dar-pac-a-kumas-pantolon-p-1060308179?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Dar Paça Kumaş Pantolon",
+    "brand": "MY ARJA JEANS",
+    "price": "1.500,00 TL",
+    "salePrice": 1500,
+    "listPrice": 1500,
+    "stock": 19999,
+    "image": "https://cdn.dsmcdn.com/ty1980/prod/QC_ENRICHMENT/20261018/02/818c53fb-6dd2-3ab5-9fa8-8d86aa531798/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1060308179.jpg",
+    "isNew": false,
+    "createdAt": 1764748443000
   },
   {
     "id": "1093858931",
@@ -637,7 +637,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19986,
+    "stock": 19984,
     "image": "https://cdn.dsmcdn.com/ty1997/prod/QC_ENRICHMENT/20261028/20/5b90e60f-db9c-3b7e-a579-031b0c8bc0d1/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527359.jpg",
     "isNew": false,
@@ -651,7 +651,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19983,
+    "stock": 19982,
     "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527363.jpg",
     "isNew": false,
@@ -665,7 +665,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19958,
+    "stock": 19957,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/5b6a051e-6120-3426-9a7c-179e83b80990/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139600395.jpg",
     "isNew": false,
@@ -679,7 +679,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19862,
+    "stock": 19860,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -749,7 +749,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 4883,
+    "stock": 4882,
     "image": "https://cdn.dsmcdn.com/ty1994/prod/QC_ENRICHMENT/20261027/14/fb13d8e6-4b54-3e4d-9e99-c62a7f2b9ba5/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139601947.jpg",
     "isNew": false,
@@ -1046,7 +1046,7 @@
     "stock": 16,
     "image": "https://cdn.dsmcdn.com/ty1907/prod/QC_ENRICHMENT/20260623/03/bebabde6-aff0-3a4b-9e42-a8f71c875911/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1130731114.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
@@ -1088,7 +1088,7 @@
     "stock": 11,
     "image": "https://cdn.dsmcdn.com/ty1921/prod/QC_ENRICHMENT/20260623/03/87d4754c-1f4d-331e-b9e8-c79cdab8aee7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1113381932.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
@@ -1102,7 +1102,7 @@
     "stock": 11,
     "image": "https://cdn.dsmcdn.com/ty1916/prod/QC_ENRICHMENT/20260623/03/18865364-3199-3493-81bc-e7ef70d5bde7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1113381846.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
   },
   {
@@ -1130,7 +1130,7 @@
     "stock": 10,
     "image": "https://cdn.dsmcdn.com/ty1926/prod/QC_ENRICHMENT/20260622/23/9066c54f-d1e7-34f2-ac98-1b8e4a633782/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075045869.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869952000
   },
   {
@@ -1242,7 +1242,7 @@
     "stock": 5,
     "image": "https://cdn.dsmcdn.com/ty1953/prod/QC_PREP/20260907/23/91211af3-d7ed-3ac8-82bb-4333b69910bc/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1197023722.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792869953000
   },
   {
