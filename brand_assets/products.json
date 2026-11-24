@@ -10,7 +10,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1892/prod/QC_ENRICHMENT/20260505/01/ee478433-780e-308f-b493-727a2854bf19/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075056737.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792879372000
   },
   {
@@ -24,7 +24,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1902/prod/QC_ENRICHMENT/20260505/01/8cbafd2b-5c74-3fac-ae3e-ca3c2dc1c702/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075056818.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792879372000
   },
   {
@@ -38,7 +38,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1903/prod/QC_ENRICHMENT/20260505/01/226c15ef-3dea-328b-a8f5-bb0222d8fb41/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075056821.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792879372000
   },
   {
@@ -52,7 +52,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1893/prod/QC_ENRICHMENT/20260505/01/d42ba220-24a3-3e0c-b196-44e9bf42f63b/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1090496216.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792879371000
   },
   {
@@ -66,7 +66,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1893/prod/QC_ENRICHMENT/20260712/08/ded4eba0-e48f-3688-93d4-3e9d7b0ba320/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143483620.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792878552000
   },
   {
@@ -80,7 +80,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1928/prod/QC_ENRICHMENT/20260712/08/1b09326d-ed8b-3890-8c9a-bafd4c186b31/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143483621.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792878552000
   },
   {
@@ -94,7 +94,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1943/prod/QC_ENRICHMENT/20260712/12/983ce861-55b9-331d-984f-35a28920e648/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143481152.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792878551000
   },
   {
@@ -108,7 +108,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1901/prod/QC_ENRICHMENT/20260712/08/e450fee1-ae9d-3330-9e24-c612da288afb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143481177.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792878551000
   },
   {
@@ -122,7 +122,7 @@
     "stock": 20000,
     "image": "https://cdn.dsmcdn.com/ty1896/prod/QC_ENRICHMENT/20260712/08/02b9474e-b721-3aaf-9bed-5e7ab5f36e2e/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143483619.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792878551000
   },
   {
@@ -462,20 +462,6 @@
     "createdAt": 1764860444000
   },
   {
-    "id": "1158092733",
-    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-kahve-tint-rahat-kesim-deri-kemer-hediyeli-p-1158092733?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Baggy Jean Kot Pantolon Kahve Tint- Rahat Kesim Deri Kemer Hediyeli",
-    "brand": "Trendrift Store",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 19999,
-    "image": "https://cdn.dsmcdn.com/ty1914/prod/QC_ENRICHMENT/20260712/04/0478a9c4-4239-3f88-b745-358f1359bf87/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1158092733.jpg",
-    "isNew": true,
-    "createdAt": 1794336272000
-  },
-  {
     "id": "1075045876",
     "href": "https://www.trendyol.com/flexifit/slim-havuc-pac-a-kemerli-kadin-pantolon-zamansiz-s-iklik-maksimum-konfor-modern-siluet-p-1075045876?merchantId=1199692&filterOverPriceListings=false",
     "name": "Slim Havuç Paça Kemerli Kadın Pantolon – Zamansız Şıklık, Maksimum Konfor, Modern Siluet",
@@ -560,20 +546,6 @@
     "createdAt": 1764746716000
   },
   {
-    "id": "1074645990",
-    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
-    "brand": "FlexiFit",
-    "price": "1.499,00 TL",
-    "salePrice": 1499,
-    "listPrice": 1499,
-    "stock": 19996,
-    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1074645990.jpg",
-    "isNew": false,
-    "createdAt": 1791383082000
-  },
-  {
     "id": "1142973745",
     "href": "https://www.trendyol.com/my-arja-jeans/yu-ksekbel-dar-pac-a-kadin-kot-pantolon-ski-nny-kalip-p-1142973745?merchantId=1199692&filterOverPriceListings=false",
     "name": "YÜKSEKBEL DAR PAÇA KADIN KOT PANTOLON -SKİNNY KALIP-",
@@ -602,18 +574,18 @@
     "createdAt": 1776165901000
   },
   {
-    "id": "1167913092",
-    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-yes-il-tint-rahat-kesim-deri-kemer-hediyeli-p-1167913092?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Baggy Jean Kot Pantolon Yeşil Tint - Rahat Kesim Deri Kemer Hediyeli",
-    "brand": "Trendrift Store",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
+    "id": "1074645990",
+    "href": "https://www.trendyol.com/flexifit/kadin-yu-ksek-bel-pensli-zra-pantolon-business-ofis-kombin-p-1074645990?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Kadın Yüksek Bel Pensli Zra Pantolon – Business & Ofis Kombin",
+    "brand": "FlexiFit",
+    "price": "1.499,00 TL",
+    "salePrice": 1499,
+    "listPrice": 1499,
     "stock": 19995,
-    "image": "https://cdn.dsmcdn.com/ty2015/prod/QC_ENRICHMENT/20261110/21/1336c49e-4a32-375f-a219-b6eee872e78b/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1167913092.jpg",
-    "isNew": true,
-    "createdAt": 1793976891000
+    "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1074645990.jpg",
+    "isNew": false,
+    "createdAt": 1791383082000
   },
   {
     "id": "1139601707",
@@ -651,7 +623,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19982,
+    "stock": 19981,
     "image": "https://cdn.dsmcdn.com/ty1996/prod/QC_ENRICHMENT/20261028/19/3ba2c44d-414b-393a-b100-aa80f320a9eb/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527363.jpg",
     "isNew": false,
@@ -679,7 +651,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19860,
+    "stock": 19859,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -1218,6 +1190,34 @@
     "createdAt": 1765620519000
   },
   {
+    "id": "1158092733",
+    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-kahve-tint-rahat-kesim-deri-kemer-hediyeli-p-1158092733?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Baggy Jean Kot Pantolon Kahve Tint- Rahat Kesim Deri Kemer Hediyeli",
+    "brand": "Trendrift Store",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty1914/prod/QC_ENRICHMENT/20260712/04/0478a9c4-4239-3f88-b745-358f1359bf87/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1158092733.jpg",
+    "isNew": true,
+    "createdAt": 1794336272000
+  },
+  {
+    "id": "1167913092",
+    "href": "https://www.trendyol.com/trendrift-store/yu-ksek-bel-baggy-jean-kot-pantolon-yes-il-tint-rahat-kesim-deri-kemer-hediyeli-p-1167913092?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Baggy Jean Kot Pantolon Yeşil Tint - Rahat Kesim Deri Kemer Hediyeli",
+    "brand": "Trendrift Store",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 5,
+    "image": "https://cdn.dsmcdn.com/ty2015/prod/QC_ENRICHMENT/20261110/21/1336c49e-4a32-375f-a219-b6eee872e78b/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1167913092.jpg",
+    "isNew": true,
+    "createdAt": 1793976891000
+  },
+  {
     "id": "1143481132",
     "href": "https://www.trendyol.com/proshine/boyfriend-yu-ksek-bel-kadin-kot-pantolon-rahat-kalip-mom-fit-jean-pantolon-denim-kumas-p-1143481132?merchantId=1199692&filterOverPriceListings=false",
     "name": "Boyfriend Yüksek Bel Kadın Kot Pantolon - Rahat Kalıp Mom Fit jean Pantolon - Denim Kumaş",
@@ -1228,7 +1228,7 @@
     "stock": 5,
     "image": "https://cdn.dsmcdn.com/ty1917/prod/QC_ENRICHMENT/20260712/08/5e48d92b-0bb3-3fb4-bde2-807f4ae1523b/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1143481132.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792878551000
   },
   {
@@ -1368,7 +1368,7 @@
     "stock": 3,
     "image": "https://cdn.dsmcdn.com/ty1900/prod/QC_ENRICHMENT/20260505/17/fbdca49a-ca2b-3fe1-8322-5da51f208bf6/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1075056773.jpg",
-    "isNew": true,
+    "isNew": false,
     "createdAt": 1792879372000
   },
   {
