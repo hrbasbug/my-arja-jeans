@@ -196,20 +196,6 @@
     "createdAt": 1792869953000
   },
   {
-    "id": "1194244916",
-    "href": "https://www.trendyol.com/proshine/kadin-yu-ksek-bel-kumas-pantolon-pensli-zra-kahverengi-ofis-business-s-ik-p-1194244916?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Kadın Yüksek Bel Kumaş Pantolon – Pensli Zra Kahverengi Ofis Business Şık",
-    "brand": "Proshine",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 20000,
-    "image": "https://cdn.dsmcdn.com/ty1955/prod/QC_ENRICHMENT/20260908/01/fc24902f-360a-3f16-b951-3b8869790346/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1194244916.jpg",
-    "isNew": false,
-    "createdAt": 1792869953000
-  },
-  {
     "id": "1009573232",
     "href": "https://www.trendyol.com/flexifit/kadin-siyah-c-ift-pileli-yu-ksek-bel-palazzo-kumas-pantolon-s-ik-ofis-ve-gu-nlu-k-kombinler-i-c-in-p-1009573232?merchantId=1199692&filterOverPriceListings=false",
     "name": "Kadın Siyah Çift Pileli Yüksek Bel Palazzo Kumaş Pantolon | Şık Ofis ve Günlük Kombinler İçin",
@@ -403,7 +389,7 @@
     "image": "https://cdn.dsmcdn.com/ty1966/prod/QC_ENRICHMENT/20260928/13/f04b96c1-409e-32fe-9dd6-095f5a49c7da/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1134831949.jpg",
     "isNew": false,
-    "createdAt": 1776506334000
+    "createdAt": 1776506227000
   },
   {
     "id": "1133002848",
@@ -512,7 +498,7 @@
     "salePrice": 1450,
     "listPrice": 1450,
     "stock": 19996,
-    "image": "https://cdn.dsmcdn.com/ty2033/prod/QC_ENRICHMENT/20261126/01/235634e7-2d24-3c5c-82d4-9ee40d3d3b83/1_org_zoom.jpg",
+    "image": "https://cdn.dsmcdn.com/ty2036/prod/QC_ENRICHMENT/20261127/04/d70fde0a-de81-3bf0-8b2a-445f1791cf99/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1133087286.jpg",
     "isNew": false,
     "createdAt": 1776165901000
@@ -525,7 +511,7 @@
     "price": "1.499,00 TL",
     "salePrice": 1499,
     "listPrice": 1499,
-    "stock": 19995,
+    "stock": 19994,
     "image": "https://cdn.dsmcdn.com/ty1919/prod/QC_ENRICHMENT/20260710/12/06ec7b0a-4438-3c9b-8255-243ab3d2fe6a/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1074645990.jpg",
     "isNew": false,
@@ -553,7 +539,7 @@
     "price": "1.430,00 TL",
     "salePrice": 1430,
     "listPrice": 1430,
-    "stock": 19981,
+    "stock": 19980,
     "image": "https://cdn.dsmcdn.com/ty1997/prod/QC_ENRICHMENT/20261028/20/5b90e60f-db9c-3b7e-a579-031b0c8bc0d1/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1135527359.jpg",
     "isNew": false,
@@ -595,7 +581,7 @@
     "price": "1.600,00 TL",
     "salePrice": 1600,
     "listPrice": 1600,
-    "stock": 19853,
+    "stock": 19850,
     "image": "https://cdn.dsmcdn.com/ty1993/prod/QC_ENRICHMENT/20261027/14/33e103bd-3bd8-344e-83e7-fa7236ce9ac7/1_org_zoom.jpg",
     "localImage": "brand_assets/products/1139613734.jpg",
     "isNew": false,
@@ -868,20 +854,6 @@
     "createdAt": 1792756991000
   },
   {
-    "id": "1134106166",
-    "href": "https://www.trendyol.com/hepli-na/yu-ksek-bel-siyah-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1134106166?merchantId=1199692&filterOverPriceListings=false",
-    "name": "Yüksek Bel Siyah Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
-    "brand": "HEPLİNA",
-    "price": "1.599,00 TL",
-    "salePrice": 1599,
-    "listPrice": 1599,
-    "stock": 100,
-    "image": "https://cdn.dsmcdn.com/ty1995/prod/QC_ENRICHMENT/20261028/23/763e2a59-5467-3160-9175-17472f2ce333/1_org_zoom.jpg",
-    "localImage": "brand_assets/products/1134106166.jpg",
-    "isNew": false,
-    "createdAt": 1776335636000
-  },
-  {
     "id": "1134106383",
     "href": "https://www.trendyol.com/hepli-na/yu-ksek-bel-kar-yikama-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1134106383?merchantId=1199692&filterOverPriceListings=false",
     "name": "Yüksek Bel Kar Yıkama Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
@@ -894,6 +866,20 @@
     "localImage": "brand_assets/products/1134106383.jpg",
     "isNew": false,
     "createdAt": 1776335604000
+  },
+  {
+    "id": "1134106166",
+    "href": "https://www.trendyol.com/hepli-na/yu-ksek-bel-siyah-baggy-jean-kot-pantolon-deri-kemer-hediyeli-p-1134106166?merchantId=1199692&filterOverPriceListings=false",
+    "name": "Yüksek Bel Siyah Baggy Jean Kot Pantolon - Deri Kemer Hediyeli",
+    "brand": "HEPLİNA",
+    "price": "1.599,00 TL",
+    "salePrice": 1599,
+    "listPrice": 1599,
+    "stock": 100,
+    "image": "https://cdn.dsmcdn.com/ty1995/prod/QC_ENRICHMENT/20261028/23/763e2a59-5467-3160-9175-17472f2ce333/1_org_zoom.jpg",
+    "localImage": "brand_assets/products/1134106166.jpg",
+    "isNew": false,
+    "createdAt": 1776335346000
   },
   {
     "id": "1139341140",
